@@ -394,6 +394,11 @@ ideologies = {
 		factor = 1
 
 		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
+
+		modifier = {
 			factor = 1.2
 			everyday_needs = 0.1
 			ruling_party_ideology = reactionary 

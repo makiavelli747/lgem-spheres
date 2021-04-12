@@ -1038,6 +1038,11 @@ ideologies = {
 		factor = 1
 
 		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
+
+		modifier = {
 			factor = 1.2
 			everyday_needs = 0.1
 			ruling_party_ideology = reactionary 
@@ -1109,7 +1114,7 @@ ideologies = {
 	}
 
 	conservative = {
-		factor = 1
+		factor = 2
 
 		modifier = {
 			factor = 1.2
@@ -1341,7 +1346,7 @@ ideologies = {
 
 	}
 	liberal = {
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 2
 			nationalvalue = nv_liberty
