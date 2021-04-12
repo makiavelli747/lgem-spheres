@@ -1032,7 +1032,7 @@ ideologies = {
 		factor = 1
 		modifier = {
 			factor = 2
-			nationalvalue = nv_order
+			nationalvalue = nv_equality
 			
 		}
 		modifier = {
@@ -1107,29 +1107,25 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.2
-			NOT = {	literacy = 0.5	}
-			
+			literacy = 0.5	
 		}
 
 		modifier = {
 			factor = 1.2
-			NOT = {	literacy = 0.40	}
-			
-		}
-
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.30	}
-			
+			literacy = 0.60	
 		}
 		modifier = {
 			factor = 1.2
-			NOT = {	literacy = 0.2	}
+			literacy = 0.70	
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.80
 			
 		}
 		modifier = {
 			factor = 1.2
-			NOT = {	literacy = 0.1	}
+			literacy = 0.90
 			
 		}
 
