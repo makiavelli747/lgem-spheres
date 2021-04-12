@@ -28,7 +28,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = TUS_conservative
+ruling_party = TUS_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 0
