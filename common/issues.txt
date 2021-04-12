@@ -34,7 +34,7 @@ party_issues = {
 				pop_build_factory_invest = yes
 				pop_expand_factory_invest = yes
 				open_factory_invest = yes
-				allow_foreign_investment = no
+				allow_foreign_investment = yes
 				build_railway_invest = yes
 				can_invest_in_pop_projects = yes
 			}
@@ -44,8 +44,7 @@ party_issues = {
 			max_tax = 0.65
 			min_tax = 0.15
 			factory_owner_cost = 0.6
-			factory_output = 0.2
-			factory_throughput = 0.1
+			factory_output = 0.1
 			rules = {
 				build_factory = no
 				expand_factory = yes
@@ -64,7 +63,7 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = no
+				allow_foreign_investment = yes
 				can_invest_in_pop_projects = yes
 			}
 		}
@@ -72,8 +71,7 @@ party_issues = {
 			min_social_spending = 0.80
 			max_tax = 0.80
 			min_tax = 0.3
-			factory_output = 0.1
-			factory_throughput = 0.2
+			factory_throughput = 0.1
 			factory_owner_cost = 0.9
 			rules = {
 				build_factory = yes
