@@ -1036,9 +1036,6 @@ ideologies = {
 			factor = 1.5
 			nationalvalue = nv_order
 		}
-	
-		
-
 	}
 
 	socialist = {
@@ -1097,6 +1094,7 @@ ideologies = {
 		modifier = {
 			factor = 1.2
 			NOT = { everyday_needs = 0.1 }
+		}
 		
 		modifier = {
 			factor = 1.2
@@ -1246,8 +1244,10 @@ ideologies = {
 		}
 
 	}
+
 	liberal = {
 		factor = 2
+
 		modifier = {
 			factor = 1.5
 			nationalvalue = nv_liberty
@@ -1325,6 +1325,7 @@ ideologies = {
 		}
 
 	}
+
 	anarcho_liberal = {
 		factor = 1
 		modifier = {

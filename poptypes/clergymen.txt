@@ -1120,6 +1120,7 @@ ideologies = {
 		modifier = {
 			factor = 1.2
 			NOT = { everyday_needs = 0.1 }
+		}
 		
 		modifier = {
 			factor = 1.2
