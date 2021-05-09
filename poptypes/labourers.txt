@@ -265,26 +265,44 @@ promote_to =
 		artisans =
 	{
 		factor = 0.1
+		group = {
 			modifier = {
 				factor = 1
-				not = { literacy = 0.1 }
+				literacy = 0.1 
 			}
 			modifier = {
 				factor = 1
-				not = { literacy = 0.2 }
+				literacy = 0.2 
 			}
 			modifier = {
 				factor = 1
-				not = {  literacy = 0.3 }
+				literacy = 0.3 
 			}
 			modifier = {
 				factor = 1
-				not = {  literacy = 0.4 } 
+				literacy = 0.4 
 			}
 			modifier = {
 				factor = 1
-				not = { literacy = 0.5 } 
+				literacy = 0.5  
 			}
+			modifier = {
+				factor = 1
+				literacy = 0.6
+			}
+			modifier = {
+				factor = 1
+				literacy = 0.7  
+			}
+			modifier = {
+				factor = 1
+				literacy = 0.8  
+			}
+			modifier = {
+				factor = 1
+				literacy = 0.9  
+			}
+		}
 		group = {		
 			modifier = {
 				factor = 1
@@ -351,14 +369,7 @@ promote_to =
 			soldiers = 0.05
 		}
 		}
-		modifier = {
-			factor = -5
-			state_scope = {
-				work_available = {
-					worker = clerks
-					}
-				}
-			}
+
 
 		modifier = {
 			factor = 10
