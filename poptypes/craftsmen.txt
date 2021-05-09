@@ -358,14 +358,7 @@ promote_to =
 			soldiers = 0.05
 		}
 		}
-		modifier = {
-			factor = -5
-			state_scope = {
-				work_available = {
-					worker = clerks
-					}
-				}
-			}
+
 
 		modifier = {
 			factor = 10
