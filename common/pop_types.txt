@@ -52,6 +52,26 @@ promotion_chance =
 	group = {
 		modifier = {
 			factor = -0.04
+			militancy = 1
+		}
+		modifier = {
+			factor = -0.04
+			militancy = 2
+		}
+		modifier = {
+			factor = -0.04
+			militancy = 3
+		}
+		modifier = {
+			factor = -0.04
+			militancy = 4
+		}
+		modifier = {
+			factor = -0.04
+			militancy = 5
+		}
+		modifier = {
+			factor = -0.04
 			militancy = 6
 		}
 		modifier = {
@@ -66,34 +86,166 @@ promotion_chance =
 			factor = -0.04
 			militancy = 9
 		}
+		modifier = {
+			factor = -0.04
+			militancy = 10
+		}
 	}
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.02
+			everyday_needs = 0.05
+	
+		}
+		modifier = {
+			factor = 0.02
+			everyday_needs = 0.1
+	
+		}
+		modifier = {
+			factor = 0.02
+			everyday_needs = 0.2
+	
+		}
+		modifier = {
+			factor = 0.02
+			everyday_needs = 0.3
+		}
+		modifier = {
+			factor = 0.02
+			everyday_needs = 0.4
+	
+		}
+		modifier = {
+			factor = 0.02
+			everyday_needs = 0.5
+	
+		}
+		modifier = {
+			factor = 0.02
 			everyday_needs = 0.6
 	
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.02
 			everyday_needs = 0.7
 	
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.02
 			everyday_needs = 0.8
+	
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.02
 			everyday_needs = 0.9
 	
 		}
 	}
+	group = {
 		modifier = {
-			factor = 0.1
-			consciousness = 4 
-			strata = poor
+			factor = 0.02
+			luxury_needs = 0.05
+	
 		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.1
+	
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.2
+	
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.3
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.4
+	
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.5
+	
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.6
+	
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.7
+	
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.8
+	
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.9
+	
+		}
+	}
+	group = {
+		modifier = {
+			factor = 0.02
+			consciousness = 0.5
+	
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 1
+	
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 2
+	
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 3
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 4
+	
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 5
+	
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 6
+	
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 7
+	
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 8
+	
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 9
+	
+		}
+	}
+
 
 	modifier = {
 		factor = -0.1
@@ -204,48 +356,90 @@ demotion_chance =
 	}
 
 	group = {
-
 		modifier = {
-			factor = 0.1
+			factor = 0.02
+			not = { everyday_needs = 0.9 }
+		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.8 }
+		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.7 }
+		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.6 }
+		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.02
 			not = { everyday_needs = 0.4 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.02
 			not = { everyday_needs = 0.3 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.02
 			not = { everyday_needs = 0.2 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.02
 			not = { everyday_needs = 0.1 }
 		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.05 }
+		}
 	}
+
 	group = {
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.6
+			factor = 0.02
+			consciousness = 0.5
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.7
+			factor = 0.02
+			consciousness = 1
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.8
+			factor = 0.02
+			consciousness = 2
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.9
+			factor = 0.02
+			consciousness = 3
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 4
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 5
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 6
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 7
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 8
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 9
 		}
 	}
-		modifier = {
-			factor = 0.1
-			consciousness = 4 
-			strata = poor
-		}
-
 
 
 		modifier = {
@@ -255,42 +449,25 @@ demotion_chance =
 			not = { culture = this }			
 		}
 
+
 	group = {
 		modifier = {
-			factor = 0.2
-			not = { life_needs = 0.9 }
-			strata = middle
+			factor = 0.05
+			unemployment = 0.05
 		}
 		modifier = {
-			factor = 0.2
-			not = { life_needs = 0.7 }
-			strata = middle
-		}
-		modifier = {
-			factor = 0.2
-			not = { life_needs = 0.5 }
-			strata = middle
-		}
-	}
-		modifier = {
-			factor = 0.2
-			not = { life_needs = 0.3 }
-			strata = middle
-		}
-	group = {
-		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.1
-			unemployment = 0.2
+			factor = 0.05
+			unemployment = 0.15
 		}
 		modifier = {
-			factor = 0.3
-			unemployment = 0.3
-			location = { controlled_by = owner }
-		}		
+			factor = 0.05
+			unemployment = 0.2
+		}
+		
 		
 	}
 	modifier = {
@@ -309,103 +486,181 @@ migration_chance =
 		state_scope = { is_colonial = yes }
 	}
 
-	group = {
-		modifier = {
-			factor = -0.1
-			not = { literacy = 0.4 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { literacy = 0.3 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { literacy = 0.2 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { literacy = 0.1 }
-		}
-	}
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.04
+			literacy = 0.05
+		}
+		modifier = {
+			factor = 0.04
+			literacy = 0.1
+		}
+		modifier = {
+			factor = 0.04
+			literacy = 0.2
+		}
+		modifier = {
+			factor = 0.04
+			literacy = 0.3
+		}
+		modifier = {
+			factor = 0.04
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 0.04
+			literacy = 0.5
+		}
+		modifier = {
+			factor = 0.04
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.9
 		}
 	}
 
 	group = {
 		modifier = {
-			factor = -0.1
-			not = { consciousness = 4 }
+			factor = 0.04
+			consciousness = 0.5
 		}
 		modifier = {
-			factor = -0.1
-			not = { consciousness = 3 }
+			factor = 0.04
+			consciousness = 1
 		}
 		modifier = {
-			factor = -0.1
-			not = { consciousness = 2 }
+			factor = 0.04
+			consciousness = 2
 		}
 		modifier = {
-			factor = -0.1
-			not = { consciousness = 1 }
+			factor = 0.04
+			consciousness = 3
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 4
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 5
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 6
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 7
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 8
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 9
 		}
 	}
 
-	group = {
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.4 }
-		}
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.3 }
-		}
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.2 }
-		}
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.1 }
-		}
-	}
 
 	group = {
 		modifier = {
-			factor = -0.1
+			factor = -0.04
+			everyday_needs = 0.05
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.1 
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.2
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.3
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.4
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.5
+		}
+		modifier = {
+			factor = -0.04
 			everyday_needs = 0.6
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.7 
+			factor = -0.04
+			everyday_needs = 0.7
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.8 
+			factor = -0.04
+			everyday_needs = 0.8
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.04
 			everyday_needs = 0.9
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.05
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.1 
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.2
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.3
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.4
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.5
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.6
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.7
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.8
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.9
 		}
 	}
 
 	modifier = {
-		factor = -0.2
+		factor = -0.4
 		state_scope = {
 			has_factories = yes
 			}
@@ -414,18 +669,20 @@ migration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
+			unemployment = 0.05
+		}
+		modifier = {
+			factor = 0.1
 			unemployment = 0.1
+		}	
+		modifier = {
+			factor = 0.1
+			unemployment = 0.15
 		}
 		modifier = {
 			factor = 0.1
 			unemployment = 0.2
-			location = { controlled_by = owner }
-		}				
-		modifier = {
-			factor = 0.1
-			unemployment = 0.3
-			location = { controlled_by = owner }
-		}	
+		}
 		
 	}
 }
@@ -446,99 +703,178 @@ colonialmigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = -0.1
-			not = { literacy = 0.4 }
+			factor = 0.04
+			literacy = 0.05
 		}
 		modifier = {
-			factor = -0.1
-			not = { literacy = 0.3 }
+			factor = 0.04
+			literacy = 0.1
 		}
 		modifier = {
-			factor = -0.1
-			not = { literacy = 0.2 }
+			factor = 0.04
+			literacy = 0.2
 		}
 		modifier = {
-			factor = -0.1
-			not = { literacy = 0.1 }
+			factor = 0.04
+			literacy = 0.3
 		}
-	}
-
-	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.04
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 0.04
+			literacy = 0.5
+		}
+		modifier = {
+			factor = 0.04
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.9
-		}
-	}
-	group = {
-		modifier = {
-			factor = -0.1
-			not = { consciousness = 4 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { consciousness = 3 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { consciousness = 2 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { consciousness = 1 }
-		}
-	}
-	group = {
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.4 }
-		}
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.3 }
-		}
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.2 }
-		}
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.1 }
 		}
 	}
 
 	group = {
 		modifier = {
-			factor = -0.1
+			factor = 0.04
+			consciousness = 0.5
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 1
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 2
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 3
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 4
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 5
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 6
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 7
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 8
+		}
+		modifier = {
+			factor = 0.04
+			consciousness = 9
+		}
+	}
+
+
+	group = {
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.05
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.1 
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.2
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.3
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.4
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.5
+		}
+		modifier = {
+			factor = -0.04
 			everyday_needs = 0.6
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.7 
+			factor = -0.04
+			everyday_needs = 0.7
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.8 
+			factor = -0.04
+			everyday_needs = 0.8
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.04
 			everyday_needs = 0.9
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.05
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.1 
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.2
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.3
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.4
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.5
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.6
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.7
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.8
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.9
 		}
 	}
 
 	modifier = {
-		factor = -0.2
+		factor = -0.4
 		state_scope = {
 			has_factories = yes
 			}
@@ -547,15 +883,19 @@ colonialmigration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
+			unemployment = 0.05
+		}
+		modifier = {
+			factor = 0.1
 			unemployment = 0.1
+		}	
+		modifier = {
+			factor = 0.1
+			unemployment = 0.15
 		}
 		modifier = {
 			factor = 0.1
 			unemployment = 0.2
-		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.3
 		}
 		
 	}
@@ -568,112 +908,173 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = -0.1
-			not = { literacy = 0.4 }
+			factor = 0.04
+			literacy = 0.05
 		}
 		modifier = {
-			factor = -0.1
-			not = { literacy = 0.3 }
+			factor = 0.04
+			literacy = 0.1
 		}
 		modifier = {
-			factor = -0.1
-			not = { literacy = 0.2 }
+			factor = 0.04
+			literacy = 0.2
 		}
 		modifier = {
-			factor = -0.1
-			not = { literacy = 0.1 }
+			factor = 0.04
+			literacy = 0.3
 		}
-	}
-
-	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.04
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 0.04
+			literacy = 0.5
+		}
+		modifier = {
+			factor = 0.04
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			literacy = 0.9
 		}
 	}
+
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.04
+			militancy = 0.5
+		}
+		modifier = {
+			factor = 0.04
+			militancy = 1
+		}
+		modifier = {
+			factor = 0.04
+			militancy = 2
+		}
+		modifier = {
+			factor = 0.04
+			militancy = 3
+		}
+		modifier = {
+			factor = 0.04
+			militancy = 4
+		}
+		modifier = {
+			factor = 0.04
+			militancy = 5
+		}
+		modifier = {
+			factor = 0.04
 			militancy = 6
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			militancy = 7
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			militancy = 8
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.04
 			militancy = 9
 		}
 	}
-	group = {
-		modifier = {
-			factor = -0.1
-			not = { militancy = 4 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { militancy = 3 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { militancy = 2 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { militancy = 1 }
-		}
-	}
+
 
 	group = {
 		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.4 }
+			factor = -0.04
+			everyday_needs = 0.05
 		}
 		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.3 }
+			factor = -0.04
+			everyday_needs = 0.1 
 		}
 		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.2 }
+			factor = -0.04
+			everyday_needs = 0.2
 		}
 		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.1 }
+			factor = -0.04
+			everyday_needs = 0.3
 		}
-	}
-	group = {
 		modifier = {
-			factor = -0.1
+			factor = -0.04
+			everyday_needs = 0.4
+		}
+		modifier = {
+			factor = -0.04
+			everyday_needs = 0.5
+		}
+		modifier = {
+			factor = -0.04
 			everyday_needs = 0.6
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.7 
+			factor = -0.04
+			everyday_needs = 0.7
 		}
 		modifier = {
-			factor = -0.1
-			everyday_needs = 0.8 
+			factor = -0.04
+			everyday_needs = 0.8
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.04
 			everyday_needs = 0.9
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.05
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.1 
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.2
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.3
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.4
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.5
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.6
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.7
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.8
+		}
+		modifier = {
+			factor = -0.04
+			luxury_needs = 0.9
 		}
 	}
 
@@ -681,21 +1082,39 @@ emigration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
+			unemployment = 0.05
+		}
+		modifier = {
+			factor = 0.1
 			unemployment = 0.1
+		}	
+		modifier = {
+			factor = 0.1
+			unemployment = 0.15
 		}
 		modifier = {
 			factor = 0.1
 			unemployment = 0.2
 		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.3
-		}
 		
 	}
-	modifier = {
-		factor = -0.1
-		agree_with_ruling_party = 0.3 
+	group = {
+		modifier = {
+			factor = -0.1
+			agree_with_ruling_party = 0.2
+		}
+		modifier = {
+			factor = -0.1
+			agree_with_ruling_party = 0.3 
+		}
+		modifier = {
+			factor = -0.1
+			agree_with_ruling_party = 0.4
+		}
+		modifier = {
+			factor = -0.1
+			agree_with_ruling_party = 0.5
+		}
 	}
 
 	modifier = {
