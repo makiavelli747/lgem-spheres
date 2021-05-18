@@ -1395,6 +1395,33 @@ ideologies = {
 			NOT = {	literacy = 0.1	}
 			
 		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.5	
+			ruling_party_ideology = anarcho_liberal
+		}
+
+		modifier = {
+			factor = 1.2
+			literacy = 0.60	
+			ruling_party_ideology = anarcho_liberal
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.70	
+			ruling_party_ideology = anarcho_liberal
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.80
+			ruling_party_ideology = anarcho_liberal
+			
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.90
+			ruling_party_ideology = anarcho_liberal 
+		}
 	}
 }
 
