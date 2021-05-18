@@ -254,7 +254,7 @@ promote_to =
 		artisans =
 	{
 		factor = 0.01
-		group = {
+		
 			modifier = {
 				factor = 1
 				not = { literacy = 0.1 }
@@ -275,7 +275,7 @@ promote_to =
 				factor = 1
 				not = { literacy = 0.5 } 
 			}
-		}
+		
 		group = {		
 			modifier = {
 				factor = 1
