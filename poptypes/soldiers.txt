@@ -684,31 +684,7 @@ ideologies = {
 			nationalvalue = nv_equality
 			
 		}
-		modifier = {
-			factor = 1.2
-			everyday_needs = 0.1
-			ruling_party_ideology = communist 
-		}
-		modifier = {
-			factor = 1.2
-			everyday_needs = 0.2
-			ruling_party_ideology = communist 
-		}
-		modifier = {
-			factor = 1.2
-			everyday_needs = 0.3
-			ruling_party_ideology = communist 
-		}
-		modifier = {
-			factor = 1.2
-			everyday_needs = 0.4
-			ruling_party_ideology = communist 
-		}
-		modifier = {
-			factor = 1.2
-			everyday_needs = 0.5
-			ruling_party_ideology = communist 
-		}
+
 		modifier = {
 			factor = 1.2
 			NOT = { everyday_needs = 0.5 }
@@ -754,6 +730,34 @@ ideologies = {
 			factor = 1.2
 			consciousness = 9
 		}
+
+		modifier = {
+			factor = 1.2
+			NOT = {	literacy = 0.5	}
+			
+		}
+
+		modifier = {
+			factor = 1.2
+			NOT = {	literacy = 0.40	}
+			
+		}
+
+		modifier = {
+			factor = 1.2
+			NOT = {	literacy = 0.30	}
+			
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {	literacy = 0.2	}
+			
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {	literacy = 0.1	}
+			
+		}
 		modifier = {
 			factor = 1.2
 			literacy = 0.5	
@@ -783,30 +787,28 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.2
-			NOT = {	literacy = 0.5	}
-			
-		}
-
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.40	}
-			
-		}
-
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.30	}
-			
+			everyday_needs = 0.1
+			ruling_party_ideology = communist 
 		}
 		modifier = {
 			factor = 1.2
-			NOT = {	literacy = 0.2	}
-			
+			everyday_needs = 0.2
+			ruling_party_ideology = communist 
 		}
 		modifier = {
 			factor = 1.2
-			NOT = {	literacy = 0.1	}
-			
+			everyday_needs = 0.3
+			ruling_party_ideology = communist 
+		}
+		modifier = {
+			factor = 1.2
+			everyday_needs = 0.4
+			ruling_party_ideology = communist 
+		}
+		modifier = {
+			factor = 1.2
+			everyday_needs = 0.5
+			ruling_party_ideology = communist 
 		}
 
 	}
