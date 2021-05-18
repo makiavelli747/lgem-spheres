@@ -261,7 +261,7 @@ promote_to =
 	}
 			artisans =
 	{
-		factor = 0.1
+		factor = 0.01
 		group = {
 			modifier = {
 				factor = 1
