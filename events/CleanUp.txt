@@ -24,9 +24,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60000"
 		government = proletarian_dictatorship
-		political_parties = underground_parties
-		vote_franschise = none_voting
-		upper_house_composition = party_appointed
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
 	}
 }
 
@@ -50,9 +50,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60010"
 		government = presidential_dictatorship
-		political_parties = underground_parties
-		vote_franschise = none_voting
-		upper_house_composition = party_appointed
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
 	}
 }
 
@@ -82,9 +82,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60020"
 		government = bourgeois_dictatorship
-		political_parties = underground_parties
-		vote_franschise = none_voting
-		upper_house_composition = party_appointed
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
 	}
 }
 
@@ -114,9 +114,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60030"
 		government = fascist_dictatorship
-		political_parties = underground_parties
-		vote_franschise = none_voting
-		upper_house_composition = party_appointed
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
 	}
 }
 
@@ -274,7 +274,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = bourgeois_dictatorship
-		vote_franschise = none_voting
+		political_reform = none_voting
 	}
 }
 
@@ -298,7 +298,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = proletarian_dictatorship
-		vote_franschise = none_voting
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
 	}
 }
 
@@ -322,7 +324,10 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = fascist_dictatorship
-		vote_franschise = none_voting
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
+
 	}
 }
 
