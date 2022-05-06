@@ -25,7 +25,6 @@ cruiser = {
 	build_cost = {
 		steamer_convoy = 30
 		artillery = 6
-		canned_food = 4
 		fuel = 10
 	}
 	min_port_level = 4

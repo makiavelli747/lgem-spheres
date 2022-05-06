@@ -26,7 +26,6 @@ battleship = {
 	build_cost = {
 		steamer_convoy = 80
 		artillery = 20
-		canned_food = 10
 		coal = 25
 	}
 	min_port_level = 4

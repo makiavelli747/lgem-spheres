@@ -20,7 +20,6 @@ tank = {
 	build_cost = {
 		barrels = 10
 		artillery = 10
-		canned_food = 10
 		fuel = 5
 	}
 	

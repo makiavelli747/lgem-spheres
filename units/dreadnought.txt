@@ -26,7 +26,6 @@ dreadnought = {
 	build_cost = {
 		steamer_convoy = 100
 		artillery = 25
-		canned_food = 10
 		telephones = 10
 		fuel = 25
 	}

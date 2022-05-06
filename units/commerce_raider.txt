@@ -25,7 +25,6 @@ commerce_raider = {
 	build_cost = {
 		steamer_convoy = 10
 		artillery = 3
-		canned_food = 2
 	}
 	min_port_level = 1
 	limit_per_port = -1

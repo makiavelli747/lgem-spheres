@@ -22,8 +22,7 @@ cavalry = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		wool = 20
-		wine = 10
+		wool = 50
 	}
 	
 	supply_consumption = 0.5

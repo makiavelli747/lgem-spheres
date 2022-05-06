@@ -20,8 +20,6 @@ plane = {
 	build_cost = {
 		aeroplanes = 10
 		small_arms = 10
-		canned_food = 10
-		wine = 10
 		fuel = 5
 	}
 	
