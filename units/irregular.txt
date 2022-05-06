@@ -21,7 +21,7 @@ irregular = {
 		wool = 10
 	}
 	
-	supply_consumption = 1.0
+	supply_consumption = 0.5
 	supply_cost = {
 		wool = 1
 	}
