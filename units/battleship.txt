@@ -36,7 +36,6 @@ battleship = {
 	supply_cost = {
 		steamer_convoy = 1.2
 		artillery = 0.6
-		canned_food = 0.6
 		coal = 2.5
 	}
 	
