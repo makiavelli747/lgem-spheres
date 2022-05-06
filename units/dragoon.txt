@@ -28,7 +28,7 @@ dragoon = {
 		wine = 10
 	}
 	
-	supply_consumption = 0.5
+	supply_consumption = 1
 	supply_cost = {
 		small_arms = 0.05 #0.012
 	}
