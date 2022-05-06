@@ -27,7 +27,7 @@ hussar = {
 		luxury_clothes = 5
 	}
 	
-	supply_consumption = 1
+	supply_consumption = 0.5
 	supply_cost = {
 		small_arms = 0.075 #0.55
 	}

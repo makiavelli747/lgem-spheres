@@ -23,7 +23,7 @@ plane = {
 		fuel = 5
 	}
 	
-	supply_consumption =  1
+	supply_consumption =  0.5
 	supply_cost = {
 		aeroplanes = 0.1
 		small_arms = 0.1
