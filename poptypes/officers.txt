@@ -29,20 +29,19 @@ everyday_needs_income = {
 }
 
 luxury_needs_income = {
-	type = reforms
+	type = military
 	weight = 1
 }
 
 luxury_needs = {
-	ammunition = 4
-	canned_food = 4
-	small_arms = 2
+	luxury_clothes = 1
+	luxury_furniture = 1
+	wine = 8
 }
 
 everyday_needs = {
-	ammunition = 4
-	canned_food = 4
-	small_arms = 2
+	ammunition = 6
+	canned_food = 6
 }
 
 life_needs = {
