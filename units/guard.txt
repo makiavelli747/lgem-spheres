@@ -25,7 +25,7 @@ guard = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		small_arms = 0.075 # 0.74
+		small_arms = 0.04 # 0.74
 	}
 	
 
