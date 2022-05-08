@@ -972,7 +972,7 @@ ideologies = {
 	}
 
 	socialist = {
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 3
 			nationalvalue = nv_equality
@@ -1070,7 +1070,7 @@ ideologies = {
 
 	}
 	liberal = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 3
 			nationalvalue = nv_liberty
