@@ -248,19 +248,19 @@ promotion_chance =
 
 
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		not = { religion = this }
 	}
 	modifier = {
-		factor = -0.01
+		factor = -0.05
 		state_scope = { is_colonial = yes }
 	}
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		not = { culture = this }
 	}
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		country = { slavery = yes_slavery }
 	}
 	modifier = {
