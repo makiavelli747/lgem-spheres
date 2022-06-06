@@ -20,7 +20,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 90
+		months = 360
 	}
 
 	option = {
@@ -64,7 +64,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			is_coastal = yes
@@ -193,7 +193,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 1250
+		months = 5000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -282,7 +282,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 150
+		months = 600
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -372,7 +372,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB13030"
 		any_pop = {
-			militancy = 1
+			militancy = 4
 		}
 		owner = { treasury = 5000 }
 	}
@@ -393,7 +393,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 60
+		months = 250
 		modifier = {
 			factor = 0.8
 			NOT = {
@@ -469,8 +469,8 @@ province_event = {
 	option = {
 		name = "EVTOPTB13040"
 		any_pop = {
-			consciousness = 1
-			militancy = 1
+			consciousness = 3
+			militancy = 3
 		}
 	}
 }
@@ -494,7 +494,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 30
+		months = 120
 	}
 
 	option = {
@@ -588,7 +588,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 60
+		months = 240
 		modifier = {
 			factor = 1.5
 			owner = {
@@ -639,7 +639,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 60
+		months = 240
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -702,7 +702,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 75
+		months = 300
 
 		modifier = {
 			factor = 0.9
@@ -745,7 +745,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 100
+		months = 400
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -788,7 +788,7 @@ province_event = {
 					type = aristocrats
 				}
 				consciousness = 1
-				militancy = 1
+				militancy = 2
 			}
 		}
 	}
@@ -796,7 +796,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB13080"
 		owner = {
-			treasury = -5000
+			treasury = -50
 		}
 	}
 
@@ -819,7 +819,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 125
+		months = 500
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -871,7 +871,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 150
+		months = 600
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -908,7 +908,7 @@ province_event = {
 		name = "EVTOPTA13100"
 		state_scope = {
 			any_pop = {
-				militancy = 1
+				militancy = 5
 			}
 			any_owned = {
 				remove_province_modifier = foreign_trading_post
@@ -937,7 +937,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -1015,7 +1015,7 @@ country_event = {
 		political_reform = no_slavery
 		prestige = 5
 		any_pop = {
-			militancy = 1
+			militancy = 3
 		}
 	}
 }
@@ -1036,7 +1036,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 150
+		months = 600
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -1106,7 +1106,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 20
+		months = 80
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -1157,7 +1157,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 12
+		months = 50
 		modifier = {
 			factor = 0.9
 			average_militancy = 3
@@ -1252,7 +1252,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 700
+		months = 3000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1386,7 +1386,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 1250
+		months = 5000
 		modifier = {
 			factor = 0.05
 			any_owned_province = {
@@ -1535,7 +1535,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 100
+		months = 400
 	}
 
 	option = {
@@ -1569,7 +1569,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 40
+		months = 170
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -1648,7 +1648,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -1725,7 +1725,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 900
 	}
 
 	option = {
@@ -1842,15 +1842,15 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 900
 	}
 
 	option = {
 		name = "EVTOPTA13280"
 		state_scope = {
 			aristocrats = {
-				consciousness = 1
-				militancy = 1
+				consciousness = 2
+				militancy = 3
 			}
 		}
 	}
@@ -1868,7 +1868,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 500
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -2015,7 +2015,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 125
+		months = 500
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -2047,8 +2047,8 @@ country_event = {
 	option = {
 		name = "EVTOPTA13357"
 		any_pop = {
-			militancy = 1
-			
+			militancy = 4
+			consciousness = 1
 		}
 		ENG = {
 			country_event = { id=13358 days=0 }
@@ -2079,8 +2079,8 @@ country_event = {
 				is_core = HND
 			}
 			any_pop = {
-				militancy = 1
-				
+				militancy = 3
+				consciousness = 1
 			}
 		}
 		set_global_flag = doctrine_of_lapse_has_been_used
