@@ -1081,13 +1081,18 @@ ideologies = {
 
 
 		modifier = {
-			factor = 3
+			factor = 2
 			nationalvalue = nv_order
 		}
 	}
 	
 	reactionary = {
 		factor = 1
+
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
 
 		modifier = {
 			factor = 2
@@ -1126,6 +1131,11 @@ ideologies = {
 
 		modifier = {
 			factor = 2
+			nationalvalue = nv_order
+		}
+
+		modifier = {
+			factor = 2
 			NOT = { consciousness = 5 }
 		}	
 		modifier = {
@@ -1153,7 +1163,7 @@ ideologies = {
 	socialist = {
 		factor = 1
 		modifier = {
-			factor = 3
+			factor = 2
 			nationalvalue = nv_equality
 		}
 			
@@ -1186,8 +1196,8 @@ ideologies = {
 	communist = {
 		factor = 1
 		modifier = {
-			factor = 3
-			nationalvalue = nv_order
+			factor = 2
+			nationalvalue = nv_equality
 			
 		}
 
@@ -1251,7 +1261,7 @@ ideologies = {
 	liberal = {
 		factor = 2
 		modifier = {
-			factor = 3
+			factor = 2
 			nationalvalue = nv_liberty
 		}
 
@@ -1283,7 +1293,7 @@ ideologies = {
 	anarcho_liberal = {
 		factor = 2
 		modifier = {
-			factor = 3
+			factor = 2
 			nationalvalue = nv_liberty
 		}
 
