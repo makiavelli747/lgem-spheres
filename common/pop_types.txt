@@ -298,10 +298,6 @@ demotion_chance =
 		}
 	}
 	modifier = {
-		factor = -0.1
-		country = { slavery = yes_slavery }
-	}
-	modifier = {
 		factor = -0.05
 		state_scope = {
 				is_slave = yes
