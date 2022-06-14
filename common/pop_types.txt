@@ -156,12 +156,27 @@ promotion_chance =
 		}
 		modifier = {
 			factor = 0.02
+			luxury_needs = 0.15
+	
+		}
+		modifier = {
+			factor = 0.02
 			luxury_needs = 0.2
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.25
 	
 		}
 		modifier = {
 			factor = 0.02
 			luxury_needs = 0.3
+	
+		}
+		modifier = {
+			factor = 0.02
+			luxury_needs = 0.35
+	
 		}
 		modifier = {
 			factor = 0.02
@@ -170,27 +185,12 @@ promotion_chance =
 		}
 		modifier = {
 			factor = 0.02
+			luxury_needs = 0.45
+	
+		}
+		modifier = {
+			factor = 0.02
 			luxury_needs = 0.5
-	
-		}
-		modifier = {
-			factor = 0.02
-			luxury_needs = 0.6
-	
-		}
-		modifier = {
-			factor = 0.02
-			luxury_needs = 0.7
-	
-		}
-		modifier = {
-			factor = 0.02
-			luxury_needs = 0.8
-	
-		}
-		modifier = {
-			factor = 0.02
-			luxury_needs = 0.9
 	
 		}
 	}
