@@ -254,12 +254,12 @@ promote_to =
 		factor = 0.1
 			
 			modifier = {
-				factor = 2
+				factor = 1
 				slavery = yes_slavery
 				
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				slavery = yes_slavery
 				is_accepted_culture = no
 			}
