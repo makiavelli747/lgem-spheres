@@ -439,7 +439,7 @@ demotion_chance =
 
 
 		modifier = {
-			factor = 0.5
+			factor = 0.05
 			strata = middle
 			state_scope = { is_colonial = yes }
 			not = { culture = this }			
