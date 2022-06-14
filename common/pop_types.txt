@@ -287,7 +287,13 @@ demotion_chance =
 	}
 
 	modifier = {
-		factor = -0.05
+		factor = -0.1
+		state_scope = { is_colonial = yes }
+		strata = poor
+	}
+	modifier = {
+		factor = 0.1
+		country = { slavery = yes_slavery }
 		state_scope = { is_colonial = yes }
 		strata = poor
 	}
@@ -297,12 +303,7 @@ demotion_chance =
 			has_country_flag = serfdom_not_abolished
 		}
 	}
-	modifier = {
-		factor = -0.05
-		state_scope = {
-				is_slave = yes
-			}
-	}
+
 	modifier = {
 		factor = -0.05
 		not = { culture = this }
