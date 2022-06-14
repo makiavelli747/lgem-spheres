@@ -281,13 +281,13 @@ demotion_chance =
 	factor = 1
 	
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		not = { religion = this }
 		strata = poor
 	}
 
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		state_scope = { is_colonial = yes }
 		strata = poor
 	}
@@ -304,7 +304,7 @@ demotion_chance =
 			}
 	}
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		not = { culture = this }
 		strata = poor
 	}
