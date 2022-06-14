@@ -756,7 +756,7 @@ soldiers =
 		}		
 		modifier = {
 			factor = 10
-			luxury_needs = 1
+			luxury_needs = 0.5
 		}
 		
 		modifier = {
