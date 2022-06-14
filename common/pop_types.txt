@@ -263,12 +263,7 @@ promotion_chance =
 		factor = -0.05
 		country = { slavery = yes_slavery }
 	}
-	modifier = {
-		factor = -0.05
-		state_scope = {
-				is_slave = yes
-			}
-	}	
+	
 	modifier = {
 		factor = -100
 		location = { NOT = { controlled_by = owner } }
@@ -281,31 +276,23 @@ demotion_chance =
 	factor = 1
 	
 	modifier = {
-		factor = -0.05
+		factor = -0.1
+		not = {	country = { slavery = yes_slavery }	}
 		not = { religion = this }
 		strata = poor
 	}
 
 	modifier = {
 		factor = -0.1
+		not = {	country = { slavery = yes_slavery }	}
 		state_scope = { is_colonial = yes }
 		strata = poor
-	}
-	modifier = {
-		factor = 0.1
-		country = { slavery = yes_slavery }
-		state_scope = { is_colonial = yes }
-		strata = poor
-	}
-	modifier = {
-		factor = -0.05
-		country = {
-			has_country_flag = serfdom_not_abolished
-		}
 	}
 
+
 	modifier = {
-		factor = -0.05
+		factor = -0.1
+		not = {	country = { slavery = yes_slavery }	}
 		not = { culture = this }
 		strata = poor
 	}
@@ -437,14 +424,6 @@ demotion_chance =
 			consciousness = 9
 		}
 	}
-
-
-		modifier = {
-			factor = 0.05
-			strata = middle
-			state_scope = { is_colonial = yes }
-			not = { culture = this }			
-		}
 
 
 	group = {
