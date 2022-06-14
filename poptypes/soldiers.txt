@@ -48,8 +48,8 @@ life_needs = {
 }
 
 luxury_needs = {	
-	ammunition = 3
-	canned_food = 3
+	small_arms = 3
+	
 }
 
 

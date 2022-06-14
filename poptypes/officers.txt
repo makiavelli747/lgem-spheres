@@ -40,8 +40,8 @@ luxury_needs = {
 }
 
 everyday_needs = {
-	ammunition = 6
-	canned_food = 6
+	small_arms = 6
+	
 }
 
 life_needs = {
