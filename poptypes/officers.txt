@@ -34,13 +34,12 @@ luxury_needs_income = {
 }
 
 luxury_needs = {
-	luxury_clothes = 1
-	luxury_furniture = 1
-	wine = 8
+	small_arms = 6
 }
 
 everyday_needs = {
-	small_arms = 6
+	ammunition = 6
+	canned_food = 6
 	
 }
 
