@@ -28,6 +28,7 @@ tank = {
 		barrels = 0.08
 		artillery = 0.04
 		fuel = 0.1
+		canned_food = 0.07
 	}
 	
 

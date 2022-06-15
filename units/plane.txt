@@ -28,6 +28,7 @@ plane = {
 		aeroplanes = 0.05
 		small_arms = 0.05
 		fuel = 0.1
+		canned_food = 0.07
 	}
 	
 
