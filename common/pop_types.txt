@@ -382,6 +382,57 @@ demotion_chance =
 		}
 	}
 
+group = {
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.05
+	
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.1
+	
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.15
+	
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.2
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.25
+	
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.3
+	
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.35
+	
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.4
+	
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.45
+	
+		}
+		modifier = {
+			factor = -0.02
+			luxury_needs = 0.5
+	
+		}
+	}
 	group = {
 		modifier = {
 			factor = 0.02
