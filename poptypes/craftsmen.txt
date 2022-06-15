@@ -35,7 +35,7 @@ luxury_needs = {
 	regular_clothes = 12
 	furniture = 10
 	liquor = 6
-	paper = 5
+	paper = 10
 	wine = 3
 	telephones = 2.0
 	automobiles = 1
@@ -43,6 +43,7 @@ luxury_needs = {
 	fuel = 1
 	coffee = 4
 	tobacco = 4
+	tea = 4
 	#dye = 0.5
 }
 
