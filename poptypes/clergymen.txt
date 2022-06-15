@@ -36,13 +36,13 @@ luxury_needs = {
 	luxury_furniture = 0.5
 	telephones = 2
 	automobiles = 1.5
-	wine = 10
+	wine = 5
 	radio = 2
 	fuel = 1.5
 	tobacco = 5
 	coffee = 5
 	tea = 5
-	paper = 5
+	paper = 10
 }
 
 everyday_needs = {

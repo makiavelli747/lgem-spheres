@@ -30,7 +30,7 @@ luxury_needs = {
 	tobacco = 5
 	coffee = 5
 	tea = 5
-	paper = 10
+	paper = 5
 }
 
 everyday_needs = {

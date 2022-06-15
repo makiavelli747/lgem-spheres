@@ -53,6 +53,7 @@ luxury_needs = {
 	tobacco = 20 
 	coffee = 20
 	tea = 20
+	paper = 20
 }
 
 
