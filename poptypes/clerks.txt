@@ -914,6 +914,11 @@ ideologies = {
 
 		modifier = {
 			factor = 2
+			nationalvalue = nv_order
+		}
+
+		modifier = {
+			factor = 2
 			NOT = {	literacy = 0.5	}
 			
 		}

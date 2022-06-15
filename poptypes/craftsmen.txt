@@ -1090,6 +1090,10 @@ ideologies = {
 	reactionary = {
 		factor = 1
 
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
 
 		modifier = {
 			factor = 2
