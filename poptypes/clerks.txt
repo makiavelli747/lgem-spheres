@@ -1989,6 +1989,15 @@ issues =
 			}
 		}
 		modifier = {
+			factor = 0
+			OR = {
+				NOT = { consciousness = 6 }
+				NOT = { liberal = 30 }
+				luxury_needs =  1.0
+				NOT = { life_needs = 0.7 }
+			}
+		}
+		modifier = {
 			factor = 0.5
 			state_scope = {
 				is_slave = yes
@@ -2012,28 +2021,28 @@ issues =
 			luxury_needs = 1.0
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.2
 			state_scope = {
 				is_slave = no
 			}
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.2
 			state_scope = {
 				is_slave = no
 			}
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.2
 			state_scope = {
 				is_slave = no
 			}
 			consciousness = 8
 		}
 		modifier = {
-			factor = 3
+			factor = 1.2
 			state_scope = {
 				is_slave = no
 			}
