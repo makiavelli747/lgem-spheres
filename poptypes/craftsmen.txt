@@ -10,7 +10,7 @@ strata = poor
 everyday_needs = {
 	paper = 5
 	glass = 6
-	tea = 10
+	tea = 4
 	tobacco = 2
 	coffee = 1
 	wine = 2
@@ -43,7 +43,6 @@ luxury_needs = {
 	fuel = 1
 	coffee = 4
 	tobacco = 4
-	tea = 4
 	#dye = 0.5
 }
 

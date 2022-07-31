@@ -9,7 +9,7 @@ equivalent = farmers
 everyday_needs = {
 	paper = 2
 	glass = 4
-	tea = 10
+	tea = 4
 	tobacco = 2
 	coffee = 1
 	wine = 1
@@ -43,7 +43,6 @@ luxury_needs = {
 	fuel = 1
 	coffee = 4
 	tobacco = 4
-	tea = 4
 	#dye = 0.5
 }
 
