@@ -53,7 +53,7 @@ everyday_needs = {
 	glass = 6
 	wine = 2
 	tobacco = 5
-	tea = 4
+	tea = 5
 	coffee = 2
 	coal = 2
 }
