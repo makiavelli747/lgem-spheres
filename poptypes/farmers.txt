@@ -17,7 +17,7 @@ everyday_needs = {
 	steel = 1
 	iron = 1
 	coal = 2
-	fertilizer = 1 #0
+	fertilizer = 2 #0
 }
 
 life_needs = {
