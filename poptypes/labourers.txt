@@ -32,15 +32,15 @@ life_needs = {
 
 
 luxury_needs = {	
-	regular_clothes = 8
-	furniture = 8
-	liquor = 8
-	paper = 8
+	regular_clothes = 6
+	furniture = 6
+	liquor = 6
+	paper = 6
 	telephones = 2.0
 	automobiles = 1
 	radio = 2.0
 	fuel = 1
-	coffee = 4
+	coffee = 2
 	tobacco = 4
 	#dye = 0.5
 }
