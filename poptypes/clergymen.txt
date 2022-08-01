@@ -32,14 +32,14 @@ luxury_needs_income =
 
 luxury_needs = {
 	opium = 1
-	luxury_clothes = 0.5
-	luxury_furniture = 0.5
-	telephones = 2
-	automobiles = 1.5
+	luxury_clothes = 1
+	luxury_furniture = 1
+	telephones = 4
+	automobiles = 2
 	wine = 5
-	radio = 2
-	fuel = 1.5
-	tobacco = 5
+	radio = 4
+	fuel = 2
+	tobacco = 10
 	coffee = 5
 	paper = 20
 }
