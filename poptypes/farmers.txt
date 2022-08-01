@@ -6,7 +6,7 @@ equivalent = labourers
 
 
 everyday_needs = {
-	paper = 4
+	paper = 2
 	glass = 2
 	tea = 5
 	tobacco = 2
