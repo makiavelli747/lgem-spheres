@@ -20,11 +20,10 @@ rebel =
 can_build = yes
 
 everyday_needs = {
-	steel = 20
 	paper = 50
 	luxury_clothes = 20
 	luxury_furniture = 20
-	wine = 100
+	wine = 200
 	tobacco = 200 
 	coffee = 200
 	tea = 200
@@ -53,7 +52,7 @@ luxury_needs = {
 	luxury_furniture = 20
 	clipper_convoy = 20
 	steamer_convoy = 20
-	wine = 100
+	wine = 200
 	tobacco = 100 
 	coffee = 100
 }

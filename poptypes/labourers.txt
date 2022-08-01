@@ -7,14 +7,13 @@ equivalent = farmers
 
 
 everyday_needs = {
-	paper = 2
+	paper = 4
 	glass = 2
 	tea = 5
 	tobacco = 2
 	coffee = 1
-	wine = 1
 	liquor = 5
-	regular_clothes = 4
+	regular_clothes = 6
 	furniture = 4
 	steel = 1
 	iron = 1
@@ -33,11 +32,10 @@ life_needs = {
 
 
 luxury_needs = {	
-	regular_clothes = 12
-	furniture = 10
-	liquor = 6
-	paper = 4
-	wine = 3
+	regular_clothes = 8
+	furniture = 8
+	liquor = 8
+	paper = 8
 	telephones = 2.0
 	automobiles = 1
 	radio = 2.0
