@@ -2879,6 +2879,7 @@ issues =
 				press_rights = free_press
 				NOT = { consciousness = 5 }
 				NOT = { literacy = 0.40 }
+				NOT = { liberal = 30 }
 				NOT = { life_needs = 1 }
 			}
 		}
