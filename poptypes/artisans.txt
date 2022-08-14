@@ -13,44 +13,39 @@ rebel =
 
 
 luxury_needs = {
-	opium = 10
-	clipper_convoy = 1
-	steamer_convoy = 1
 	luxury_clothes = 1
-	luxury_furniture = 1
-	telephones = 4
+	luxury_furniture = 0.5
+	wine = 7.5
+	opium = 2.5
+	coffee = 2.5
+	telephones = 2
 	automobiles = 2
-	wine = 10
 	radio = 4
 	fuel = 2
-	tobacco = 10
-	coffee = 10
-	paper = 10
-	tea = 10
 }
 
 everyday_needs = {
-	steel = 2
-	liquor = 5
 	regular_clothes = 5
-	furniture = 4
-	paper = 8
-	glass = 6
-	fabric = 2
-	wine = 4
+	furniture = 5
+	liquor = 4
+	paper = 10
 	tobacco = 5
-	coffee = 2
-	tea = 5
-	coal = 2
+	tea = 10
+	iron = 2
+	steel = 2
+	fabric = 2
+	lumber = 2
+	cotton = 5
+	dye = 1
+	sulphur = 0.4
 }
 
 life_needs = {
-	cattle = 2
+	cattle = 4
 	wool =  2
-	fish =  2
-	fruit =  3
-	grain =  6
-	timber = 2
+	fish =  4
+	fruit =  2
+	grain =  15
 }
 
 
