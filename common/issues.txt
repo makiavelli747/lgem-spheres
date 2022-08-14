@@ -8,8 +8,8 @@ party_issues = {
 			min_tariff = 0.25
 		}
 		free_trade = {
-			max_tariff = 0.0
-			min_tariff = 0.0
+			max_tariff = 0.1
+			min_tariff = 0.1
 		}
 	}
 	economic_policy = {
