@@ -175,7 +175,7 @@ province_event = {
 			limit = { is_primary_culture = no }
 			militancy = 5
 			consciousness = 3
-			reduce_pop = 0.98
+			
 		}
 		ai_chance = {
 			factor = 75
