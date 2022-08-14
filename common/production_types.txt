@@ -840,7 +840,7 @@ sulphur_mine = {
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = 3
+	value = 4
 	farm = yes
 }
 
