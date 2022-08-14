@@ -1082,8 +1082,8 @@ artisan_luxury_furniture = {
 
 artisan_steel = {       
 	input_goods = { 
-		iron = 12		#60
-		coal = 4		#20	total input+maint = 81.5
+		iron = 16		#60
+		
 	}
 
 	output_goods = steel 		#94 
