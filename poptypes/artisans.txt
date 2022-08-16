@@ -37,7 +37,7 @@ everyday_needs = {
 	lumber = 2
 	cotton = 5
 	dye = 1
-	sulphur = 0.4
+	sulphur = 0.2
 }
 
 life_needs = {
