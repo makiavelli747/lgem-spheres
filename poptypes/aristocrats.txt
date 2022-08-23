@@ -41,6 +41,7 @@ luxury_needs = {
 	automobiles = 20
 	radio = 40
 	fuel = 20
+	aeroplanes = 20
 }
 
 
