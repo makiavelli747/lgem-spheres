@@ -379,8 +379,8 @@ steel_factory = {
 artillery_factory = {       
 	template = factory_template
 	input_goods = { 
-		explosives = 3		#30
-		steel = 10		#50   total input+maint = 67.6
+		explosives = 2		#20
+		steel = 12		#60   total input+maint = 67.6
 	}
 	output_goods = artillery 
 	value = 1.1			#78
@@ -500,8 +500,8 @@ explosives_factory = {
 ammunition_factory = {       
 	template = cheap_factory_template
 	input_goods = {      
-		sulphur = 12		#60
-		iron = 4		#20	total input+maint = 30
+		sulphur = 4		#20
+		iron = 12		#60	total input+maint = 30
 	}
 	output_goods = ammunition 
 	value = 5			#35
@@ -1102,8 +1102,8 @@ artisan_steel = {
 
 artisan_artillery = {       
 	input_goods = { 
-		explosives = 3		#30
-		steel = 10		#50   total input+maint = 67.6
+		explosives = 2		#30
+		steel = 12		#50   total input+maint = 67.6
 	}
 	output_goods = artillery 
 	value = 1.1			#78
@@ -1231,8 +1231,8 @@ artisan_explosives = {
 
 artisan_ammunition = {       
 	input_goods = {      
-		sulphur = 12		#60
-		iron = 4		#20	total input+maint = 30
+		sulphur = 4		#60
+		iron = 12		#20	total input+maint = 30
 	}
 	output_goods = ammunition 
 	value = 5			#35
