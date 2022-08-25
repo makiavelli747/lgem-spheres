@@ -37,7 +37,7 @@ dreadnought = {
 	supply_cost = {
 		steamer_convoy = 0.8
 		artillery = 0.4
-		telephones = 0.01
+		telephones = 1
 		fuel = 1.25
 	}
 	
