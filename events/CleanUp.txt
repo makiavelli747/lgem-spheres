@@ -14,7 +14,7 @@ country_event = {
 		}
 		civilized = yes
 		ruling_party_ideology = communist
-		communist = 40
+		communist = 30
 	}
 	
 	mean_time_to_happen = {
@@ -40,7 +40,7 @@ country_event = {
 		government = democracy
 		civilized = yes
 		ruling_party_ideology = reactionary
-		reactionary = 40
+		reactionary = 30
 	}
 	
 	mean_time_to_happen = {
@@ -72,7 +72,7 @@ country_event = {
 		}
 		civilized = yes
 		ruling_party_ideology = anarcho_liberal
-		anarcho_liberal = 40
+		anarcho_liberal = 30
 	}
 	
 	mean_time_to_happen = {
@@ -104,7 +104,7 @@ country_event = {
 		}
 		civilized = yes
 		ruling_party_ideology = fascist
-		fascist = 40
+		fascist = 30
 	}
 	
 	mean_time_to_happen = {
