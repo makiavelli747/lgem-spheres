@@ -846,8 +846,13 @@ ideologies = {
 
 
 		modifier = {
-			factor = 4
+			factor = 5
 			nationalvalue = nv_order
+		}
+
+		modifier = {
+			factor = 5
+			ruling_party_ideology = fascist
 		}
 	}
 	
@@ -967,6 +972,11 @@ ideologies = {
 		}
 
 		modifier = {
+			factor = 5
+			ruling_party_ideology = communist
+		}
+
+		modifier = {
 			factor = 2
 			NOT = { everyday_needs = 1 }
 			
@@ -1060,6 +1070,11 @@ ideologies = {
 		modifier = {
 			factor = 2
 			nationalvalue = nv_liberty
+		}
+
+		modifier = {
+			factor = 5
+			ruling_party_ideology = anarcho_liberal
 		}
 
 		modifier = {
