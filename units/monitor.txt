@@ -30,7 +30,7 @@ monitor = {
 	limit_per_port = -1
 	supply_consumption_score = 3
 	
-	supply_consumption = 3
+	supply_consumption = 6
 	supply_cost = {
 		steamer_convoy = 0.16
 		artillery = 0.04
