@@ -1128,19 +1128,19 @@ emigration_chance =
 	group = {
 		modifier = {
 			factor = -0.1
+			agree_with_ruling_party = 0.1
+		}
+		modifier = {
+			factor = -0.1
 			agree_with_ruling_party = 0.2
 		}
 		modifier = {
 			factor = -0.1
-			agree_with_ruling_party = 0.3 
+			agree_with_ruling_party = 0.3
 		}
 		modifier = {
 			factor = -0.1
 			agree_with_ruling_party = 0.4
-		}
-		modifier = {
-			factor = -0.1
-			agree_with_ruling_party = 0.5
 		}
 	}
 
