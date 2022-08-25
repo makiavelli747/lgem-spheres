@@ -34,7 +34,7 @@ engineer = {
 	defence = 6
 	discipline = 1.0
 	support = 0.5
-	maneuver = 2
+	maneuver = 1
 	siege = 1
 
 }
