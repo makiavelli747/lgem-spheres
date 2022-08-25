@@ -164,7 +164,7 @@ deep_defense_system = {
 		support = 0.25
 	} 
 	army_base = {
-		supply_consumption = 1.25
+		supply_consumption = 1
 	} 
 	max_fort = 1
 	dig_in_cap = 1
@@ -217,7 +217,7 @@ infiltration = {
 	unciv_military = yes
 		
 	army_base = {
-		supply_consumption = 2.5
+		supply_consumption = 2
 	} 
 	
 	max_fort = 1
@@ -264,7 +264,7 @@ modern_army_doctrine = {
 	unciv_military = yes
 	
 	army_base = {
-		supply_consumption = 5
+		supply_consumption = 4
 	} 
 	
 	max_fort = 1
@@ -711,7 +711,7 @@ steel_breech_loaded_artillery = {
 	artillery = {
 		attack = 2
 		support = 0.5
-		supply_consumption = 1.25
+		supply_consumption = 1
 	}
 	
 	ai_chance = {
@@ -756,7 +756,7 @@ indirect_artillery_fire = {
 		attack = 2
 		defence = 8
 		support = 1
-		supply_consumption = 2.5
+		supply_consumption = 2
 	}
 	
 	ai_chance = {
@@ -801,7 +801,7 @@ heavy_armament_dunno = {
 		attack = 2
 		defence = 8
 		support = 1
-		supply_consumption = 5
+		supply_consumption = 4
 	}
 	
 	ai_chance = {
@@ -980,7 +980,7 @@ military_logistics = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 1.25
+		supply_consumption = 1
 	}
 	mobilisation_size = 0.05
 	
@@ -1025,7 +1025,7 @@ military_directionism = {
 	
 	army_base = {
 		default_organisation = 10
-		supply_consumption = 2.5
+		supply_consumption = 2
 	}
 	ai_chance = {
 		factor = 1.5
@@ -1070,7 +1070,7 @@ aeronautics = {
 	cost = 21600
 	army_base = {
 		default_organisation = 10
-		supply_consumption = 5
+		supply_consumption = 4
 	}
 	
 	unciv_military = yes
@@ -1264,7 +1264,7 @@ army_risk_management = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 1.25
+		supply_consumption = 1
 	}
 	
 	ai_chance = {
@@ -1320,7 +1320,7 @@ army_nco_training = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 2.5
+		supply_consumption = 2
 	}
 	
 	ai_chance = {
@@ -1375,7 +1375,7 @@ great_war_experience = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 5
+		supply_consumption = 4
 	}
 	
 	ai_chance = {
