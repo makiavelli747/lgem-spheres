@@ -46,9 +46,9 @@ everyday_needs = {
 	regular_clothes = 7
 	furniture = 7
 	liquor = 6
-	paper = 20
+	paper = 10
 	tobacco = 5
-	tea = 5
+	tea = 10
 }
 
 life_needs = {
