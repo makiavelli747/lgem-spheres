@@ -1109,7 +1109,7 @@ ideologies = {
 	socialist = {
 		factor = 1
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 		}
 			
@@ -1142,7 +1142,7 @@ ideologies = {
 	communist = {
 		factor = 1
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 			
 		}
@@ -1254,28 +1254,28 @@ ideologies = {
 		}
 
 		modifier = {
-			factor = 2
-			luxury_needs = 0.05
-			 
-		}
-		modifier = {
-			factor = 2
+			factor = 3
 			luxury_needs = 0.1
-			
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.15
 			 
 		}
 		modifier = {
-			factor = 2
+			factor = 3
 			luxury_needs = 0.2
 			
 		}
 		modifier = {
-			factor = 2
-			luxury_needs = 0.25
+			factor = 3
+			luxury_needs = 0.3
+			 
+		}
+		modifier = {
+			factor = 3
+			luxury_needs = 0.4
+			
+		}
+		modifier = {
+			factor = 3
+			luxury_needs = 0.5
 			 
 		}
 
