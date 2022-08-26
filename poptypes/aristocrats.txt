@@ -16,11 +16,11 @@ rebel =
 }
 
 everyday_needs = {
-	luxury_clothes = 22
+	luxury_clothes = 20
 	luxury_furniture = 2
 	wine = 50
 	opium = 15
-	coffee = 10
+	coffee = 20
 	silk = 3
 	tropical_wood = 2
 }
