@@ -31,12 +31,12 @@ luxury_needs = {
 }
 
 everyday_needs = {
-	regular_clothes = 1.5
+	regular_clothes = 2
 	furniture = 1.5
 	liquor = 1.5
 	paper = 5
-	tobacco = 5
-	tea = 7.5
+	tobacco = 2.5
+	tea = 10
 }
 
 life_needs = {
