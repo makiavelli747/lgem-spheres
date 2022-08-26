@@ -27,8 +27,8 @@ life_needs = {
 
 
 luxury_needs = {	
-	tea = 10
-	tobacco = 5
+	tea = 7.5
+	tobacco = 7.5
 	paper = 10
 	automobiles = 1
 	fuel = 1
