@@ -35,10 +35,10 @@ dreadnought = {
 	
 	supply_consumption = 5
 	supply_cost = {
-		steamer_convoy = 0.8
-		artillery = 0.4
-		telephones = 1
-		fuel = 1.25
+		steamer_convoy = 1.6
+		artillery = 0.8
+		telephones = 2
+		fuel = 2.5
 	}
 	
 	#Naval Abilties
