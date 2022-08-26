@@ -24,7 +24,7 @@ life_needs = {
 	cattle = 4
 	wool =  2
 	fish =  4
-	fruit =  2
+	fruit =  3
 	grain =  15
 }
 
