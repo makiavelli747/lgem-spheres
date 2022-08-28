@@ -7,7 +7,7 @@ equivalent = farmers
 
 
 everyday_needs = {
-	regular_clothes = 4
+	regular_clothes = 3
 	furniture = 2
 	liquor = 3
 	tea = 5
@@ -18,8 +18,8 @@ everyday_needs = {
 	explosives = 0.5
 	iron = 1
 	steel = 1
-	cotton = 2.5
-	dye = 0.5
+	cotton = 5
+	dye = 1
 	
 }
 
