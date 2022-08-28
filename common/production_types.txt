@@ -742,7 +742,7 @@ coal_mine = {
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = coffee 
-	value = 2
+	value = 1.5
 	farm = yes
 }
 
@@ -826,7 +826,7 @@ sheep_ranch = {
 silkworm_ranch = {
 	template = RGO_template_farmers
 	output_goods = silk 
-	value = 0.5
+	value = 1
 	farm = yes
 }
 
@@ -840,7 +840,7 @@ sulphur_mine = {
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = 4
+	value = 2
 	farm = yes
 }
 
