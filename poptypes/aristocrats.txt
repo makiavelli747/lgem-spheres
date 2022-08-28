@@ -16,9 +16,9 @@ rebel =
 }
 
 everyday_needs = {
-	luxury_clothes = 10
+	luxury_clothes = 8
 	luxury_furniture = 4
-	wine = 5
+	wine = 15
 	coffee = 5
 	opium = 15
 	tobacco = 10
@@ -35,7 +35,8 @@ life_needs = {
 
 
 luxury_needs = {
-	luxury_clothes = 10
+	luxury_clothes = 8
+	wine = 10
 	luxury_furniture = 4
 	clipper_convoy = 6
 	opium = 15

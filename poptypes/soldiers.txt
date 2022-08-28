@@ -57,10 +57,10 @@ life_needs = {
 
 luxury_needs = { 
 	small_arms = 2
-	wine = 2.5
+	wine = 2
 	paper = 4
 	tobacco = 2
-	coffee = 0.5
+	coffee = 1
 	automobiles = 1
 	fuel = 1
 	telephones = 1

@@ -33,10 +33,10 @@ life_needs = {
 
 
 luxury_needs = {	
-	wine = 5
+	wine = 4
 	paper = 8
 	tobacco = 4
-	coffee = 1
+	coffee = 2
 	automobiles = 1
 	fuel = 1
 	telephones = 1
