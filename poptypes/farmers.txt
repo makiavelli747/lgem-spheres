@@ -12,13 +12,14 @@ everyday_needs = {
 	tea = 5
 	silk = 0.5
 	fertilizer = 1
+	sulphur = 1
 	glass = 2
 	coal = 2
 	timber = 2
 	iron = 1
 	steel = 1
 	cotton = 5
-	dye = 1
+	dye = 2
 }
 
 life_needs = {
