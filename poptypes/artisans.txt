@@ -37,7 +37,7 @@ everyday_needs = {
 	steel = 1
 	fabric = 1
 	glass = 2
-	coal = 1
+	coal = 2
 	iron = 2
 }
 
