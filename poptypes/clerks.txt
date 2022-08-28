@@ -19,11 +19,10 @@ can_work_factory = yes
 color = { 240 240 240 }
 
 luxury_needs = {
-	luxury_clothes = 0.5
-	luxury_furniture = 0.25
-	wine = 2.5
-	opium = 2
-	coffee = 2
+	luxury_clothes = 1
+	luxury_furniture = 0.5
+	clipper_convoy = 0.5
+	opium = 1.25
 	telephones = 1
 	automobiles = 1
 	radio = 2
@@ -31,12 +30,17 @@ luxury_needs = {
 }
 
 everyday_needs = {
-	regular_clothes = 2
+	regular_clothes = 2.5
 	furniture = 1.5
-	liquor = 1.5
-	paper = 10
-	tobacco = 5
-	tea = 5
+	liquor = 2
+	tea = 2.5
+	wine = 2.5
+	paper = 4
+	tobacco = 2
+	coffee = 0.5
+	lumber = 1
+	fabric = 1
+	glass = 1
 }
 
 life_needs = {

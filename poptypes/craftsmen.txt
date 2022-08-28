@@ -8,13 +8,15 @@ strata = poor
 
 
 everyday_needs = {
-	regular_clothes = 6
-	furniture = 4
-	liquor = 7.5
+	regular_clothes = 4
+	furniture = 3
+	liquor = 4
+	tea = 5
+	coal = 2
 	glass = 2
+	timber = 2
+	iron = 1
 	steel = 1
-	coal = 1
-	lumber = 1 
 }
 
 life_needs = {
@@ -27,9 +29,10 @@ life_needs = {
 
 
 luxury_needs = {	
-	tea = 7.5
-	tobacco = 7.5
-	paper = 10
+	wine = 5
+	paper = 8
+	tobacco = 4
+	coffee = 1
 	automobiles = 1
 	fuel = 1
 	telephones = 1
