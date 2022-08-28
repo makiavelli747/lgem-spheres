@@ -27,7 +27,7 @@ everyday_needs = {
 	regular_clothes = 5
 	furniture = 3
 	liquor = 4
-	tea = 5
+	tea = 4
 	wine = 5
 	paper = 8
 	tobacco = 4
@@ -35,8 +35,10 @@ everyday_needs = {
 	sulphur = 0.5
 	lumber = 1
 	steel = 1
-	fabric = 2
+	fabric = 1
 	glass = 2
+	coal = 1
+	iron = 2
 }
 
 life_needs = {
