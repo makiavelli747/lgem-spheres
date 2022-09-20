@@ -55,6 +55,11 @@ everyday_needs = {
 	glass = 8
 	tea = 10
 	silk = 1
+	cotton = 4
+	dye = 1
+	iron = 2
+	coal = 4
+	timber = 3
 }
 
 life_needs = {
