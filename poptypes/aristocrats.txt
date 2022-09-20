@@ -23,7 +23,7 @@ everyday_needs = {
 	coffee = 5
 	opium = 15
 	tobacco = 10
-	tropical_wood = 1
+	tropical_wood = 5
 	silk = 40
 	tea = 10
 }
