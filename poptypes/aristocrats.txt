@@ -16,21 +16,24 @@ rebel =
 }
 
 everyday_needs = {
-	luxury_clothes = 8
-	luxury_furniture = 4
-	wine = 15
+	luxury_clothes = 16
+	luxury_furniture = 2
+	wine = 18
+	paper = 10
 	coffee = 5
 	opium = 15
 	tobacco = 10
-	tropical_wood = 2
+	tropical_wood = 1
+	silk = 40
+	tea = 10
 }
 
 life_needs = {
-	cattle = 4
-	wool =  2
-	fish =  4
-	fruit =  3
-	grain =  15
+	cattle = 2.5
+	wool =  1.5
+	fish =  2.25
+	fruit =  1.6
+	grain =  10.5
 }
 
 

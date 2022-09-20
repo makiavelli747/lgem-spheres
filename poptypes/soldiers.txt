@@ -34,15 +34,20 @@ luxury_needs_income =
 
 
 everyday_needs = {
-	regular_clothes = 2
-	furniture = 1
-	liquor = 2
-	tea = 2.5
-	coal = 1
-	glass = 1
-	timber = 1 
+	tea = 5
+	silk = 0.5
+	cotton = 2.5
+	dye = 0.5
 	iron = 1
+	coal = 2
+	timber = 1.5
+	fabric = 1.5
 	steel = 1
+	glass = 1
+	lumber = 1
+	regular_clothes = 0.8
+	liquor = 1.2
+	furniture = 0.6
 	ammunition = 2.5
 	canned_food = 2.5
 }
@@ -50,9 +55,9 @@ everyday_needs = {
 life_needs = {
 	cattle = 4
 	wool =  2
-	fish =  4
+	fish =  3.5
 	fruit =  3
-	grain =  15
+	grain =  16
 }
 
 luxury_needs = { 

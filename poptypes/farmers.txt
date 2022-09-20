@@ -6,28 +6,29 @@ equivalent = labourers
 
 
 everyday_needs = {
-	regular_clothes = 3
-	furniture = 2
-	liquor = 3
-	tea = 5
-	silk = 0.5
-	fertilizer = 1
-	sulphur = 1
-	glass = 2
-	coal = 2
-	timber = 2
-	iron = 1
-	steel = 1
+	tea = 10
+	silk = 1
 	cotton = 5
-	dye = 2
+	dye = 1
+	iron = 2
+	coal = 4
+	timber = 3
+	fabric = 3
+	steel = 2
+	glass = 2
+	lumber = 2
+	fertilizer = 1
+	regular_clothes = 1.6
+	liquor = 2.4
+	furniture = 1.2
 }
 
 life_needs = {
 	cattle = 4
 	wool =  2
-	fish =  4
+	fish =  3.5
 	fruit =  3
-	grain =  15
+	grain =  16
 }
 
 
