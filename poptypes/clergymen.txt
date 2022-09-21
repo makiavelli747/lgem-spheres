@@ -44,10 +44,10 @@ luxury_needs = {
 
 everyday_needs = {
 	regular_clothes = 6
-	furniture = 2.5
+	furniture = 3.5
 	liquor = 6
-	wine = 9
-	paper = 5
+	wine = 8
+	paper = 7
 	tobacco = 4.5
 	coffee = 2
 	steel = 4
