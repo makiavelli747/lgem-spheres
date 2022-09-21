@@ -44,6 +44,7 @@ luxury_needs = {
 	steamer_convoy = 20
 	wine = 100
 	luxury_clothes = 20
+	luxury_furniture = 20
 	telephones = 40
 	automobiles = 40
 	radio = 80
