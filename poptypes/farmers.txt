@@ -6,7 +6,7 @@ equivalent = labourers
 
 
 everyday_needs = {
-	tea = 10
+	tea = 8
 	silk = 1
 	cotton = 5
 	dye = 1.5
@@ -18,9 +18,9 @@ everyday_needs = {
 	glass = 2
 	lumber = 2
 	fertilizer = 1
-	regular_clothes = 1.6
-	liquor = 2.4
-	furniture = 1.2
+	regular_clothes = 2
+	liquor = 3
+	furniture = 2
 }
 
 life_needs = {
