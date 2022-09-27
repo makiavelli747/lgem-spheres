@@ -937,43 +937,43 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 0.5
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 1
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 2
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 3
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 4
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 5
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 6
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 7
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 8
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			militancy = 9
 		}
 	}
@@ -1067,19 +1067,19 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.15
 		}	
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.2
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.25
 		}
 		
