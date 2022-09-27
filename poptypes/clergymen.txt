@@ -53,6 +53,7 @@ everyday_needs = {
 	steel = 4
 	fabric = 8
 	glass = 8
+	lumber = 4
 	tea = 10
 	silk = 1
 	cotton = 5
