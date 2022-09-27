@@ -732,43 +732,43 @@ colonialmigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 0.5
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 1
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 2
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 3
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 4
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 5
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 6
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 7
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 8
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			consciousness = 9
 		}
 	}
