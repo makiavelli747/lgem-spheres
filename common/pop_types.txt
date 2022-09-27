@@ -696,19 +696,19 @@ migration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			unemployment = 0.05
-		}
-		modifier = {
-			factor = 0.1
 			unemployment = 0.1
-		}	
+		}
 		modifier = {
 			factor = 0.1
 			unemployment = 0.15
-		}
+		}	
 		modifier = {
 			factor = 0.1
 			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.1
+			unemployment = 0.25
 		}
 		
 	}
@@ -728,88 +728,47 @@ colonialmigration_chance =
 		factor = -2.0
 		state_scope = { is_colonial = yes }
 	}
-	group = {
-		modifier = {
-			factor = 0.02
-			literacy = 0.05
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.1
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.2
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.3
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.4
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.5
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.6
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.7
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.8
-		}
-		modifier = {
-			factor = 0.02
-			literacy = 0.9
-		}
-	}
+	
 
 	group = {
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 0.5
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 1
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 2
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 3
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 4
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 5
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 6
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 7
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 8
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.04
 			consciousness = 9
 		}
 	}
@@ -910,19 +869,19 @@ colonialmigration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			unemployment = 0.05
-		}
-		modifier = {
-			factor = 0.1
 			unemployment = 0.1
-		}	
+		}
 		modifier = {
 			factor = 0.1
 			unemployment = 0.15
-		}
+		}	
 		modifier = {
 			factor = 0.1
 			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.1
+			unemployment = 0.25
 		}
 		
 	}
@@ -1113,15 +1072,15 @@ emigration_chance =
 		}
 		modifier = {
 			factor = 0.1
-			unemployment = 0.2
+			unemployment = 0.15
 		}	
 		modifier = {
 			factor = 0.1
-			unemployment = 0.3
+			unemployment = 0.2
 		}
 		modifier = {
 			factor = 0.1
-			unemployment = 0.4
+			unemployment = 0.25
 		}
 		
 	}
