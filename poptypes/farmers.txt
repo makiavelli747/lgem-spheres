@@ -681,15 +681,15 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = -2
+				factor = -4
 				soldiers = 0.01
 			}
 			modifier = {
-				factor = -2
+				factor = -4
 				soldiers = 0.02
 			}
 			modifier = {
-				factor = -2
+				factor = -100
 				soldiers = 0.03
 			}
 			modifier = {
