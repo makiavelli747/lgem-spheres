@@ -50,17 +50,8 @@ everyday_needs = {
 	paper = 15
 	tobacco = 5.5
 	coffee = 2.5
-	steel = 4
-	fabric = 8
-	glass = 8
-	lumber = 4
 	tea = 10
-	silk = 1
-	cotton = 5
-	dye = 1.5
-	iron = 2
 	coal = 4
-	timber = 3
 }
 
 life_needs = {
