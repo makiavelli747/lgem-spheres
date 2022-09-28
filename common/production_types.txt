@@ -792,7 +792,7 @@ oil_rig = {
 opium_plantation = {
 	template = RGO_template_farmers
 	output_goods = opium 
-	value = 1.5
+	value = 2
 	farm = yes
 }
 
@@ -827,7 +827,7 @@ sheep_ranch = {
 silkworm_ranch = {
 	template = RGO_template_farmers
 	output_goods = silk 
-	value = 1.5
+	value = 2
 	farm = yes
 }
 
@@ -862,7 +862,7 @@ tobacco_plantation = {
 tropical_wood_lodge = {
 	template = RGO_template_labourers
 	output_goods = tropical_wood 
-	value = 1.5
+	value = 2
 	farm = yes
 }
 
