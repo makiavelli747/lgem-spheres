@@ -8,11 +8,11 @@ strata = poor
 
 
 everyday_needs = {
-	tea = 6
+	tea = 4
 	coal = 4
 	glass = 4
-	regular_clothes = 7
-	liquor = 8
+	regular_clothes = 8
+	liquor = 9
 	furniture = 5
 }
 
