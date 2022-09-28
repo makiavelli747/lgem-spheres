@@ -39,8 +39,8 @@ everyday_needs = {
 	regular_clothes = 1
 	liquor = 1
 	furniture = 1
-	ammunition = 2.5
-	canned_food = 2.5
+	ammunition = 1.25
+	canned_food = 1.25
 }
 
 life_needs = {
@@ -52,7 +52,7 @@ life_needs = {
 }
 
 luxury_needs = { 
-	small_arms = 2
+	small_arms = 1
 	wine = 1
 	paper = 2
 	tobacco = 1
