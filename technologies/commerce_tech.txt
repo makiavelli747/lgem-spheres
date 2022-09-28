@@ -36,7 +36,7 @@ stock_exchange = {
 	year = 1836
 	cost = 7200
 
-	tax_eff = 5
+	tax_eff = 1
 	
 	ai_chance = {
 		factor = 1.1
@@ -67,7 +67,7 @@ business_banks = {
 	year = 1850
 	cost = 10800
 
-	tax_eff = 5
+	tax_eff = 1
 	
 	ai_chance = {
 		factor = 1.1
@@ -98,7 +98,7 @@ investment_banks = {
 	year = 1870
 	cost = 14400
 
-	tax_eff = 5
+	tax_eff = 1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -128,7 +128,7 @@ bank_inspection_board = {
 	year = 1900
 	cost = 18000
 
-	tax_eff = 5
+	tax_eff = 1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -158,7 +158,7 @@ mutual_funds = {
 	year = 1919
 	cost = 21600
 
-	tax_eff = 5
+	tax_eff = 1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
