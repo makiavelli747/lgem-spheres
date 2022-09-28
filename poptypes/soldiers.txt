@@ -57,10 +57,10 @@ luxury_needs = {
 	paper = 2
 	tobacco = 1
 	coffee = 0.5
-	automobiles = 1
-	fuel = 1
-	telephones = 1
-	radio = 2
+	automobiles = 0.5
+	fuel = 0.5
+	telephones = 0.5
+	radio = 1
 }
 
 
