@@ -26,14 +26,15 @@ guard = {
 	supply_consumption = 1
 	supply_cost = {
 		small_arms = 0.05 # 0.74
+		ammunition = 0.05
 		canned_food = 0.04
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 20
-	defence = 10
+	attack = 10
+	defence = 5
 	discipline = 1.0
 	support = 0.0
 	maneuver = 2
