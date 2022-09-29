@@ -6,28 +6,28 @@ post_napoleonic_army_doctrine = {
 	}
 	effect = {
 		infantry = {
-			defence = 4
+			defence = 1
 		}
 		guard = {
-			defence = 4
+			defence = 1
 		}
 		engineer = {
-			defence = 4
+			defence = 1
 		}
 		cuirassier = {
-			defence = 4
+			defence = 1
 		}
 		dragoon = {
-			defence = 4
+			defence = 1
 		}
 		hussar = {
-			defence = 4
+			defence = 1
 		}
 		cavalry = {
-			defence = 4
+			defence = 1
 		}
 		irregular = {
-			defence = 4
+			defence = 1
 		}
 	}
 }
@@ -47,28 +47,28 @@ field_fortifications = {
 	}
 	effect = {
 		infantry = {
-			defence = 4
+			defence = 1
 		}
 		guard = {
-			defence = 4
+			defence = 1
 		}
 		engineer = {
-			defence = 4
+			defence = 1
 		}
 		artillery = {
-			defence = 4
+			defence = 1
 		}
 		dragoon = {
-			defence = 4
+			defence = 1
 		}
 		hussar = {
-			defence = 4
+			defence = 1
 		}
 		cavalry = {
-			defence = 4
+			defence = 1
 		}
 		irregular = {
-			defence = 4
+			defence = 1
 		}
 	}
 }
@@ -130,28 +130,28 @@ flexible_firepower = {
 	}
 	effect = {
 		infantry = {
-			defence = 4
+			defence = 1
 		}
 		guard = {
-			defence = 4
+			defence = 1
 		}
 		engineer = {
-			defence = 4
+			defence = 1
 		}
 		artillery = {
-			defence = 4
+			defence = 1
 		}
 		dragoon = {
-			defence = 4
+			defence = 1
 		}
 		hussar = {
-			defence = 4
+			defence = 1
 		}
 		cavalry = {
-			defence = 2
+			defence = 0.5
 		}
 		irregular = {
-			defence = 2
+			defence = 0.5
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -173,28 +173,28 @@ synchronized_heavy_support = {
 	}
 	effect = {
 		infantry = {
-			defence = 4
+			defence = 1
 		}
 		guard = {
-			defence = 4
+			defence = 1
 		}
 		engineer = {
-			defence = 4
+			defence = 1
 		}
 		artillery = {
-			defence = 4
+			defence = 1
 		}
 		dragoon = {
-			defence = 4
+			defence = 1
 		}
 		hussar = {
-			defence = 4
+			defence = 1
 		}
 		cavalry = {
-			defence = 2
+			defence = 0.5
 		}
 		irregular = {
-			defence = 2
+			defence = 0.5
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -234,31 +234,31 @@ trench_systems = {
 	}
 	effect = {
 		infantry = {
-			defence = 4
+			defence = 1
 		}
 		guard = {
-			defence = 4
+			defence = 1
 		}
 		engineer = {
-			defence = 4
+			defence = 1
 		}
 		artillery = {
-			defence = 4
+			defence = 1
 		}
 		dragoon = {
-			defence = 4
+			defence = 1
 		}
 		hussar = {
-			defence = 4
+			defence = 1
 		}
 		cuirassier = {
-			defence = 2
+			defence = 1
 		}
 		cavalry = {
-			defence = 2
+			defence = 0.5
 		}
 		irregular = {
-			defence = 2
+			defence = 0.5
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -311,31 +311,31 @@ elastic_defense_system = {
 	}
 	effect = {
 		infantry = {
-			defence = 4
+			defence = 1
 		}
 		guard = {
-			defence = 4
+			defence = 1
 		}
 		engineer = {
-			defence = 4
+			defence = 1
 		}
 		artillery = {
-			defence = 4
+			defence = 1
 		}
 		dragoon = {
-			defence = 4
+			defence = 1
 		}
 		hussar = {
-			defence = 4
+			defence = 1
 		}
 		cuirassier = {
-			defence = 2
+			defence = 1
 		}
 		cavalry = {
-			defence = 2
+			defence = 0.5
 		}
 		irregular = {
-			defence = 2
+			defence = 0.5
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -358,25 +358,25 @@ flexible_counterattacks = {
 	}
 	effect = {
 		infantry = {
-			attack = 4
+			attack = 1
 		}
 		guard = {
-			attack = 4
+			attack = 1
 		}
 		engineer = {
-			attack = 4
+			attack = 1
 		}
 		dragoon = {
-			attack = 4
+			attack = 1
 		}
 		hussar = {
-			attack = 4
+			attack = 1
 		}
 		cavalry = {
-			attack = 2
+			attack = 0.5
 		}
 		irregular = {
-			attack = 2
+			attack = 0.5
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -407,31 +407,31 @@ low_echelon_fire_support = {
 	}
 	effect = {
 		infantry = {
-			attack = 4
+			attack = 1
 		}
 		guard = {
-			attack = 4
+			attack = 1
 		}
 		engineer = {
-			attack = 4
+			attack = 1
 		}
 		cuirassier = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 		}
 		dragoon = {
-			attack = 4
+			attack = 1
 		}
 		hussar = {
-			attack = 4
+			attack = 1
 		}
 		cavalry = {
-			attack = 2
-			defence = 4
+			attack = 0.5
+			defence = 1
 		}
 		irregular = {
-			attack = 2
-			defence = 4
+			attack = 0.5
+			defence = 1
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -449,14 +449,14 @@ stormtrooper_training = {
 	}
 	effect = {
 		infantry = {
-			attack = 4
+			attack = 1
 		}
 		guard = {
-			attack = 4
+			attack = 1
 		}
 		engineer = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 			siege = 1				
 		}
 		army_base = {
@@ -507,8 +507,8 @@ tank_exploits = {
 	}
 	effect = {
 		tank = {
-			attack = 8
-			defence = 16
+			attack = 2
+			defence = 4
 			supply_consumption = 1
 			siege = 1				
 		}	
@@ -530,33 +530,33 @@ firepower_vs_mobility = {
 	}
 	effect = {
 		infantry = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 		}
 		guard = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 		}
 		engineer = {
-			attack = 4
-			defence = 4
-			siege = 4
+			attack = 1
+			defence = 1
+			siege = 1
 		}
 		tank = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 		}
 		artillery = {
-			defence = 8
+			defence = 2
 		}
 		cuirassier = {
-			defence = 4
+			defence = 1
 		}
 		dragoon = {
-			defence = 4
+			defence = 1
 		}
 		hussar = {
-			defence = 4
+			defence = 1
 		}
 		army_base = {
 			maximum_speed = 1
@@ -598,37 +598,37 @@ human_wave_vs_spearhead = {
 	}
 	effect = {
 		infantry = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 		}
 		guard = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 		}
 		engineer = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 		}
 		tank = {
-			attack = 4
-			defence = 4
+			attack = 1
+			defence = 1
 			siege = 1	
 			maximum_speed = 1
 		}
 		cuirassier = {
-			defence = 4
+			defence = 1
 		}
 		dragoon = {
-			defence = 4
+			defence = 1
 		}
 		hussar = {
-			defence = 4
+			defence = 1
 		}
 		cavalry = {
-			defence = 8
+			defence = 2
 		}
 		irregular = {
-			defence = 8
+			defence = 2
 		}
 		army_base = {
 			supply_consumption = -0.3
@@ -652,23 +652,23 @@ flintlock_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.10
 		}
 		dragoon = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.10
 		}
 		hussar = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.10
 		}
 		cavalry = {
-			attack = 2
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		irregular = {
-			attack = 2
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 	}
@@ -687,23 +687,23 @@ muzzle_loaded_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.10
 		}
 		engineer = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.10
 		}
 		dragoon = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.10
 		}
 		cavalry = {
-			attack = 2
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		irregular = {
-			attack = 2
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 	}
@@ -722,31 +722,31 @@ breech_loaded_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		guard = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		engineer = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		dragoon = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		hussar = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 2
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 2
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 	}
@@ -765,35 +765,35 @@ machine_gun_armament = {
 	}
 	effect = {
 		infantry = {
-			defence = 16
+			defence = 4
 			supply_consumption = 0.20
 		}
 		guard = {
-			defence = 16
+			defence = 4
 			supply_consumption = 0.20
 		}
 		engineer = {
-			defence = 16
+			defence = 4
 			supply_consumption = 0.20
 		}
 		cuirassier = {
-			defence = 4
+			defence = 1
 			supply_consumption = 0.20
 		}
 		dragoon = {
-			defence = 8
+			defence = 2
 			supply_consumption = 0.20
 		}
 		hussar = {
-			defence = 12
+			defence = 4
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			defence = 4
+			defence = 1
 			supply_consumption = 0.20
 		}
 		irregular = {
-			defence = 4
+			defence = 1
 			supply_consumption = 0.20
 		}
 	}
@@ -848,35 +848,35 @@ bolt_action_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 16
+			attack = 4
 			supply_consumption = 0.20
 		}
 		guard = {
-			attack = 16
+			attack = 4
 			supply_consumption = 0.20
 		}
 		engineer = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		cuirassier = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		dragoon = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		hussar = {
-			attack = 4
+			attack = 1
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 2
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 2
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 	}
@@ -897,23 +897,23 @@ interwar_infantry = {
 	}
 	effect = {
 		infantry = {
-			attack = 16
-			defence = 8
+			attack = 4
+			defence = 2
 			supply_consumption = 0.20
 		}
 		guard = {
-			attack = 16
-			defence = 8
+			attack = 4
+			defence = 2
 			supply_consumption = 0.20
 		}
 		engineer = {
-			attack = 8
-			defence = 8
+			attack = 2
+			defence = 2
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 4
-			defence = 8
+			attack = 1
+			defence = 2
 			supply_consumption = 0.20
 		}
 	}
@@ -933,26 +933,26 @@ interwar_cavalry = {
 	}
 	effect = {
 		cuirassier = {
-			attack = 8
-			defence = 8
+			attack = 2
+			defence = 2
 			reconnaissance = 2
 			supply_consumption = 0.20
 		}
 		dragoon = {
-			attack = 8
-			defence = 8
+			attack = 2
+			defence = 2
 			reconnaissance = 1
 			supply_consumption = 0.20
 		}
 		hussar = {
-			attack = 8
-			defence = 8
+			attack = 2
+			defence = 2
 			reconnaissance = 1
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 4
-			defence = 8
+			attack = 1
+			defence = 2
 			reconnaissance = 2
 			supply_consumption = 0.20
 		}
@@ -995,8 +995,8 @@ tankette = {
 	}
 	effect = {
 		tank = {
-			attack = 8
-			defence = 4
+			attack = 2
+			defence = 1
 			supply_consumption = 0.5
 		}
 	}
@@ -1016,8 +1016,8 @@ light_tank = {
 	}
 	effect = {
 		tank = {
-			attack = 8
-			defence = 4
+			attack = 2
+			defence = 1
 			supply_consumption = 0.5
 		}
 	}
@@ -1061,8 +1061,8 @@ anti_aircraft_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.4
-			defence = 4
+			attack = 0.1
+			defence = 1
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1083,8 +1083,8 @@ improved_anti_aircraft_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.4
-			defence = 4
+			attack = 0.1
+			defence = 1
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1105,7 +1105,7 @@ light_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.4
+			attack = 0.1
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1126,7 +1126,7 @@ medium_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.4
+			attack = 0.1
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1147,7 +1147,7 @@ heavy_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.4
+			attack = 0.1
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1471,7 +1471,7 @@ early_interwar_bombers = {
 	}
 	effect = {
 		plane = {
-			attack = 2
+			attack = 0.5
 			support = 1
 		}
 	}
@@ -1491,7 +1491,7 @@ late_interwar_bombers = {
 	}
 	effect = {
 		plane = {
-			attack = 2
+			attack = 0.5
 			support = 1
 		}
 	}
@@ -1507,8 +1507,8 @@ early_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 1
-			defence = 12
+			attack = 0.25
+			defence = 3
 		}
 	}
 }
@@ -1527,8 +1527,8 @@ late_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 1
-			defence = 12
+			attack = 0.25
+			defence = 3
 		}
 	}
 }
@@ -1551,7 +1551,7 @@ t_air_superiority = {
 	}
 	effect = {
 		plane = {
-			defence = 12
+			defence = 3
 			default_organisation = 5
 		}
 	}
@@ -1575,7 +1575,7 @@ flying_circus_doctrine = {
 	}
 	effect = {
 		plane = {
-			defence = 12
+			defence = 3
 			default_organisation = 5
 		}
 	}
@@ -1599,7 +1599,7 @@ force_substitution_doctrine = {
 	}
 	effect = {
 		plane = {
-			defence = 12
+			defence = 3
 			default_organisation = 5
 		}
 	}
@@ -1623,7 +1623,7 @@ battlefield_destruction_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 1
+			attack = 0.25
 			support = 1
 			default_organisation = 5
 		}
@@ -1648,7 +1648,7 @@ operational_destruction_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 1
+			attack = 0.25
 			support = 1
 			default_organisation = 5
 		}
