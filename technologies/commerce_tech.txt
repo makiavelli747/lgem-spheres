@@ -5,7 +5,7 @@ private_banks = {
 	cost = 3600
 
 	activate_building = cement_factory 
-	tax_eff = 3
+	tax_eff = 1
 	
 	ai_chance = {
 		factor = 1.1
