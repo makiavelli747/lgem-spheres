@@ -37,7 +37,7 @@ tank = {
 	attack = 100
 	defence = 50
 	discipline = 1
-	support = 0
+	support = 1
 	maneuver = 2
 	siege = 1
 	
