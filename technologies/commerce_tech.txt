@@ -5,7 +5,7 @@ private_banks = {
 	cost = 3600
 
 	activate_building = cement_factory 
-	tax_eff = 1
+	tax_eff = 3
 	
 	ai_chance = {
 		factor = 1.1
@@ -158,7 +158,7 @@ mutual_funds = {
 	year = 1919
 	cost = 21600
 
-	tax_eff = 1
+	tax_eff = 3
 	ai_chance = {
 		factor = 1.1
 		modifier = {
