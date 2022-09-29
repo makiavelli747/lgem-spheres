@@ -31,7 +31,7 @@ commerce_raider = {
 	limit_per_port = -1
 	supply_consumption_score = 3
 	
-	supply_consumption = 1.0
+	supply_consumption = 3.0
 	supply_cost = {
 		steamer_convoy = 0.16
 		artillery = 0.096
@@ -39,8 +39,8 @@ commerce_raider = {
 	}
 	
 	#Naval Abilties
-	hull = 6
-	gun_power = 5
+	hull = 18
+	gun_power = 15
 	fire_range = 0.6
 	evasion = 0.25
 	torpedo_attack = 0
