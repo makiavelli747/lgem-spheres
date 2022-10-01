@@ -1131,7 +1131,7 @@ emigration_chance =
 #general assimilation mtth, same for all pops
 assimilation_chance = 
 {
-	factor = 2
+	factor = 1
 
 	group = {
 		modifier = {
@@ -1224,7 +1224,7 @@ assimilation_chance =
 #general conversion mtth, same for all pops
 conversion_chance = 
 {
-	factor = 2
+	factor = 1
 
 	group = {
 		modifier = {
