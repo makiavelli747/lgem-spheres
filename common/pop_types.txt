@@ -1136,11 +1136,11 @@ assimilation_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			literacy = 0.6
+			literacy = 0.4
 		}
 		modifier = {
 			factor = 0.1
-			literacy = 0.7
+			literacy = 0.6
 		}
 		modifier = {
 			factor = 0.1
@@ -1211,12 +1211,12 @@ assimilation_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
-			NOT = { unemployment = 0.2 }
+			factor = 0.05
+			NOT = { unemployment = 0.1 }
 		}
 		modifier = {
-			factor = 0.1
-			NOT = { unemployment = 0.1 }
+			factor = 0.05
+			NOT = { unemployment = 0.05 }
 		}
 	}
 }
@@ -1228,16 +1228,16 @@ conversion_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			literacy = 0.4
 		}
 		modifier = {
-			factor = 0.1
-			literacy = 0.6
+			factor = 0.05
+			literacy = 0.5
 		}
 		modifier = {
-			factor = 0.1
-			literacy = 0.8
+			factor = 0.05
+			literacy = 0.6
 		}
 	}
 
