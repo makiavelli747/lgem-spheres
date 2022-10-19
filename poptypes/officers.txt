@@ -34,30 +34,16 @@ luxury_needs_income = {
 }
 
 luxury_needs = {
-	small_arms = 3
-	luxury_clothes = 1
-	luxury_furniture = 0.5
-	wine = 5
-	telephones = 2
-	automobiles = 2
-	radio = 4
-	fuel = 2
+	artillery = 4
 }
 
 everyday_needs = {
-	small_arms = 3
-	luxury_clothes = 1
-	luxury_furniture = 0.5
-	wine = 5
-	
+	ammunition = 10
+	small_arms = 4	
 }
 
 life_needs = {
-	cattle = 2.5
-	wool =  1.5
-	fish =  2.25
-	fruit =  1.6
-	grain =  10.5
+	canned_food = 3.3
 }
 
 
