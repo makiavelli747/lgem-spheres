@@ -43,7 +43,7 @@ everyday_needs = {
 }
 
 life_needs = {
-	canned_food = 3.3
+	canned_food = 5
 }
 
 
