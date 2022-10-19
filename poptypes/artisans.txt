@@ -13,11 +13,15 @@ rebel =
 
 
 luxury_needs = {
-	luxury_clothes = 1.2
-	luxury_furniture = 0.6
-	wine = 6
+	luxury_clothes = 1
+	luxury_furniture = 0.5
+	wine = 2.5
 	clipper_convoy = 1
 	opium = 2.5
+	paper = 10
+	regular_clothes = 5
+	furniture = 5
+	liquor = 5
 	telephones = 2
 	automobiles = 2
 	radio = 4
@@ -26,10 +30,10 @@ luxury_needs = {
 
 everyday_needs = {
 	regular_clothes = 6
-	furniture = 3.5
+	furniture = 4
 	liquor = 6
 	wine = 4
-	paper = 7
+	paper = 10
 	tobacco = 5.5
 	coffee = 2.5
 	steel = 4
