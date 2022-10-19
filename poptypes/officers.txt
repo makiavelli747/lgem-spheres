@@ -34,12 +34,14 @@ luxury_needs_income = {
 }
 
 luxury_needs = {
-	artillery = 4
+	artillery = 1
+	canned_food = 5
 }
 
 everyday_needs = {
-	ammunition = 10
-	small_arms = 4	
+	ammunition = 1
+	small_arms = 1.6
+	canned_food = 5
 }
 
 life_needs = {
