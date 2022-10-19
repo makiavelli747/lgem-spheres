@@ -30,9 +30,9 @@ cuirassier = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		small_arms = 0.03 # 0.008
-		canned_food = 0.04
-		ammunition = 0.03
+		small_arms = 0.12 # 0.008
+		canned_food = 0.16
+		ammunition = 0.12
 		#steel = 0.1 # 0.008
 	}
 	
