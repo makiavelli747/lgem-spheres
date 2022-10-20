@@ -907,7 +907,7 @@ combat_medicine = {
 	}
 	effect = {
 		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.02
+		soldier_to_pop_loss = 0.01
 	}
 }
 aerial_bacteria_and_antiseptic_principle = {
@@ -926,7 +926,7 @@ aerial_bacteria_and_antiseptic_principle = {
 	effect = {
 		pop_growth = 0.0002
 		land_attrition = -0.05  
-		soldier_to_pop_loss = 0.02
+		soldier_to_pop_loss = 0.01
 	}
 }
 vaccination = {
@@ -944,7 +944,7 @@ vaccination = {
 	}
 	effect = {
 		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.02
+		soldier_to_pop_loss = 0.01
 	}
 }
 chemotherapy = {
@@ -1013,7 +1013,7 @@ prophylaxis_against_malaria = {
 	}
 	effect = {
 		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.02
+		soldier_to_pop_loss = 0.01
 		colonial_life_rating = -5
 	}
 }
