@@ -27,7 +27,7 @@ cavalry = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		iron = 2
+		iron = 4
 	}
 	
 
