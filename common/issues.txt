@@ -4,12 +4,12 @@
 party_issues = {
 	trade_policy = {
 		protectionism = {
-			max_tariff = 0.2
-			min_tariff = 0.2
-		}
-		free_trade = {
 			max_tariff = 0.1
 			min_tariff = 0.1
+		}
+		free_trade = {
+			max_tariff = 0.0
+			min_tariff = 0.0
 		}
 	}
 	economic_policy = {
@@ -147,7 +147,6 @@ party_issues = {
 	war_policy = {
 		jingoism = {
 			min_military_spending = 1
-			supply_consumption = 0.5
 			war_exhaustion_effect = 0.5
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
@@ -156,9 +155,8 @@ party_issues = {
 			reinforce_speed = 0.5
 		}
 		pro_military = {
-			min_military_spending = 0.8
-			max_military_spending = 0.8
-			supply_consumption = 0.25
+			min_military_spending = 0.75
+			max_military_spending = 0.75
 			war_exhaustion_effect = 0.8
 			cb_generation_speed_modifier = 0.1
 			mobilization_impact = 3
@@ -166,9 +164,8 @@ party_issues = {
 			reinforce_speed = 0.25
 		}
 		anti_military = {
-			min_military_spending = 0.6
-			max_military_spending = 0.6
-			supply_consumption = -0.25
+			min_military_spending = 0.5
+			max_military_spending = 0.5
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.1
 			mobilization_impact = 2
@@ -176,9 +173,8 @@ party_issues = {
 			reinforce_speed = -0.25
 		}
 		pacifism = {
-			min_military_spending = 0.4
-			max_military_spending = 0.4
-			supply_consumption = -0.5
+			min_military_spending = 0.25
+			max_military_spending = 0.25
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.3
 			mobilization_impact = 1
