@@ -22,7 +22,8 @@ cavalry = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		iron = 20
+		iron = 10
+		canned_food = 2.5
 	}
 	
 	supply_consumption = 1
