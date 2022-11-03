@@ -31,27 +31,27 @@ luxury_needs_income =
 }
 
 luxury_needs = {
-	luxury_clothes = 0.6
-	luxury_furniture = 0.3
-	wine = 3
-	clipper_convoy = 0.5
-	opium = 1.25
-	telephones = 1
-	automobiles = 1
-	radio = 2
-	fuel = 1
+	luxury_clothes = 1.2
+	luxury_furniture = 0.6
+	wine = 6
+	clipper_convoy = 1
+	opium = 2.5
+	telephones = 2
+	automobiles = 2
+	radio = 4
+	fuel = 2
 }
 
 everyday_needs = {
-	regular_clothes = 3
-	furniture = 2
-	liquor = 3
-	wine = 2.5
-	paper = 7.5
-	tobacco = 2.5
-	coffee = 1.25
-	tea = 5
-	coal = 2
+	regular_clothes = 6
+	furniture = 4
+	liquor = 6
+	wine = 5
+	paper = 15
+	tobacco = 5
+	coffee = 2.5
+	tea = 10
+	coal = 4
 }
 
 life_needs = {
