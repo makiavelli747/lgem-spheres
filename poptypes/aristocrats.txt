@@ -414,43 +414,43 @@ promote_to =
 		group = {
 			modifier = {
 				factor = 2
-				education_spending = 0.1
+				not = { education_spending = 1 }
 			}
 			modifier = {
 				factor = 2
-				education_spending = 0.2
+				not = { education_spending = 0.9 }
 			}
 			modifier = {
 				factor = 2
-				education_spending = 0.3
+				not = { education_spending = 0.8 }
 			}
 			modifier = {
 				factor = 2
-				education_spending = 0.4
+				not = { education_spending = 0.7 }
 			}
 			modifier = {
 				factor = 2
-				education_spending = 0.5
+				not = { education_spending = 0.6 }
 			}
 			modifier = {
 				factor = 2
-				education_spending = 0.6
+				not = { education_spending = 0.5 }
 			}
 			modifier = {
 				factor = 2
-				education_spending = 0.7
+				not = { education_spending = 0.4 }
 			}
 			modifier = {
 				factor = 2
-				education_spending = 0.8
+				not = { education_spending = 0.3 }
 			}
 			modifier = {
 				factor = 2
-				education_spending = 0.9
+				not = { education_spending = 0.2 }
 			}
 			modifier = {
 				factor = 2
-				education_spending =0.99
+				not = { education_spending = 0.1 }
 			}
 		}
 		group = {		
