@@ -12,7 +12,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 60
+		months = 240
 		
 		modifier = {
 			factor = 0.8
@@ -78,7 +78,7 @@ country_event = {
 		
 	}
 	mean_time_to_happen = {
-		months = 100
+		months = 400
 		modifier = {
 			factor = 0.8
 			plurality = 10
@@ -127,7 +127,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 1200
 		modifier = {
 			factor = 0.9
 			average_militancy = 3
@@ -174,7 +174,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -226,7 +226,7 @@ province_event = {
 	}
 		
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -277,7 +277,7 @@ province_event = {
 	}
 		
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -344,7 +344,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			war_exhaustion = 4
@@ -392,7 +392,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			poor_strata_life_needs = 0.9
@@ -434,7 +434,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.7
 			owner = {
@@ -483,7 +483,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			any_neighbor_province = {
@@ -532,7 +532,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 500
 		modifier = {
 			factor = 0.8
 			poor_strata_everyday_needs = 0.8
@@ -586,7 +586,7 @@ province_event = {
 	}
 		
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		
 		modifier = {
 			factor = 0.9
@@ -659,7 +659,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 900
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -703,7 +703,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -757,7 +757,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			poor_strata_life_needs = 0.9
@@ -805,7 +805,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 1.3
 			owner = {
@@ -850,7 +850,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 500
+		months = 2000
 		modifier = {
 			factor = 1.8
 			owner = {
@@ -907,7 +907,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 1.5
 			NOT = {
@@ -963,7 +963,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 1.5
 			owner = {
@@ -1019,7 +1019,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 1.5
 			average_militancy = 5
@@ -1066,7 +1066,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -1120,7 +1120,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1162,7 +1162,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 500
 	}
 	
 	option = {
@@ -1205,7 +1205,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 1200
 		modifier = {
 			factor = 0.8
 			owner = {
@@ -1266,7 +1266,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -1318,7 +1318,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 400
+		months = 1500
 		modifier = {
 			factor = 0.9
 			middle_strata_everyday_needs = 0.9
@@ -1379,7 +1379,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			poor_strata_everyday_needs = 0.9
 			factor = 0.8
@@ -1439,7 +1439,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 	}
 	
 	option = {
@@ -1482,7 +1482,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
