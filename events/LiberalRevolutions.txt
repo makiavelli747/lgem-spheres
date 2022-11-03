@@ -47,7 +47,7 @@ country_event = {
 				value = liberal
 				factor = 0.05
 			}
-			
+			consciousness = 1
 		}
 		set_global_flag = liberal_revolution_somewhere
 		set_country_flag = liberal_revolution_in_progress
@@ -453,7 +453,7 @@ country_event = {
 				value = liberal
 				factor = 0.02
 			}
-			
+			consciousness = 0.5
 		}
 	}
 }
@@ -518,7 +518,7 @@ country_event = {
 				value = liberal
 				factor = 0.03
 			}
-			
+			militancy = 1
 		}
 	}
 }
@@ -617,7 +617,7 @@ country_event = {
 				value = liberal
 				factor = 0.1
 			}
-			
+			consciousness = 0.5
 		}
 	}
 }
@@ -719,8 +719,8 @@ province_event = {
 				value = liberal
 				factor = 0.04
 			}
-			
-			
+			consciousness = 0.5
+			militancy = 0.5
 		}
 	}
 }
@@ -846,7 +846,7 @@ province_event = {
 		is_colonial = no
 	}
 	mean_time_to_happen = {
-		months = 300
+		months = 1200
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -873,7 +873,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA10150"
 		poor_strata = {
-			consciousness = 1
+			militancy = 6
 		}
 	}
 	option = {
@@ -925,6 +925,7 @@ province_event = {
 		name = "EVTOPTA10160"
 		state_scope = {
 			any_pop = {
+				militancy = 2
 				consciousness = 1
 				ideology = {
 					factor = 0.05
@@ -1060,7 +1061,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 40
+		months = 150
 		modifier = {
 			factor = 0.9
 			conservative = 15
@@ -1211,10 +1212,11 @@ province_event = {
 	option = {
 		name = "EVTOPTA10200"
 		any_pop = {
-			consciousness = -1
+			militancy = 2
+			consciousness = 1
 		}
 		random_pop = {
-			reduce_pop = 0.98
+			reduce_pop = 0.90
 		}
 	}
 	option = {
@@ -1246,18 +1248,18 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.9
-			average_consciousness = 4
+			average_consciousness = 1
 		}
 		modifier = {
 			factor = 0.9
-			average_consciousness = 6
+			average_consciousness = 2
 		}
 	}
 
 	option = {
 		name = "EVTOPTA10210"
 		any_pop = {
-			militancy = 1
+			militancy = 4
 		}
 	}
 }
@@ -1533,7 +1535,7 @@ country_event = {
 				value = liberal
 				factor = 0.05
 			}
-			
+			consciousness = 0.5
 		}
 	}
 }
@@ -1639,7 +1641,8 @@ country_event = {
 				is_colonial = no
 			}
 			any_pop = {
-				
+				consciousness = 1
+				militancy = 2
 				ideology = {
 					value = liberal
 					factor = 0.05
@@ -1663,7 +1666,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 480
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -1699,7 +1702,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA10280"
 		prestige = -4
-
+		rich_strata = {
+			militancy = 1
+		}
 	}
 
 	option = {
@@ -1709,7 +1714,7 @@ country_event = {
 				value = liberal
 				factor = 0.05
 			}
-			
+			consciousness = 1
 		}
 	}
 }
@@ -1731,7 +1736,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 100
+		months = 400
 		modifier = {
 			factor = 0.1
 			has_country_flag = liberal_revolution_in_progress
@@ -1768,7 +1773,7 @@ country_event = {
 					value = liberal
 					factor = 0.15
 				}
-				
+				consciousness = 1
 			}
 		}
 	}
@@ -1780,7 +1785,7 @@ country_event = {
 				value = liberal
 				factor = 0.03
 			}
-			
+			consciousness = 0.5
 		}
 	}
 }
@@ -1802,7 +1807,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 480
 
 		modifier = {
 			factor = 0.1
@@ -1840,7 +1845,7 @@ country_event = {
 					value = liberal
 					factor = 0.05
 				}
-				
+				consciousness = 1
 			}
 		}
 	}
@@ -1853,7 +1858,7 @@ country_event = {
 				value = liberal
 				factor = 0.1
 			}
-			
+			consciousness = 1
 		}
 	}
 }
@@ -1874,7 +1879,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 480
 		modifier = {
 			factor = 0.1
 			has_country_flag = liberal_revolution_in_progress
@@ -1904,7 +1909,7 @@ country_event = {
 				value = liberal
 				factor = 0.1
 			}
-			
+			militancy = 1
 		}
 		prestige = 5
 	}
@@ -1936,7 +1941,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 480
 		modifier = {
 			factor = 0.2
 			has_country_flag = liberal_revolution_in_progress
@@ -1984,8 +1989,8 @@ country_event = {
 					value = liberal
 					factor = 0.1
 				}
-				
-				
+				militancy = 1
+				consciousness = 1
 			}
 		}
 	}
@@ -1997,7 +2002,7 @@ country_event = {
 			}
 			any_pop = {
 				reduce_pop = 0.99
-				
+				militancy = 4
 			}
 		}
 	}
