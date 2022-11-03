@@ -23,7 +23,8 @@ irregular = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		iron = 2
+		iron = 1
+		canned_food = 0.25
 	}
 	
 
