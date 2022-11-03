@@ -29,7 +29,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.9
 			socialist = 5
@@ -98,7 +98,7 @@ country_event = {
 		name = "EVTOPTB17500"
 		random_state = {
 			any_pop = {
-				militancy = 1
+				militancy = 4
 				consciousness = 1
 			}
 		}
@@ -134,7 +134,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -258,7 +258,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -330,7 +330,7 @@ country_event = {
 				is_colonial = no
 			}
 			poor_strata = {
-				militancy = 1
+				militancy = 2
 				consciousness = 1
 			}
 		}
@@ -344,7 +344,7 @@ country_event = {
 				is_colonial = no
 			}
 			rich_strata = {
-				militancy = 1
+				militancy = 2
 				consciousness = 1
 			}	
 		}
@@ -377,7 +377,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -495,7 +495,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -568,8 +568,8 @@ country_event = {
 					value = socialist
 					factor = 0.15
 				}
-				consciousness = 1
-				
+				consciousness = 3
+				militancy = 1
 			}
 		}
 
@@ -581,10 +581,10 @@ country_event = {
 			any_pop = {
 				ideology = {
 					value = socialist
-					factor = 0.01
+					factor = 0.05
 				}
-				
-				militancy = 1
+				consciousness = 1
+				militancy = 4
 			}
 		}
 	}
@@ -617,7 +617,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -685,7 +685,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA17550"
 		rich_strata = {
-			consciousness = 1
+			consciousness = 0.5
 			militancy = 1
 			ideology = {
 				value = socialist
@@ -697,8 +697,8 @@ country_event = {
 	option = {
 		name = "EVTOPTB17550"
 		poor_strata = {
-			consciousness = 1
-			militancy = 1
+			consciousness = 0.5
+			militancy = 0.5
 			ideology = {
 				value = socialist
 				factor = 0.05
@@ -719,9 +719,9 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
-		is_ideology_enabled = communist
-		socialist = 25
+		is_ideology_enabled = socialist
 		civilized = yes
+		year = 1886
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -736,14 +736,34 @@ country_event = {
 		NOT = {
 			ruling_party_ideology = socialist
 		}
-		NOT = {
-			ruling_party_ideology = communist
-		}
 	}
 	
 	mean_time_to_happen = {
-		months = 50
-
+		months = 200
+		modifier = {
+			factor = 0.9
+			NOT = {
+				poor_strata_everyday_needs = 0.9
+			}
+		}
+		modifier = {
+			factor  = 0.9
+			NOT = {
+				poor_strata_everyday_needs = 0.85
+			}
+		}	
+		modifier = {
+			factor = 0.9
+			socialist = 5
+		}
+		modifier = {
+			factor = 0.9
+			socialist = 10
+		}
+		modifier = {
+			factor = 0.9
+			socialist = 15
+		}
 		modifier = {
 			factor = 0.9
 			social_reform_want = 0.05
@@ -751,6 +771,18 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			social_reform_want = 0.1
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
 		}
 		modifier = {
 			factor = 0.9
@@ -774,18 +806,25 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA17560"
-		any_pop = {
-			ideology = {
-				value = communist
-				factor = 0.1
+		random_state = {
+			any_pop = {
+				scaled_militancy = {
+					ideology = socialist
+					factor = 3
+				}
 			}
 		}
 	}
 	
 	option = {
 		name = "EVTOPTB17560"
-		any_pop = {
-			militancy = 1
+		random_state = {
+			any_pop = {
+				scaled_consciousness = {
+					ideology = socialist
+					factor = 3
+				}
+			}
 		}
 	}
 }
@@ -810,17 +849,17 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.5
+				poor_strata_everyday_needs = 0.9
 			}
 		}
 		modifier = {
 			factor  = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.25
+				poor_strata_everyday_needs = 0.85
 			}
 		}	
 		modifier = {
@@ -884,7 +923,7 @@ country_event = {
 			poor_strata = {
 				ideology = {
 					value = socialist
-					factor = 0.3
+					factor = 0.5
 				}
 			}
 		}
@@ -899,7 +938,7 @@ country_event = {
 			any_pop = {
 				ideology = {
 					value = socialist
-					factor = 0.03
+					factor = 0.2
 				}
 			}
 		}
@@ -925,17 +964,17 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.5
+				poor_strata_everyday_needs = 0.9
 			}
 		}
 		modifier = {
 			factor  = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.25
+				poor_strata_everyday_needs = 0.85
 			}
 		}	
 		modifier = {
@@ -1018,8 +1057,8 @@ country_event = {
 		name = "EVTOPTB17580"
 		random_state = {
 			rich_strata = {
-				militancy = 1
-				consciousness = 1
+				militancy = 2
+				consciousness = 2
 			}
 		}
 	}
@@ -1044,7 +1083,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1119,7 +1158,7 @@ country_event = {
 			poor_strata = {
 				ideology = {
 					value = socialist
-					factor = 0.3
+					factor = 0.4
 				}
 			}
 		}
@@ -1129,8 +1168,8 @@ country_event = {
 		name = "EVTOPTB17590"
 		random_state = {
 			rich_strata = {
-				militancy = 1
 				consciousness = 1
+				militancy = 2
 			}
 		}
 	}
@@ -1153,7 +1192,7 @@ country_event = {
 	
 	trigger = {
 		is_ideology_enabled = fascist
-		socialist = 10
+		socialist = 5
 		NOT = {
 			fascist = 5
 		}
@@ -1167,7 +1206,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 150
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1295,7 +1334,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 150
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1398,7 +1437,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 150
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1459,6 +1498,8 @@ country_event = {
 		name = "EVTOPTA17620"
 		random_state = {
 			poor_strata = {
+				consciousness = 1
+				militancy = 1
 				ideology = {
 					value = fascist
 					factor = 0.3
@@ -1471,8 +1512,8 @@ country_event = {
 		name = "EVTOPTB17620"
 		random_state = {
 			poor_strata = {
-				militancy = 2
-				consciousness = 1
+				militancy = 4
+				consciousness = 2
 			}
 		}
 	}
@@ -1502,7 +1543,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 15
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1568,7 +1609,7 @@ country_event = {
 			}
 			scaled_militancy = {
 				ideology = fascist
-				factor = 5
+				factor = 8
 			}
 		}
 	}
@@ -1582,7 +1623,6 @@ country_event = {
 		political_reform = state_press
 		political_reform = state_controlled
 		political_reform = underground_parties
-
 	}
 }
 
@@ -1608,7 +1648,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 10
+		months = 30
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1673,7 +1713,7 @@ country_event = {
 					value = fascist
 					factor = 0.4
 				}
-
+				militancy = 2
 			}
 		}
 	}
@@ -1682,8 +1722,8 @@ country_event = {
 		name = "EVTOPTB17640"
 		random_state = {
 			soldiers = {
-				militancy = 2
-				consciousness = 2
+				militancy = 4
+				consciousness = 4
 			}
 		}
 	}
@@ -1698,7 +1738,6 @@ country_event = {
 	
 	trigger = {
 		is_ideology_enabled = fascist
-		fascist = 10
 		civilized = yes
 		OR = {
 			press_rights = censored_press
@@ -1713,7 +1752,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 150
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1778,7 +1817,8 @@ country_event = {
 					value = fascist
 					factor = 0.2
 				}
-
+				militancy = 1
+				consciousness = 1
 			}
 		}
 	}
@@ -1791,7 +1831,8 @@ country_event = {
 					value = fascist
 					factor = 0.2
 				}
-
+				militancy = 1
+				consciousness = 1
 			}
 		}
 	}
@@ -1821,7 +1862,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 150
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1923,7 +1964,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -2061,7 +2102,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -2132,8 +2173,8 @@ country_event = {
 					value = fascist
 					factor = 0.3
 				}
-				militancy = 1
-				consciousness = 1
+				militancy = 3
+				consciousness = 3
 			}
 		}
 	}
@@ -2143,7 +2184,7 @@ country_event = {
 		any_pop = {
 			scaled_militancy = {
 				ideology = fascist
-				factor = 5
+				factor = 10
 			}
 		}
 		set_country_flag = paramilitaries_outlawed
@@ -2170,7 +2211,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -2240,7 +2281,7 @@ country_event = {
 				}
 				scaled_militancy = {
 					ideology = fascist
-					factor = 5
+					factor = 10
 				}
 			}
 		}
@@ -2289,7 +2330,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 60
+		months = 250
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
