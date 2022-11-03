@@ -6,11 +6,11 @@ country_event = {
 	
 	trigger = {
 		nationalvalue = nv_order
-		average_militancy = 4
+		average_militancy = 7
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 	}
 	
 	option = {
@@ -43,7 +43,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 20
+		months = 65
 	}
 	
 	option = {
@@ -75,7 +75,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 	}
 	
 	option = {
@@ -111,7 +111,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 	}
 	
 	option = {
@@ -138,7 +138,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 	}
 	
 	option = {
@@ -161,25 +161,25 @@ country_event = {
 	picture = "Demonstration"
 	
 	trigger = {
-		average_militancy = 4
+		average_militancy = 8
 		nationalvalue = nv_liberty
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 	}
 	
 	option = {
 		name = "EVTOPTA18550"
 		any_pop = {
-			militancy = -1
+			militancy = 1
 		}
 	}
 	
 	option = {
 		name = "EVTOPTB18550"
 		any_pop = {
-			militancy = 1
+			militancy = 2
 		}
 		prestige = 10
 	}
@@ -197,7 +197,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 236
 	}
 	
 	option = {
@@ -226,7 +226,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 192
 	}
 	
 	option = {
@@ -256,7 +256,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 154
 	}
 	
 	option = {
