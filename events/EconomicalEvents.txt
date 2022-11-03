@@ -20,7 +20,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 1200
 		modifier = {
 			factor = 0.9
 			unemployment = 0.1
@@ -148,7 +148,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -221,7 +221,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 1.1
 			economic_policy = laissez_faire
@@ -276,7 +276,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 1200
 		modifier = {
 			factor = 0.9
 			economic_policy = laissez_faire
@@ -326,7 +326,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -377,7 +377,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 1200
 		modifier = {
 			factor = 0.9
 			economic_policy = laissez_faire
@@ -434,7 +434,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -491,7 +491,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			bank_inspection_board = 1

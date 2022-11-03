@@ -24,7 +24,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -94,7 +94,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			unemployment = 0.1
@@ -164,7 +164,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -237,7 +237,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -305,7 +305,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -373,7 +373,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			OR = {
@@ -449,7 +449,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -517,7 +517,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -582,7 +582,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_militancy = 2
@@ -651,7 +651,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -723,7 +723,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -777,7 +777,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 400
+		months = 1500
 		modifier = {
 			factor = 0.9
 			average_consciousness = 2
@@ -833,7 +833,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -901,7 +901,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			NOT = {

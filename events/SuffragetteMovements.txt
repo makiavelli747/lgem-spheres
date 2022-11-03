@@ -33,7 +33,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 150
+		months = 600
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -126,7 +126,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 900
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -225,7 +225,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 900
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -322,7 +322,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 20
+		months = 70
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -416,7 +416,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 75
+		months = 300
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -515,7 +515,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 250
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -616,7 +616,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -717,7 +717,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -824,7 +824,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -926,7 +926,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1025,7 +1025,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 175
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1130,7 +1130,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 360
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1225,7 +1225,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 220
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1319,7 +1319,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 900
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1418,7 +1418,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 350
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1527,7 +1527,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 350
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1633,7 +1633,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 350
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1728,7 +1728,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 150
+		months = 600
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3

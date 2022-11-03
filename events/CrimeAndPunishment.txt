@@ -14,7 +14,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_militancy = 3
@@ -85,7 +85,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		
 		modifier = {
 			factor = 0.9
@@ -166,7 +166,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 500
+		months = 2000
 		
 		modifier = {
 			factor = 0.9
@@ -233,7 +233,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 400
+		months = 1500
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -298,7 +298,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -351,7 +351,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 1000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -406,7 +406,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -453,7 +453,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -509,7 +509,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 400
+		months = 1500
 		
 		modifier = {
 			factor = 0.9

@@ -7,12 +7,12 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			poor_strata_everyday_needs = 0.4
+			poor_strata_everyday_needs = 0.8
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		
 		modifier = {
 			factor = 0.9
@@ -23,7 +23,7 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.35
+				poor_strata_everyday_needs = 0.7
 			}
 		}
 		modifier = {
@@ -60,7 +60,7 @@ country_event = {
 	}
 		
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			government = proletarian_dictatorship
@@ -102,16 +102,16 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			poor_strata_everyday_needs = 0.50
+			poor_strata_everyday_needs = 0.90
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.4
+				poor_strata_everyday_needs = 0.8
 			}
 		}
 		modifier = {
@@ -184,10 +184,10 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 750
+		months = 3000
 		modifier = {
 			factor = 0.9
-			NOT = { poor_strata_everyday_needs = 0.45 }
+			NOT = { poor_strata_everyday_needs = 0.9 }
 		}
 		modifier = {
 			factor = 0.9
@@ -204,7 +204,7 @@ country_event = {
 			organic_chemistry = 1
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.01
 			any_neighbor_country = {
 				has_country_modifier = pandemic_influenza
 			}
@@ -244,7 +244,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -254,7 +254,7 @@ country_event = {
 #		modifier = {
 #			factor = 0.9
 #			NOT = {
-#				luxury_needs = 0.45
+#				luxury_needs = 0.9
 #			}
 #		}
 		modifier = {
