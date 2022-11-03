@@ -23,9 +23,9 @@ commerce_raider = {
 	#Building Costs
 	build_time = 360
 	build_cost = {
-		steamer_convoy = 10
-		artillery = 3
-		canned_food = 2
+		steamer_convoy = 57
+		artillery = 36
+		canned_food = 57
 	}
 	min_port_level = 1
 	limit_per_port = -1

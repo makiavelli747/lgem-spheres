@@ -23,10 +23,10 @@ cruiser = {
 	#Building Costs
 	build_time = 240
 	build_cost = {
-		steamer_convoy = 30
-		artillery = 6
-		canned_food = 4
-		fuel = 10
+		steamer_convoy = 38
+		artillery = 24
+		canned_food = 48
+		fuel = 240
 	}
 	min_port_level = 4
 	limit_per_port = -1
