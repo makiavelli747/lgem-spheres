@@ -17,7 +17,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 125
+		months = 500
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -89,8 +89,8 @@ province_event = {
 		name = "EVTOPTA15000"		#Do Nothing
 		state_scope = {
 			any_pop = {
-				militancy = 2
-				
+				militancy = 5
+				consciousness = 5
 			}
 		}
 	}
@@ -98,12 +98,12 @@ province_event = {
 		name = "EVTOPTB15000"		# Investigate
 		state_scope = {
 			any_pop = {
-				
+				militancy = 2
 				consciousness = 2
 			}
 		}
 		owner = {
-			treasury = -5000
+			treasury = -50
 		}
 	}
 }
@@ -126,7 +126,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 1.5
 			owner = { num_of_cities = 50 }
@@ -238,7 +238,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 125
+		months = 500
 		modifier = {
 			factor = 1.5
 			owner = { num_of_cities = 50 }
@@ -323,7 +323,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 3
 			}
 		}
 	}
@@ -336,7 +336,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				militancy = 1
+				militancy = 4
 			}
 		}
 	}
@@ -362,7 +362,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		
 		modifier = {
 			factor = 1.5
@@ -430,7 +430,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 3
 				militancy = 1
 			}
 		}
@@ -462,7 +462,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 125
+		months = 500
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -537,7 +537,7 @@ province_event = {
 		name = "EVTOPTA15040"
 		state_scope = {
 			clergymen = {
-				consciousness = 2
+				consciousness = 3
 			}
 		}
 	}
@@ -571,7 +571,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -640,7 +640,7 @@ province_event = {
 		name = "EVTOPTA15050"
 		state_scope = {
 			any_pop = {
-				consciousness = 2
+				consciousness = 4
 			}
 		}
 	}
@@ -649,7 +649,7 @@ province_event = {
 		name = "EVTOPTB15050"
 		state_scope = {
 			any_pop = {
-				militancy = 1
+				militancy = 3
 			}
 		}
 	}
@@ -675,7 +675,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -742,8 +742,8 @@ province_event = {
 		name = "EVTOPTA15060"
 		state_scope = {
 			farmers = {
-				money = -100
-				militancy = 2
+				money = -10
+				militancy = 8
 			}
 		}
 		owner = {
@@ -755,7 +755,7 @@ province_event = {
 		name = "EVTOPTB15060"
 		state_scope = {
 			farmers = {
-				militancy = 1
+				militancy = 3
 			}
 		}
 	}
@@ -792,7 +792,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -868,10 +868,10 @@ province_event = {
 		state_scope = {
 			labourers = {
 				consciousness = 2
-				
+				militancy = 1
 			}
 			craftsmen = {
-				consciousness = 2
+				consciousness = 3
 			}
 		}
 	}
@@ -880,10 +880,10 @@ province_event = {
 		name = "EVTOPTB15070"
 		state_scope = {
 			labourers = {
-				militancy = 1
+				militancy = 2
 			}
 			craftsmen = {
-				
+				consciousness = 1
 				militancy = 1
 			}
 		}
@@ -905,7 +905,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 400
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -962,7 +962,7 @@ province_event = {
 		name = "EVTOPTA15080"
 		any_pop = {
 			reduce_pop = 0.99
-			
+			militancy = 4
 		}
 	}
 	
@@ -970,7 +970,7 @@ province_event = {
 		name = "EVTOPTB15080"
 		state_scope = {
 			any_pop = {
-				militancy = 1
+				militancy = 2
 			}
 		}
 	}
@@ -996,7 +996,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 70
+		months = 300
 		
 		modifier = {
 			factor = 1.5
@@ -1048,7 +1048,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 3
 			}
 		}
 	}
@@ -1059,7 +1059,7 @@ province_event = {
 			capital_scope = {
 				state_scope = {
 					any_pop = {
-						militancy = 1
+						militancy = 3
 					}
 				}
 			}
@@ -1088,7 +1088,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 125
+		months = 500
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -1158,10 +1158,10 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 3
 			}
 			farmers = {
-				militancy = 1
+				militancy = 2
 			}
 		}
 	}
@@ -1171,7 +1171,7 @@ province_event = {
 		state_scope = {
 			aristocrats = {
 				reduce_pop = 0.9
-				militancy = 1
+				militancy = 8
 			}
 		}
 	}
@@ -1198,7 +1198,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {	
 			factor = 0.9
 			average_consciousness = 4
@@ -1267,14 +1267,14 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 3
 			}
 			capitalists = {
 				limit = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 3
 			}
 		}
 	}
@@ -1320,7 +1320,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -1389,8 +1389,8 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				militancy = 1
-				
+				militancy = 3
+				consciousness = 1
 			}
 		}
 	}
@@ -1414,7 +1414,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1526,7 +1526,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 125
+		months = 500
 		
 		modifier = {
 			factor = 1.5
@@ -1640,7 +1640,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1741,7 +1741,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 150
+		months = 600
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1821,7 +1821,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB15160"
 		owner = {
-			money = -6000
+			money = -600
 		}
 		state_scope = {
 			any_pop = {
@@ -1853,7 +1853,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 150
+		months = 600
 		modifier = {
 			factor = 0.9
 			average_militancy = 7
@@ -1939,7 +1939,7 @@ province_event = {
 					is_primary_culture = no
 					militancy = 6
 				}
-				reduce_pop = 0.98
+				reduce_pop = 0.99
 				militancy = -1
 			}
 		}
@@ -1966,7 +1966,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -2109,7 +2109,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 75
+		months = 300
 		modifier = {
 			factor = 0.9
 			average_militancy = 6
@@ -2183,7 +2183,7 @@ province_event = {
 		name = "EVTOPTB15190"
 		state_scope = {
 			aristocrats = {
-				reduce_pop = 0.8
+				reduce_pop = 0.7
 				militancy = -2
 			}
 			farmers = {
@@ -2201,8 +2201,8 @@ province_event = {
 				militancy = -1
 			}
 			farmers = {
-				consciousness = 1
-				militancy = 1
+				consciousness = 4
+				militancy = 3
 			}
 		}
 	}
@@ -2235,7 +2235,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -2339,7 +2339,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -2407,7 +2407,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 1.5
 			}
 		}
 	}
@@ -2420,7 +2420,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				militancy = 1
+				militancy = 1.5
 			}
 		}
 	}
@@ -2446,7 +2446,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 450
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -2513,7 +2513,7 @@ province_event = {
 					is_accepted_culture = no
 					consciousness = 7
 				}
-				militancy = 1
+				militancy = 2
 				consciousness = -1
 			}
 		}
@@ -2529,8 +2529,8 @@ province_event = {
 					is_accepted_culture = no
 					consciousness = 7
 				}
-				militancy = 2
-				consciousness = -2
+				militancy = 4
+				consciousness = -3
 			}
 		}
 	}
@@ -2561,7 +2561,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 900
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -2651,7 +2651,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 4
 				militancy = 1
 			}
 		}
@@ -2673,7 +2673,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -2755,7 +2755,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				militancy = 1
+				militancy = 4
 			}
 		}
 	}
@@ -2790,7 +2790,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 500
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -2859,7 +2859,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 4
 			}
 			any_pop = {
 				limit = {
@@ -2870,7 +2870,7 @@ province_event = {
 						type = clergymen
 					}
 				}
-				consciousness = -1
+				consciousness = -2
 			}
 		}
 		owner = {
@@ -2908,7 +2908,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 500
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -3018,7 +3018,7 @@ province_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 700
 		modifier = {
 			factor = 0.9
 			average_militancy = 6
@@ -3094,7 +3094,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				militancy = 2
+				militancy = 4
 			}
 		}
 	}
@@ -3212,7 +3212,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 150
+		months = 600
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -3322,7 +3322,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 800
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -3399,7 +3399,7 @@ province_event = {
 		state_scope = {
 			poor_strata = {
 				consciousness = 1
-				militancy = 2
+				militancy = 3
 			}
 		}
 	}
@@ -3426,7 +3426,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 200
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -3499,7 +3499,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				militancy = 1
+				militancy = 2
 			}
 		}
 	}
@@ -3512,7 +3512,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				consciousness = 2
+				consciousness = 1
 			}
 		}
 	}
@@ -3539,7 +3539,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 75
+		months = 300
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -3621,7 +3621,7 @@ province_event = {
 					is_accepted_culture = no
 				}
 				money = -50
-				militancy = 1
+				militancy = 2
 				consciousness = 1
 			}
 		}
