@@ -7,7 +7,7 @@ fort = 1
 
 state_building = {
 	level = 1
-	building = winery
+	building = steel_factory
 	upgrade = yes
 }
 
