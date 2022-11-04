@@ -10,12 +10,12 @@ state_building = {
 }
 state_building = {
 	level = 1
-	building = cement_factory
+	building = ammunition_factory
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = luxury_clothes_factory
+	building = paper_mill
 	upgrade = yes
 }
 1861.1.1 = {
