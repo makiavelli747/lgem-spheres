@@ -32,27 +32,27 @@ luxury_needs = {
 }
 
 everyday_needs = {
-	steel = 0.5
-	fabric = 1
-	glass = 1.5
-	lumber = 0.5
-	explosives = 0.5
-	fertilizer = 0.125
-	sulphur = 0.25
-	silk = 0.125
-	cotton = 0.65
-	dye = 0.33
-	iron = 0.25
-	coal = 0.5
-	timber = 0.35
+	steel = 1
+	fabric = 2
+	glass = 3
+	lumber = 1
+	explosives = 1
+	fertilizer = 0.25
+	sulphur = 0.5
+	silk = 0.25
+	cotton = 1.25
+	dye = 0.75
+	iron = 0.5
+	coal = 1
+	timber = 0.75
 }
 
 life_needs = {
-	cattle = 1
-	wool =  0.5
-	fish =  1
-	fruit = 0.75
-	grain = 4
+	cattle = 2
+	wool =  1
+	fish =  2
+	fruit = 1.5
+	grain = 8
 }
 
 
