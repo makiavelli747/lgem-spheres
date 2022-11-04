@@ -313,23 +313,23 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = 5
+				factor = 1
 				state_scope = { bureaucrats = 0.01 }
 			}
 			modifier = {
-				factor = 5
+				factor = 1
 				state_scope = { bureaucrats = 0.02 }
 			}
 			modifier = {
-				factor = 5
+				factor = 1
 				state_scope = { bureaucrats = 0.03 }
 			}
 			modifier = {
-				factor = 5
+				factor = 1
 				state_scope = { bureaucrats = 0.04 }
 			}
 			modifier = {
-				factor = 5
+				factor = 1
 				state_scope = { bureaucrats = 0.05 }
 			}
 		}
