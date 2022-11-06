@@ -13,11 +13,11 @@ rebel =
 
 
 luxury_needs = {
-	luxury_clothes = 0.5
+	luxury_clothes = 1
 	luxury_furniture = 0.25
 	clipper_convoy = 0.5
 	opium = 1.25
-	regular_clothes = 5
+	regular_clothes = 10
 	furniture = 5
 	liquor = 5
 	wine = 5
