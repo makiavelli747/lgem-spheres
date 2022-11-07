@@ -15,6 +15,8 @@ party_issues = {
 	economic_policy = {
 		laissez_faire = {
 			min_social_spending = 0.5
+			max_social_spending = 0.5
+			min_tax = 0.5
 			max_tax = 0.5
 			factory_owner_cost = 0.3
 			factory_output = 0.3
@@ -41,8 +43,9 @@ party_issues = {
 		}
 		interventionism = {
 			min_social_spending = 0.65
+			max_social_spending = 0.65
 			max_tax = 0.65
-			min_tax = 0.15
+			min_tax = 0.65
 			factory_owner_cost = 0.6
 			factory_output = 0.1
 			rules = {
@@ -69,8 +72,9 @@ party_issues = {
 		}
 		state_capitalism = {
 			min_social_spending = 0.80
+			max_social_spending = 0.8
 			max_tax = 0.80
-			min_tax = 0.3
+			min_tax = 0.8
 			factory_throughput = 0.1
 			factory_owner_cost = 0.9
 			rules = {
@@ -92,7 +96,7 @@ party_issues = {
 			}
 		}
 		planned_economy = {
-			min_tax = 0.5
+			min_tax = 1
 			min_social_spending = 1
 			factory_throughput = 0.3
 			factory_owner_cost = -1	#negative costs, can't build.
