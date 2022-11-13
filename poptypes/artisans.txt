@@ -33,7 +33,7 @@ luxury_needs = {
 
 everyday_needs = {
 	glass = 8
-	steel = 4
+	steel = 6
 	fabric = 8
 	lumber = 4
 	explosives = 1
