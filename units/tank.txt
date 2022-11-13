@@ -18,18 +18,18 @@ tank = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		barrels = 30
-		artillery = 15
-		fuel = 20
-		canned_food = 25
+		barrels = 15
+		artillery = 7
+		fuel = 10
+		canned_food = 15
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		barrels = 0.24
-		artillery = 0.12
-		fuel = 0.16
-		canned_food = 0.2
+		barrels = 0.12
+		artillery = 0.06
+		fuel = 0.08
+		canned_food = 0.1
 	}
 	
 

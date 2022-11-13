@@ -18,14 +18,14 @@ irregular = {
 	#Building Costs
 	build_time = 45
 	build_cost = {
-		iron = 45
-		canned_food = 10
+		iron = 20
+		canned_food = 5
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		iron = 1
-		canned_food = 0.25
+		iron = 0.5
+		canned_food = 0.125
 	}
 	
 
