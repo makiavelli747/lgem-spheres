@@ -4,12 +4,12 @@
 party_issues = {
 	trade_policy = {
 		protectionism = {
-			max_tariff = 0.2
-			min_tariff = 0.2
+			max_tariff = 0.5
+			min_tariff = 0.5
 		}
 		free_trade = {
-			max_tariff = 0.1
-			min_tariff = 0.1
+			max_tariff = 0.25
+			min_tariff = 0.25
 		}
 	}
 	economic_policy = {
@@ -122,30 +122,34 @@ party_issues = {
 	
 	religious_policy = {
 		pro_atheism = {
-			#no effect
+			global_pop_consciousness_modifier = 0.03
 		}
 		secularized = {
-			#no effect
+			global_pop_consciousness_modifier = 0.01
 		}
 		pluralism = {
-			#no effect
+			global_pop_consciousness_modifier = -0.01
 		}
 		moralism = {
-			#no effect
+			global_pop_consciousness_modifier = -0.03
 		}
 	}
 	citizenship_policy = {
 		residency = {
 			rules = { primary_culture_voting = yes }
+			non_accepted_pop_militancy_modifier = 0.02
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }
 			global_assimilation_rate = 0.10
+			non_accepted_pop_militancy_modifier = 0.01
+			
 
 		}
 		full_citizenship = {
 			rules = { all_voting = yes }
 			global_assimilation_rate = 0.25
+			
 		}
 	}
 	war_policy = {
