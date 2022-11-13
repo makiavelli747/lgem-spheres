@@ -13,7 +13,8 @@ political_decisions = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
 			}
-			owns = 570
+
+			
 		}
 		
 		allow = {
