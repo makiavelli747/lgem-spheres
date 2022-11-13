@@ -257,52 +257,52 @@ demotion_chance =
 		modifier = {
 			factor = 0.02
 			consciousness = 0.5
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 1
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 2
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 3
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 4
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 5
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 6
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 7
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 8
-			strata = poor
+			
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 9
-			strata = poor
+			
 		}
 	}
 
