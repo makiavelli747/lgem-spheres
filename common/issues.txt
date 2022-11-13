@@ -19,7 +19,7 @@ party_issues = {
 			min_tax = 0.5
 			max_tax = 0.5
 			factory_owner_cost = 0.3
-			factory_output = 0.3
+			factory_output = 0.2
 			
 			rules = {
 				build_factory = no
@@ -98,7 +98,7 @@ party_issues = {
 		planned_economy = {
 			min_tax = 1
 			min_social_spending = 1
-			factory_throughput = 0.3
+			factory_throughput = 0.2
 			factory_owner_cost = -1	#negative costs, can't build.
 			rules = {
 				build_factory = yes
