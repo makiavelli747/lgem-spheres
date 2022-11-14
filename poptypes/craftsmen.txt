@@ -12,8 +12,9 @@ everyday_needs = {
 	liquor = 3
 	furniture = 2
 	tea = 3
-	coal = 1
-	timber = 1
+	coal = 3
+	timber = 2
+	iron = 1
 }
 
 life_needs = {
