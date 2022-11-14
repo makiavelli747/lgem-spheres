@@ -3,8 +3,8 @@
 
 factory_template = {
 	efficiency = {
-		machine_parts = 0.125 # was 0.01 cost = 36.5		# 9.825/day/level for both
-		coal = 1
+		machine_parts = 0.25 # was 0.01 cost = 36.5		# 9.825/day/level for both
+		
 	}
 	
 	owner =
@@ -34,8 +34,8 @@ factory_template = {
 
 cheap_factory_template = {
 	efficiency = {
-		machine_parts = 0.125 #if no cement, work at 75% efficiency #cost = ?4/level
-		coal = 1
+		machine_parts = 0.25 #if no cement, work at 75% efficiency #cost = ?4/level
+		
 		
 	}
 	
@@ -97,8 +97,8 @@ machine_part_user_template = {
 
 cement_template = {
 	efficiency = {
-		machine_parts = 0.125 # was 0.01 cost = 36.5 		#9.825/day/level for both
-		coal = 1
+		machine_parts = 0.25 # was 0.01 cost = 36.5 		#9.825/day/level for both
+		
 	}
 	
 	owner =
