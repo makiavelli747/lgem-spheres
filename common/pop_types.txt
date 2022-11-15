@@ -257,52 +257,52 @@ demotion_chance =
 		modifier = {
 			factor = 0.02
 			consciousness = 0.5
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 1
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 2
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 3
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 4
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 5
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 6
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 7
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 8
-			
+			strata = poor
 		}
 		modifier = {
 			factor = 0.02
 			consciousness = 9
-			
+			strata = poor
 		}
 	}
 
@@ -321,31 +321,7 @@ demotion_chance =
 		}
 	}
 	group = {
-		modifier = {
-			factor = 0.02
-			not = { everyday_needs = 1 }
-			strata = middle
-		}
-		modifier = {
-			factor = 0.02
-			not = { everyday_needs = 0.9 }
-			strata = middle
-		}
-		modifier = {
-			factor = 0.02
-			not = { everyday_needs = 0.8 }
-			strata = middle
-		}
-		modifier = {
-			factor = 0.02
-			not = { everyday_needs = 0.7 }
-			strata = middle
-		}
-		modifier = {
-			factor = 0.02
-			not = { everyday_needs = 0.6 }
-			strata = middle
-		}
+
 		modifier = {
 			factor = 0.02
 			not = { everyday_needs = 0.5 }
@@ -373,45 +349,83 @@ demotion_chance =
 		}
 	}
 	group = {
+
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.5 }
+			strata = rich
+		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.4 }
+			strata = rich
+		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.3 }
+			strata = rich
+		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.2 }
+			strata = rich
+		}
+		modifier = {
+			factor = 0.02
+			not = { everyday_needs = 0.1 }
+			strata = rich
+		}
+	}
+	group = {
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.05
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.1
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.2
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.3
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.4
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.5
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.6
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.7
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.8
+			strata = poor
 		}
 		modifier = {
 			factor = -0.02
 			everyday_needs = 0.9
+			strata = poor
 		}
 	}
 	group = {
