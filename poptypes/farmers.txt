@@ -1006,12 +1006,12 @@ ideologies = {
 			}
 
 		modifier = {
-			factor = 5
+			factor = 3
 			ruling_party_ideology = fascist
 		}
 
 		modifier = {
-			factor = 5
+			factor = 3
 			nationalvalue = nv_order
 		}
 	}
@@ -1024,58 +1024,31 @@ ideologies = {
 			factor = 2
 			nationalvalue = nv_order
 		}
-		modifier = {
-			factor = 1.5
-			NOT = {	literacy = 1	}
-			
-		}
-		modifier = {
-			factor = 1.5
-			NOT = {	literacy = 0.9	}
-			
-		}
 
 		modifier = {
-			factor = 1.5
-			NOT = {	literacy = 0.8	}
-			
-		}
-
-		modifier = {
-			factor = 1.5
-			NOT = {	literacy = 0.7	}
-			
-		}
-		modifier = {
-			factor = 1.5
-			NOT = {	literacy = 0.6	}
-			
-		}
-		
-		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = {	literacy = 0.5	}
 			
 		}
 
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = {	literacy = 0.4	}
 			
 		}
 
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = {	literacy = 0.3	}
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = {	literacy = 0.2	}
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = {	literacy = 0.1	}
 			
 		}
@@ -1092,44 +1065,25 @@ ideologies = {
 			factor = 2
 			nationalvalue = nv_order
 		}
+
 		modifier = {
-			factor = 1.5
-			NOT = { consciousness = 10 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { consciousness = 9 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { consciousness = 8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { consciousness = 7 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { consciousness = 6 }
-		}
-		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { consciousness = 5 }
 		}	
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { consciousness = 4 }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { consciousness = 3 }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { consciousness = 2 }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { consciousness = 1 }
 		}	
 
@@ -1139,52 +1093,32 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 3
+			factor = 2
 			nationalvalue = nv_equality
 		}
+	
 		modifier = {
-			factor = 1.5
-			literacy = 0.1
-		}
-		modifier = {
-			factor = 1.5
-			literacy = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			literacy = 0.3	
-		}
-		modifier = {
-			factor = 1.5
-			literacy = 0.4
-		}
-			
-		modifier = {
-			factor = 1.5
+			factor = 2
 			literacy = 0.5	
 		}
 
 		modifier = {
-			factor = 1.5
+			factor = 2
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			literacy = 0.8
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			literacy = 0.9
 			
-		}
-		modifier = {
-			factor = 1.5
-			literacy = 1
 		}
 
 	}
@@ -1193,118 +1127,69 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 3
+			factor = 2
 			nationalvalue = nv_equality
 			
 		}
 		modifier = {
-			factor = 5
+			factor = 3
 			ruling_party_ideology = communist
 		}
 
 		modifier = {
-			factor = 1.5
-			NOT = { everyday_needs = 1 }
-			
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { everyday_needs = 0.9 }
-			 
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { everyday_needs = 0.8 }
-			 
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { everyday_needs = 0.7 }
-			 
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { everyday_needs = 0.6 }
-			
-		}
-		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { everyday_needs = 0.5 }
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { everyday_needs = 0.4 }
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { everyday_needs = 0.3 }
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { everyday_needs = 0.2 }
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { everyday_needs = 0.1 }
 			
 		}
 
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.1	
 			ruling_party_ideology = communist 
 		}
 
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.2	
 			ruling_party_ideology = communist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.3
 			ruling_party_ideology = communist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.4
 			ruling_party_ideology = communist 
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.5
 			ruling_party_ideology = communist 
 		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 0.6	
-			ruling_party_ideology = communist 
-		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 0.7	
-			ruling_party_ideology = communist 
-		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 0.8
-			ruling_party_ideology = communist 
-		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 0.9	
-			ruling_party_ideology = communist 
-		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 1
-			ruling_party_ideology = communist 
-		}
+
 
 	}
 	liberal = {
@@ -1315,46 +1200,25 @@ ideologies = {
 			nationalvalue = nv_liberty
 		}
 		modifier = {
-			factor = 1.5
-			consciousness = 1
-		}
-		modifier = {
-			factor = 1.5
-			consciousness = 2
-		}
-		modifier = {
-			factor = 1.5
-			consciousness = 3
-		}
-		modifier = {
-			factor = 1.5
-			consciousness = 4
-		}
-
-		modifier = {
-			factor = 1.5
+			factor = 2
 			consciousness = 5
 		}
 
 		modifier = {
-			factor = 1.5
+			factor = 2
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.5
-			consciousness = 10
 		}
 
 	}
@@ -1367,58 +1231,33 @@ ideologies = {
 		}
 
 		modifier = {
-			factor = 5
+			factor = 3
 			ruling_party_ideology = anarcho_liberal
 		}
 
 		modifier = {
-			factor = 1.5
-			everyday_needs = 0.1
-			 
-		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 0.2
-			
-		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 0.3
-			 
-		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 0.4
-			
-		}
-		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.5
 			 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.6
 			 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.7
 			 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.8
 			 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			everyday_needs = 0.9
-			 
-		}
-		modifier = {
-			factor = 1.5
-			everyday_needs = 1
 			 
 		}
 
