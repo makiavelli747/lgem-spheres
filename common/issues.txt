@@ -122,7 +122,7 @@ party_issues = {
 	
 	religious_policy = {
 		pro_atheism = {
-			global_pop_consciousness_modifier = 0.03
+			global_pop_consciousness_modifier = 0.02
 		}
 		secularized = {
 			global_pop_consciousness_modifier = 0.01
@@ -131,7 +131,7 @@ party_issues = {
 			global_pop_consciousness_modifier = -0.01
 		}
 		moralism = {
-			global_pop_consciousness_modifier = -0.03
+			global_pop_consciousness_modifier = -0.02
 		}
 	}
 	citizenship_policy = {
