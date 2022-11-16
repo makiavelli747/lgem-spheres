@@ -1189,7 +1189,7 @@ ideologies = {
 
 	}
 	liberal = {
-		factor = 1
+		factor = 2
 
 		modifier = {
 			factor = 2
@@ -1219,7 +1219,7 @@ ideologies = {
 
 	}
 	anarcho_liberal = {
-		factor = 1
+		factor = 2
 
 		modifier = {
 			factor = 2
