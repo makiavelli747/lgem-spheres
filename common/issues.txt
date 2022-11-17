@@ -97,7 +97,9 @@ party_issues = {
 		}
 		planned_economy = {
 			min_tax = 1
+			max_tax = 1
 			min_social_spending = 1
+			max_social_spending = 1
 			factory_throughput = 0.2
 			factory_owner_cost = -1	#negative costs, can't build.
 			rules = {
@@ -155,6 +157,7 @@ party_issues = {
 	war_policy = {
 		jingoism = {
 			min_military_spending = 1
+			max_military_spending = 1
 			war_exhaustion_effect = 0.5
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
