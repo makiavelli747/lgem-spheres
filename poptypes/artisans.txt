@@ -47,6 +47,7 @@ everyday_needs = {
 	timber = 3
 	oil = 0.5
 	rubber = 0.5
+	electric_gear = 0.5
 }
 
 life_needs = {
