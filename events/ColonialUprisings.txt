@@ -17,7 +17,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000	
+		months = 2000	
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -101,7 +101,7 @@ country_event  = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -165,7 +165,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 600
+		months = 1200
 		modifier = {
 			factor = 0.9
 			upper_house = {
@@ -233,7 +233,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1500
+		months = 3000
 	}
 	
 	option = {
@@ -276,7 +276,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 2400
 		
 		modifier = {
 			factor = 0.9
@@ -337,7 +337,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1600
 		modifier = {
 			factor = 0.9
 			literacy = 0.8
@@ -393,7 +393,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1300
+		months = 2600
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -466,7 +466,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_militancy = 3
@@ -523,7 +523,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 2400
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -583,7 +583,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -654,7 +654,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1500
+		months = 3000
 		modifier = {
 			factor = 0.9
 			average_militancy = 3
@@ -701,7 +701,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -750,7 +750,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -813,7 +813,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -874,7 +874,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 2400
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -934,7 +934,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1400
+		months = 2800
 		
 		modifier = {
 			factor = 0.8
@@ -1009,7 +1009,7 @@ province_event = {
 		}
 	
 	mean_time_to_happen = {
-		months = 2400
+		months = 4800
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1085,7 +1085,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 2000
+		months = 4000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -1141,7 +1141,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {	
-		months = 700
+		months = 1400
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -1203,7 +1203,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1600
 		modifier = {
 			factor = 0.9
 			prestige = 40
@@ -1264,7 +1264,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 2400
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1314,7 +1314,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.8
 			economic_policy = state_capitalism
@@ -1371,7 +1371,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 2400
 		modifier = {
 			factor = 0.9
 			war_exhaustion = 4
@@ -1443,7 +1443,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1600
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -1525,7 +1525,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1500
+		months = 3000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1594,7 +1594,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1646,7 +1646,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -1704,7 +1704,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1600
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1766,7 +1766,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 2000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1825,7 +1825,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1600
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1877,7 +1877,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 2400
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -1932,7 +1932,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1600
 		modifier = {
 			factor = 0.9
 			average_consciousness = 6
