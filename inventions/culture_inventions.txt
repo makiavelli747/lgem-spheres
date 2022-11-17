@@ -962,7 +962,7 @@ authoritarianism = {
 				}
 		}
 	}
-	core_pop_consciousness_modifier = -0.02
+	global_pop_consciousness_modifier = -0.02
 }
 hierarchical_order = {
 	news = no
@@ -1010,7 +1010,7 @@ traditionalism = {
 			government = prussian_constitutionalism
 		}
 	}
-	core_pop_consciousness_modifier = -0.01
+	global_pop_consciousness_modifier = -0.01
 }
 political_religion = {
 	limit = { ideological_thought = 1 }
