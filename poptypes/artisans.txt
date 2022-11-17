@@ -45,6 +45,8 @@ everyday_needs = {
 	iron = 4
 	coal = 3
 	timber = 3
+	oil = 0.5
+	rubber = 0.5
 }
 
 life_needs = {
@@ -808,6 +810,7 @@ promote_to =
 				economic_policy = planned_economy
 			}
 		}
+
 		modifier = {
 			factor = -10
 			NOT = { literacy = 0.30 }
