@@ -792,7 +792,7 @@ ideologies = {
 			}
 
 		modifier = {
-			factor = 3
+			factor = 5
 			ruling_party_ideology = fascist
 		}
 
@@ -918,7 +918,7 @@ ideologies = {
 			
 		}
 		modifier = {
-			factor = 3
+			factor = 5
 			ruling_party_ideology = communist
 		}
 
@@ -1017,7 +1017,7 @@ ideologies = {
 		}
 
 		modifier = {
-			factor = 3
+			factor = 5
 			ruling_party_ideology = anarcho_liberal
 		}
 
