@@ -695,7 +695,7 @@ pops = {
 ai =
 {
 	COLONY_WEIGHT = 10.0, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 30.0, -- ai weight for new bureaucrat
+	ADMINISTRATOR_WEIGHT = 10.0, -- ai weight for new bureaucrat
 	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
 	EDUCATOR_WEIGHT = 30.0, -- ai weigth for new clergy
 	SOLDIER_WEIGHT = 10.0, -- ai weight for soldiers
