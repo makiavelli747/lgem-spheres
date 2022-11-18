@@ -7,14 +7,14 @@ equivalent = farmers
 
 
 everyday_needs = {
-	regular_clothes = 2
-	liquor = 2.5
-	furniture = 1
-	tea = 2
+	regular_clothes = 4
+	liquor = 5
+	furniture = 2
+	tea = 4
 	explosives = 1
-	coal = 2
-	timber = 1
-	iron = 1
+	coal = 4
+	timber = 2
+	iron = 2
 }
 
 life_needs = {
@@ -27,18 +27,18 @@ life_needs = {
 
 
 luxury_needs = {	
-	regular_clothes = 2
-	liquor = 1
-	furniture = 1
-	tea = 1
-	wine = 1
-	paper = 2
-	tobacco = 1
-	coffee = 0.5
-	automobiles = 0.5
-	fuel = 0.5
-	telephones = 0.5
-	radio = 1
+	regular_clothes = 4
+	liquor = 2
+	furniture = 2
+	tea = 2
+	wine = 2
+	paper = 4
+	tobacco = 2
+	coffee = 1
+	automobiles = 1
+	fuel = 1
+	telephones = 1
+	radio = 2
 }
 
 
@@ -1086,7 +1086,7 @@ ideologies = {
 	}
 
 	socialist = {
-		factor = 1
+		factor = 2
 
 		modifier = {
 			factor = 2
@@ -1120,7 +1120,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1
+		factor = 2
 
 		modifier = {
 			factor = 2
@@ -1189,7 +1189,7 @@ ideologies = {
 
 	}
 	liberal = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 2
@@ -1219,7 +1219,7 @@ ideologies = {
 
 	}
 	anarcho_liberal = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 2
