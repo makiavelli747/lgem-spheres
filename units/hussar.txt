@@ -29,9 +29,9 @@ hussar = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		small_arms = 0.1 #0.55
-		ammunition = 0.1
-		canned_food = 0.08
+		small_arms = 0.15 #0.55
+		ammunition = 0.05
+		canned_food = 0.04
 	}
 	
 
