@@ -402,23 +402,23 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = -4
+				factor = -2
 				state_scope = { bureaucrats = 0.002 }
 			}
 			modifier = {
-				factor = -4
+				factor = -2
 				state_scope = { bureaucrats = 0.004 }
 			}
 			modifier = {
-				factor = -4
+				factor = -2
 				state_scope = { bureaucrats = 0.006 }
 			}
 			modifier = {
-				factor = -4
+				factor = -2
 				state_scope = { bureaucrats = 0.008 }
 			}
 			modifier = {
-				factor = -4
+				factor = -2
 				state_scope = { bureaucrats = 0.010 }
 			}
 			modifier = {
@@ -900,7 +900,7 @@ promote_to =
 			}
 			modifier = {
 				factor = 2
-				education_spending =0.99
+				education_spending =0.95
 			}
 		}
 		group = {		
