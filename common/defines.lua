@@ -115,7 +115,7 @@ economy = {
 	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.99, -- % of how much we pay to the pops and capitalists, from the leftovers.
 	MAX_FACTORY_MONEY_SAVE = 1000,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 10000,
-	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.7, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
+	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.8, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,	-- how fast pops are Hired when there is a medium demand
 	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.4,		-- how fast pops are Fired when there is a low demand
@@ -178,8 +178,8 @@ military = {
 	AI_SUPPORT_PROPORTION = 0.5, -- fraction of brigades that should be artillery and other support units
 	AI_SPECIAL_PROPORTION = 0.0, -- fraction of brigades that should be engineers and tanks
 	AI_ESCORT_RATIO = 1.0, -- ratio of escorts to transports in invasion fleets
-	AI_ARMY_TAXBASE_FRACTION = 0.5, -- max of tax base that AI will spend on army supply costs (based on peacetime costs)
-	AI_NAVY_TAXBASE_FRACTION = 0.5, -- max of tax base that AI will spend on navy supply costs (based on peacetime costs)
+	AI_ARMY_TAXBASE_FRACTION = 0.4, -- max of tax base that AI will spend on army supply costs (based on peacetime costs)
+	AI_NAVY_TAXBASE_FRACTION = 0.4, -- max of tax base that AI will spend on navy supply costs (based on peacetime costs)
 	AI_BLOCKADE_RANGE = 200, -- max distance the AI will send out blockade fleets from their home base
 	RECON_UNIT_RATIO = 0.1, -- the % of units in the army that must have a recon value to get the full bonus
 	ENGINEER_UNIT_RATIO = 0.1, -- the % of units in the army that must have a fort attack value to get the full bonus
@@ -695,10 +695,10 @@ pops = {
 ai =
 {
 	COLONY_WEIGHT = 10.0, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 30.0, -- ai weight for new bureaucrat
+	ADMINISTRATOR_WEIGHT = 50.0, -- ai weight for new bureaucrat
 	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
-	EDUCATOR_WEIGHT = 30.0, -- ai weigth for new clergy
-	SOLDIER_WEIGHT = 30.0, -- ai weight for soldiers
+	EDUCATOR_WEIGHT = 50.0, -- ai weigth for new clergy
+	SOLDIER_WEIGHT = 10.0, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
 	CAPITALIST_FRACTION = 0.001, -- max amount of population AI wants to be capis
 	PRODUCTION_WEIGHT = 10.0, -- ai weight for new production
