@@ -386,22 +386,22 @@ social_reforms = {
 		no_minimum_wage = {
 		}
 		trinket_wage = {
-			minimum_wage = 1
+			minimum_wage = 0.5
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_minimum_wage = {
-			minimum_wage = 2
+			minimum_wage = 1
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 3
+			minimum_wage = 1.5
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		good_minimum_wage = {
-			minimum_wage = 4
+			minimum_wage = 2
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 		}
