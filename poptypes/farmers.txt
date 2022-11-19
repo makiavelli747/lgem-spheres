@@ -657,43 +657,43 @@ promote_to =
 		group = {
 			modifier = {
 				factor = 2
-				military_spending = 0.10
+				military_spending = 0.05
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.20
+				military_spending = 0.15
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.30
+				military_spending = 0.25
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.40
+				military_spending = 0.35
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.5
+				military_spending = 0.45
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.6
+				military_spending = 0.55
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.7
+				military_spending = 0.65
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.8
+				military_spending = 0.75
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.9
+				military_spending = 0.85
 			}
 			modifier = {
 				factor = 2
-				military_spending = 0.99
+				military_spending = 0.95
 			}
 		}
 		group = {
