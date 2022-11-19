@@ -472,19 +472,19 @@ demotion_chance =
 	}
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.15
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.2
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.25
 		}
 		
