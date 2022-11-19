@@ -778,12 +778,6 @@ promote_to =
 			}
 		}
 		modifier = {
-			factor = 10
-			state_scope = {
-				has_factories = yes
-			}
-		}
-		modifier = {
 			factor = -40
 			AND = {
 				state_scope = {
