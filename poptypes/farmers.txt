@@ -482,6 +482,22 @@ promote_to =
 				state_scope = { bureaucrats = 0.04 }
 			}
 			modifier = {
+				factor = -4
+				state_scope = { bureaucrats = 0.042 }
+			}
+			modifier = {
+				factor = -4
+				state_scope = { bureaucrats = 0.044 }
+			}
+			modifier = {
+				factor = -4
+				state_scope = { bureaucrats = 0.046 }
+			}
+			modifier = {
+				factor = -4
+				state_scope = { bureaucrats = 0.048 }
+			}
+			modifier = {
 				factor = -100
 				state_scope = { bureaucrats = 0.05 }
 			}
@@ -568,15 +584,7 @@ promote_to =
 		group = {
 			modifier = {
 				factor = 2
-				crime_fighting = 0.05
-			}
-			modifier = {
-				factor = 2
 				crime_fighting = 0.1
-			}
-			modifier = {
-				factor = 2
-				crime_fighting = 0.15
 			}
 			modifier = {
 				factor = 2
@@ -584,15 +592,7 @@ promote_to =
 			}
 			modifier = {
 				factor = 2
-				crime_fighting = 0.25
-			}
-			modifier = {
-				factor = 2
 				crime_fighting = 0.3
-			}
-			modifier = {
-				factor = 2
-				crime_fighting = 0.35
 			}
 			modifier = {
 				factor = 2
@@ -600,11 +600,27 @@ promote_to =
 			}
 			modifier = {
 				factor = 2
-				crime_fighting = 0.45
+				crime_fighting = 0.5
 			}
 			modifier = {
 				factor = 2
-				crime_fighting = 0.5
+				crime_fighting = 0.6
+			}
+			modifier = {
+				factor = 2
+				crime_fighting = 0.7
+			}
+			modifier = {
+				factor = 2
+				crime_fighting = 0.8
+			}
+			modifier = {
+				factor = 2
+				crime_fighting = 0.9
+			}
+			modifier = {
+				factor = 2
+				crime_fighting = 0.95
 			}
 		}
 	}
