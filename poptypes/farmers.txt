@@ -462,7 +462,7 @@ promote_to =
 				state_scope = { bureaucrats = 0.03 }
 			}
 			modifier = {
-				factor = -2
+				factor = -100
 				state_scope = { bureaucrats = 0.04 }
 			}
 			modifier = {
