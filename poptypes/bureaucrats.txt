@@ -423,37 +423,7 @@ promote_to =
 		}
 	}
 	
-	officers =
-	{
-		factor = 0.01
-		modifier = {
-			factor = -1
-			NOT = { literacy = 0.30 }
-		}
-		modifier = {
-			factor = -100
-			officers = 0.02
-		}		
-
-		modifier = {
-			factor = 5
-			literacy = 0.5
-		}
-		group = {
-			modifier = {
-				factor = 5
-				military_spending = 0.3
-			}
-			modifier = {
-				factor = 10
-				military_spending = 0.5
-			}
-			modifier = {
-				factor = 15
-				military_spending = 0.7
-			}
-		}
-	}
+	
 	clerks = {
 		factor = 0.01
 	
