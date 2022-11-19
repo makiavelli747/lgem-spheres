@@ -1077,7 +1077,7 @@ emigration_chance =
 		}
 		modifier = {
 			factor = 1
-			unemployment = 0.8
+			unemployment = 0.95
 		}
 		
 	}
