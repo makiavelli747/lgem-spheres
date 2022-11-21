@@ -28,7 +28,7 @@ everyday_needs_income =
 
 luxury_needs_income =
 {
-	type = administration
+	type = reforms
 	weight = 1
 }
 
