@@ -355,7 +355,7 @@ late_classical_theory = {
 	cost = 7200
 
 	factory_input = -0.01
-	tax_eff = -4
+	tax_eff = -3
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -386,7 +386,7 @@ collectivist_theory = {
 	cost = 10800
 
 	factory_input = -0.01
-	tax_eff = -4
+	tax_eff = -3
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -417,7 +417,7 @@ the_historical_theory = {
 	cost = 14400
 
 	factory_input = -0.01
-	tax_eff = -4
+	tax_eff = -3
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -448,7 +448,7 @@ neoclassical_theory = {
 	cost = 18000
 
 	factory_input = -0.01
-	tax_eff = -4
+	tax_eff = -3
 	ai_chance = {
 		factor = 1
 		modifier = {
@@ -479,7 +479,7 @@ keynesian_economics = {
 	cost = 21600
 
 	factory_input = -0.01
-	tax_eff = -4
+	tax_eff = -3
 	ai_chance = {
 		factor = 1.01
 		modifier = {
