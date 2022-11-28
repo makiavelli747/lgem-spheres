@@ -948,7 +948,7 @@ nationalist_rebels = {
 		
 
 		modifier = {
-			factor = 1.015
+			factor = 2
 			NOT = { is_culture_group = THIS }
 		}
 		
@@ -957,11 +957,11 @@ nationalist_rebels = {
 			is_accepted_culture = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 2
 			is_accepted_culture = no
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2
 			location = {
 				is_colonial = yes
 			}
