@@ -668,8 +668,8 @@ fabric_factory = {
 cement_factory = {       
 	template = cement_template
 	input_goods = {           
-		coal = 12		#50		total input+maint = 37
-		machine_parts = 0.5
+		coal = 16		#50		total input+maint = 37
+		
 	} 
 	output_goods = cement 
 	value = 5			#48
