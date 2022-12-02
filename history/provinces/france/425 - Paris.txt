@@ -18,6 +18,16 @@ state_building = {
 	building = paper_mill
 	upgrade = yes
 }
+
+
+state_building = {
+	level = 1
+	building = luxury_clothes_factory 
+	upgrade = yes
+}
+
+
+
 1861.1.1 = {
 	state_building = {
 		level = 2
