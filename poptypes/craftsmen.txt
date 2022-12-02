@@ -672,7 +672,7 @@ ideologies = {
 	
 	fascist = {
 
-		factor = 2
+		factor = 1
 		
 			modifier = {
 				factor = 2
