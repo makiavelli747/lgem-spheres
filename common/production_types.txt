@@ -250,9 +250,9 @@ electric_gear_factory = {
 machine_parts_factory = {       
 	template = machine_part_user_template
 	input_goods = {    
-		steel = 6		#30
-		coal = 6		#20  total input+maint = 66
-		machine_parts = 0.5
+		steel = 8		#30
+		coal = 8		#20  total input+maint = 66
+		
 	}
 	output_goods = machine_parts 
 	value = 2.5			#73
