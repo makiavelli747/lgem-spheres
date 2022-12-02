@@ -6,17 +6,15 @@ add_core = PRU
 
 add_core = GER
 
-add_core = POL
-
-add_core = PLC
-
-trade_goods = grain
+trade_goods = coal
 
 life_rating = 40
 
+fort = 1
+
 state_building = {
-	level = 2
-	building = liquor_distillery 
+	level = 1
+	building = artillery_factory 
 	upgrade = yes
 }
 
