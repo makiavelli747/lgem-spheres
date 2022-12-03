@@ -53,7 +53,7 @@ strategic_mobility = {
 	unciv_military = yes
 	
 	army_base = {
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 	max_fort = 1
 	dig_in_cap = 1
@@ -624,7 +624,7 @@ iron_muzzle_loaded_artillery = {
 	artillery = {
 		attack = 0.25
 		support = 0.5
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 	
 	ai_chance = {
@@ -892,7 +892,7 @@ military_plans = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 	
 	ai_chance = {
@@ -1155,7 +1155,7 @@ army_professionalism = {
 	military_tactics = 0.25
 	
 	army_base = {
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 	ai_chance = {
 		factor = 1.1
