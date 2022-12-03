@@ -17,11 +17,9 @@ political_decisions = {
 					OR = {
 						OR = {
 							owned_by = THIS
-							province_id = 370
-							province_id = 371
-							province_id = 410
-							province_id = 409
-							province_id = 412
+							province_id = 586
+							province_id = 589
+							province_id = 599
 							owner = {
 								in_sphere = THIS
 							}
