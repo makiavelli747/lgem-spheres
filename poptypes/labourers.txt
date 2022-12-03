@@ -9,10 +9,10 @@ equivalent = farmers
 everyday_needs = {
 	regular_clothes = 4
 	liquor = 5
-	furniture = 2
+	furniture = 3
 	tea = 4
 	explosives = 1
-	coal = 4
+	coal = 2
 	timber = 2
 	iron = 2
 }
