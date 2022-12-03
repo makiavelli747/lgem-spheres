@@ -2,6 +2,9 @@
 ### Factories #####################################################################################
 
 factory_template = {
+	efficiency = {
+		machine_parts = 0.5 # was 0.01 cost = 36.5		# 9.825/day/level for both
+	}
 	
 	owner =
 	{
@@ -29,6 +32,9 @@ factory_template = {
 }
 
 cheap_factory_template = {
+	efficiency = {
+		machine_parts = 0.5 # was 0.01 cost = 36.5		# 9.825/day/level for both
+	}
 	
 	owner =
 	{
@@ -115,7 +121,7 @@ cement_template = {
 aeroplane_factory = {       
 	template = machine_part_user_template
 	input_goods = {
-		machine_parts = 1	#20
+		machine_parts = 0.5	#20
 		electric_gear = 1	#20
 		lumber = 2		#10	total input+maint = 80
 		coal = 2
@@ -136,7 +142,7 @@ barrel_factory = {
 	template = machine_part_user_template
 	input_goods = {   
 		automobiles = 0.2	#20
-		machine_parts = 1	#20
+		machine_parts = 0.5	#20
 		electric_gear = 0.5	#10
 		coal = 2
 	}
@@ -159,7 +165,7 @@ barrel_factory = {
 automobile_factory = {       
 	template = machine_part_user_template
 	input_goods = {     
-		machine_parts = 1	#20
+		machine_parts = 0.5	#20
 		coal = 2
 		electric_gear = 1	#20
 		steel = 2		#10	total input+maint = 89
@@ -186,7 +192,6 @@ radio_factory = {
 	input_goods = {      
 		glass = 2 		#10
 		electric_gear = 2	#40 	total input+maint = 87
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = radio 
@@ -206,7 +211,6 @@ telephone_factory = {
 	input_goods = {       
 		glass = 2		#10
 		electric_gear = 2	#40 	total input+maint = 93.5
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = telephones 
@@ -229,7 +233,7 @@ electric_gear_factory = {
 		rubber = 1.5		#30
 		coal = 4		#10
 		iron = 2		#10	total input+maint = 67
-		machine_parts = 0.5
+		
 	}
 	output_goods = electric_gear 
 	value = 5			#80
@@ -270,7 +274,7 @@ synthetic_oil_factory = {
 	template = factory_template
 	input_goods = { 
 		coal = 12		#50	total input+maint = 39
-		machine_parts = 0.5
+		
 	}
 	output_goods = oil 
 	value = 5			#30
@@ -286,7 +290,6 @@ fuel_refinery = {
 	template = factory_template
 	input_goods = { 
 		oil = 2.5			#50	total input+maint = 40
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = fuel
@@ -307,7 +310,6 @@ steamer_shipyard = {
 	input_goods = { 
 		steel = 5		#25
 		coal = 7		#25 (huhuh huhuh) total input+maint = 182
-		machine_parts = 0.5
 	}
 	output_goods = steamer_convoy 
 	is_coastal = yes
@@ -329,7 +331,6 @@ luxury_clothes_factory = {
 	input_goods = {   
 		regular_clothes = 1	#10
 		silk = 2		#40	total input+maint = 54
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = luxury_clothes 
@@ -349,7 +350,6 @@ luxury_furniture_factory = {
 	input_goods = { 
 		furniture = 1		#10
 		tropical_wood = 2	 #40 	total input+maint = 53.18
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = luxury_furniture 
@@ -371,7 +371,7 @@ steel_factory = {
 	input_goods = { 
 		iron = 8		#40
 		coal = 4		#10
-		machine_parts = 0.5
+		
 	}
 
 	output_goods = steel 		#94 
@@ -388,7 +388,6 @@ artillery_factory = {
 	input_goods = { 
 		explosives = 2		#20
 		steel = 6		#30   total input+maint = 67.6
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = artillery 
@@ -408,7 +407,6 @@ clipper_shipyard = {
 	input_goods = {         
 		fabric = 5		#25
 		lumber = 5		#25
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = clipper_convoy 
@@ -429,7 +427,6 @@ small_arms_factory = {
 	input_goods = {        
 		ammunition = 2		#40
 		steel = 2		#10		total input+maint = 60
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = small_arms 
@@ -451,7 +448,6 @@ furniture_factory = {
 	template = factory_template
 	input_goods = { 
 		lumber = 10		#50
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = furniture 
@@ -470,7 +466,6 @@ paper_mill = {
 	template = factory_template
 	input_goods = { 
 		lumber = 10		#50	total input+maint = 55
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = paper 
@@ -485,7 +480,6 @@ regular_clothes_factory = {
 	template = factory_template
 	input_goods = {  
 		fabric = 10		#50	total input+maint = 72
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = regular_clothes 
@@ -501,7 +495,6 @@ explosives_factory = {
 	input_goods = {   
 		fertilizer = 6		#30
 		ammunition = 1		#20	total input+maint = 54
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = explosives 
@@ -524,7 +517,6 @@ ammunition_factory = {
 		coal = 4		#10
 		sulphur = 4		#20
 		iron = 4		#20	total input+maint = 30
-		machine_parts = 0.5
 	}
 	output_goods = ammunition 
 	value = 5			#35
@@ -547,7 +539,7 @@ canned_food_factory = {
 		fish = 7.5 		#15	total input+maint = 
 	}
 	output_goods = canned_food 
-	value = 3.5			#32
+	value = 4.5			#32
 	bonus = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
@@ -571,7 +563,7 @@ dye_factory = {
 	template = cheap_factory_template
 	input_goods = {     
 		coal = 12   		#50	total input+maint = 24.7
-		machine_parts = 0.5
+		
 	}
 	output_goods = dye 
 	value = 10			#30
@@ -587,7 +579,6 @@ liquor_distillery = {
 	input_goods = {        
 		grain = 20		#40
 		glass = 2		#10	total input+maint = 26.6
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = liquor 
@@ -607,7 +598,6 @@ winery = {
 	input_goods = {  	
 		fruit = 8		#40
 		glass = 2		#10	total input+maint = 27.5
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = wine 
@@ -628,7 +618,6 @@ lumber_mill = {
 	template = factory_template
 	input_goods = {       
 		timber = 10		#50	total input+maint = 100
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = lumber 
@@ -645,7 +634,6 @@ fabric_factory = {
 	input_goods = {     
 		cotton = 10		#30		
 		dye = 3			#20
-		machine_parts = 0.5
 		coal = 2	
 	}
 	output_goods = fabric 
@@ -683,7 +671,6 @@ glass_factory = {
 	template = factory_template
 	input_goods = {            
 		coal = 12		#50		total input+maint = 42
-		machine_parts = 0.5
 	}
 	output_goods = glass 
 	value = 20			#52.2
@@ -697,7 +684,6 @@ fertilizer_factory = {
 	template = factory_template
 	input_goods = {   
 		sulphur = 10		#50		total input+maint = 46
-		machine_parts = 0.5
 		coal = 2
 	}
 	output_goods = fertilizer 
