@@ -310,9 +310,6 @@ political_decisions = {
 				all_core = {
 					OR = {
 						owned_by = THIS
-						province_id = 726
-						province_id = 727
-						province_id = 728
 						owner = {
 							in_sphere = THIS
 						}
