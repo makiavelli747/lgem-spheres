@@ -158,10 +158,6 @@ promotion_chance =
 		factor = -0.1
 		not = { culture = this }
 	}
-	modifier = {
-		factor = -0.1
-		country = { slavery = yes_slavery }
-	}
 	
 	modifier = {
 		factor = -100
