@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 4000 
+		size = 1000 
 	}
 
 	farmers = {
@@ -330,7 +330,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100
+		size = 200
 	}
 
 	farmers = {
@@ -2180,7 +2180,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1200 
+		size = 200 
 	}
 
 	farmers = {
@@ -3729,7 +3729,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1400 
+		size = 200 
 	}
 
 	farmers = {
