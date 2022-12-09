@@ -32,8 +32,9 @@ manowar = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		clipper_convoy = 0.12
-		artillery = 0.04 #0.16
+		clipper_convoy = 0.1
+		artillery = 0.01 #0.16
+		canned_food = 0.2
 	}
 	
 	#Naval Abilties

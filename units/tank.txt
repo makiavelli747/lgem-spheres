@@ -26,7 +26,7 @@ tank = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		barrels = 0.12
+		barrels = 0.125
 		artillery = 0.06
 		fuel = 0.08
 		canned_food = 0.1
