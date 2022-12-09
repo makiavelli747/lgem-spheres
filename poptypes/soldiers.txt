@@ -34,19 +34,15 @@ luxury_needs_income =
 
 
 everyday_needs = {
-
-	ammunition = 0.25
-	small_arms = 0.4
-	canned_food = 1.25
+	small_arms = 1	
 }
 
 life_needs = {
-	canned_food = 1.25
+	canned_food = 2.5
 }
 
 luxury_needs = { 
-	artillery = 0.25
-	canned_food = 1.25
+	artillery = 0.5
 }
 
 
