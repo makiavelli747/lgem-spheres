@@ -89,7 +89,7 @@
 	soldiers = {
 		culture = misri
 		religion = sunni
-		size = 4000
+		size = 1000
 	}
 
 	farmers = {
@@ -541,7 +541,7 @@
 	soldiers = {
 		culture = misri
 		religion = sunni
-		size = 2000
+		size = 1000
 	}
 
 	farmers = {
@@ -627,7 +627,7 @@
 	soldiers = {
 		culture = misri
 		religion = sunni
-		size = 1100
+		size = 500
 	}
 
 	farmers = {
