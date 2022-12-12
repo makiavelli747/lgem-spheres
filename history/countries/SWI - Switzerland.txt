@@ -66,11 +66,7 @@ mechanized_mining = 1
 basic_chemistry = 1
 
 #Inventions
-authoritarianism = yes
-hierarchical_order = yes
-traditionalism = yes
-political_religion = yes
-paternalism = yes
+
 
 schools = industrial_tech_school
 
