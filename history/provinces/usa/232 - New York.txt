@@ -22,8 +22,7 @@ state_building = {
 	
 	level = 1
 	
-	building = lumber_mill
-	
+	building = steamer_shipyard 
 	upgrade = yes
 
 }
@@ -31,7 +30,7 @@ state_building = {
 	
 	level = 1
 	
-	building = liquor_distillery 
+	building = steel_factory 
 	upgrade = yes
 
 }
