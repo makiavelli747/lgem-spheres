@@ -27,7 +27,7 @@ state_building = {
 }
 state_building = {
 	level = 4
-	building = clipper_shipyard
+	building = steamer_shipyard
 	upgrade = yes
 }
 1861.1.1 = {
