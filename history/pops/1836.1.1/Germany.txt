@@ -1161,7 +1161,7 @@
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
-		size = 2700
+		size = 10000
 	}
 
 	officers = {
