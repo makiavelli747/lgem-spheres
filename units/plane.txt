@@ -27,11 +27,11 @@ plane = {
 	
 	supply_consumption =  1
 	supply_cost = {
-		aeroplanes = 0.125
-		small_arms = 0.07
-		ammunition = 0.05
-		fuel = 0.15
-		canned_food = 0.1
+		aeroplanes = 0.06
+		small_arms = 0.035
+		ammunition = 0.025
+		fuel = 0.075
+		canned_food = 0.05
 	}
 	
 
