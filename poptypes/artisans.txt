@@ -969,51 +969,45 @@ promote_to =
 		factor = 0.01
 		group = {
 			modifier = {
-				factor =  2
+				factor = 1
 				literacy = 0.10
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				literacy = 0.20
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				literacy = 0.3
 			}
 			modifier = {
-				factor =  2
+				factor = 1
 				literacy = 0.4
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				literacy = 0.5
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				literacy = 0.6
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				literacy = 0.7
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				literacy = 0.8
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				literacy = 0.9
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				literacy = 1
 			}
-		}
-		modifier = {
-				factor = 10
-				state_scope = {
-					has_factories = yes
-				}
 		}
 		modifier = {
 			factor = -40
