@@ -1127,7 +1127,31 @@ ideologies = {
 			factor = 5
 			ruling_party_ideology = anarcho_liberal
 		}
-
+		modifier = {
+			factor = 2
+			luxury_needs = 0.1
+			 
+		}
+		modifier = {
+			factor = 2
+			luxury_needs = 0.2
+			 
+		}
+		modifier = {
+			factor = 2
+			luxury_needs = 0.3
+			 
+		}
+		modifier = {
+			factor = 2
+			luxury_needs = 0.4
+			 
+		}
+		modifier = {
+			factor = 2
+			luxury_needs = 0.5
+			 
+		}
 		modifier = {
 			factor = 2
 			everyday_needs = 0.5
