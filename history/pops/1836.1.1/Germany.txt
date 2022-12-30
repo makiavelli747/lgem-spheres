@@ -242,7 +242,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2000
+		size = 1000
 	}
 
 	farmers = {
@@ -477,7 +477,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 3000 
+		size = 1000 
 	}
 
 	farmers = {
@@ -545,7 +545,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2000 
+		size = 1000 
 	}
 
 	farmers = {
@@ -698,7 +698,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2000
+		size = 1000
 	}
 
 	farmers = {
@@ -819,7 +819,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2000 
+		size = 1000 
 	}
 
 	farmers = {
@@ -3029,7 +3029,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 3200 
+		size = 1200 
 	}
 
 	farmers = {
@@ -3085,7 +3085,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2300
+		size = 1300
 	}
 
 	farmers = {
@@ -3129,7 +3129,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2300  
+		size = 1300  
 	}
 
 	farmers = {
@@ -3192,7 +3192,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2300 
+		size = 1300 
 	}
 
 	farmers = {
@@ -3424,7 +3424,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2400  
+		size = 1400  
 	}
 
 	farmers = {
@@ -3498,7 +3498,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 3250  
+		size = 1250  
 	}
 
 	farmers = {
@@ -3981,7 +3981,7 @@
 	soldiers = {
 		culture = south_german
 		religion = protestant
-		size = 7000 
+		size = 2000 
 	}
 
 	farmers = {
@@ -4154,7 +4154,7 @@
 	soldiers = {
 		culture = south_german
 		religion = protestant
-		size = 4000 
+		size = 2000 
 	}
 
 	farmers = {
@@ -4495,7 +4495,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 3000
+		size = 2000
 	}
 
 	farmers = {
@@ -4738,7 +4738,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 3300   
+		size = 1300   
 	}
 
 	farmers = {
