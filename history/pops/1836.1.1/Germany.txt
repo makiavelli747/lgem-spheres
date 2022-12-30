@@ -819,7 +819,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1000 
+		size = 300 
 	}
 
 	farmers = {
