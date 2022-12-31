@@ -1489,6 +1489,7 @@ unification_annex_casus_belli = {
 		NOT = {
 			number_of_states = 2
 		}
+
 		any_owned_province = {
 			any_core = {
 				this_culture_union = this_union
