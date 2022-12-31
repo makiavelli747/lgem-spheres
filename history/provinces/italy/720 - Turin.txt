@@ -24,8 +24,7 @@ state_building = {
 
 	level = 1
 
-	building = ammunition_factory
-
+	building = liquor_distillery 
 	upgrade = yes
 
 }
