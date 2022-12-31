@@ -215,6 +215,12 @@
 		size = 550
 	}
 
+	craftsmen = {
+		culture = north_german
+		religion = protestant
+		size = 2000
+	}
+
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
@@ -453,7 +459,13 @@
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
-		size = 500 
+		size = 2000 
+	}
+
+	craftsmen = {
+		culture = north_german
+		religion = protestant
+		size = 8000
 	}
 
 	officers = {
@@ -2690,6 +2702,11 @@
 		religion = catholic
 		size = 650  
 	}
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 1650          
+	}
 
 	clergymen = {
 		culture = south_german
@@ -3763,7 +3780,12 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 700 
+		size = 1400 
+	}
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 2650          
 	}
 
 	officers = {
@@ -3957,7 +3979,12 @@
 	bureaucrats = {
 		culture = south_german
 		religion = protestant
-		size = 850 
+		size = 1850 
+	}
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 3650          
 	}
 
 	officers = {
@@ -4253,6 +4280,11 @@
 		religion = catholic
 		size = 1050 
 	}
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 3650          
+	}
 
 	officers = {
 		culture = south_german
@@ -4459,7 +4491,12 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 800 
+		size = 2000 
+	}
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 3650          
 	}
 
 	officers = {

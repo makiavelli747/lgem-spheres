@@ -40,7 +40,7 @@
 	bureaucrats = {
 		culture = flemish
 		religion = catholic
-		size = 800
+		size = 2000
 	}
 
 	clergymen = {
@@ -76,7 +76,7 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 3000
+		size = 1100
 	}
 
 	farmers = {
@@ -212,7 +212,7 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 1750
+		size = 1150
 	}
 
 	farmers = {

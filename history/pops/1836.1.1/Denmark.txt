@@ -311,8 +311,15 @@
 	bureaucrats = {
 		culture = danish
 		religion = protestant
-		size = 500
+		size = 1500
 	}
+
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 2000
+	}
+
 
 	officers = {
 		culture = danish
