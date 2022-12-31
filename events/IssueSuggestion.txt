@@ -461,6 +461,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 		pensions = no_pensions
+		year = 1870
 	}
 	
 	mean_time_to_happen = {
@@ -640,7 +641,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1600
+		months = 800
 		modifier = {
 			factor = 0.9
 			good_pensions = 20
@@ -753,6 +754,7 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
+		year = 1900
 		social_reform_want = 0.05
 		liberal = 0.1
 		conservative = 0.1
@@ -767,7 +769,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 8000
+		months = 800
 		
 		modifier = {
 			factor = 1.3
