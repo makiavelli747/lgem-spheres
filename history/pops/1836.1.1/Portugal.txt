@@ -16,7 +16,7 @@
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 800
+		size = 4000
 	}
 
 	clergymen = {

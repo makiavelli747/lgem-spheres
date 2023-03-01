@@ -8960,6 +8960,11 @@
 		religion = protestant
 		size = 125
 	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
 
 	clergymen = {
 		culture = yankee
@@ -8976,7 +8981,7 @@
 	craftsmen = {
 		culture = yankee
 		religion = protestant
-		size = 6500
+		size = 20000
 	}
 
 	artisans = {
