@@ -19,7 +19,7 @@ party_issues = {
 			min_tax = 0.5
 			max_tax = 0.5
 			factory_owner_cost = 0.3
-			factory_output = 0.2
+			factory_output = 0.3
 			
 			rules = {
 				build_factory = no
