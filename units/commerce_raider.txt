@@ -33,9 +33,9 @@ commerce_raider = {
 	
 	supply_consumption = 3
 	supply_cost = {
-		steamer_convoy = 0.04
-		artillery = 0.01
-		canned_food = 0.1
+		steamer_convoy = 0.08
+		artillery = 0.02
+		canned_food = 0.2
 	}
 	
 	#Naval Abilties
