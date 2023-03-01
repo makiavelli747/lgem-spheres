@@ -1116,7 +1116,7 @@ pan_nationalist_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.1
+		factor = 3
 		
 		modifier = {
 			factor = 0
@@ -1335,7 +1335,7 @@ carlist_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.02
+		factor = 3
 		
 		modifier = {
 			factor = 0
@@ -1507,7 +1507,7 @@ boxer_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.02
+		factor = 3
 		
 		modifier = {
 			factor = 0
@@ -1748,7 +1748,7 @@ red_shirts = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.1
+		factor = 3
 		
 		modifier = {
 			factor = 0
@@ -1983,7 +1983,7 @@ indian_sepoys = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.1
+		factor = 3
 		modifier = {
 			factor = 0
 			OR = {
@@ -2395,7 +2395,7 @@ unciv_reactionary_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 3
+		factor = 1
 		modifier = {
 			factor = 0
 			country = { civilized = yes }
@@ -2560,7 +2560,7 @@ sioux_nation = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 2
+		factor = 3
 		modifier = {
 			factor = 0
 			NOT = {
@@ -2681,7 +2681,7 @@ apache = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 2
+		factor = 3
 		modifier = {
 			factor = 0
 			NOT = {
