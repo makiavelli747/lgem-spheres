@@ -609,6 +609,14 @@ promote_to =
 	soldiers =
 	{
 		factor = 0.01
+			modifier = {
+				factor = -10
+				not = { literacy = 0.05 }
+			}
+			modifier = {
+				factor = -10
+				not = { literacy = 0.1 }
+			}
 		group = {
 			modifier = {
 				factor = -3
