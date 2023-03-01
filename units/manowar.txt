@@ -23,8 +23,8 @@ manowar = {
 	#Building Costs
 	build_time = 360
 	build_cost = {
-		clipper_convoy = 40
-		artillery = 15
+		clipper_convoy = 20
+		artillery = 7.5
 	}
 	min_port_level = 1
 	limit_per_port = -1
@@ -32,9 +32,9 @@ manowar = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		clipper_convoy = 0.1
-		artillery = 0.01 #0.16
-		canned_food = 0.2
+		clipper_convoy = 0.05
+		artillery = 0.005 #0.16
+		canned_food = 0.1
 	}
 	
 	#Naval Abilties

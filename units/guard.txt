@@ -19,8 +19,8 @@ guard = {
 	#Building Costs
 	build_time = 90
 	build_cost = {
-		small_arms = 10
-		luxury_clothes = 5
+		small_arms = 5
+		luxury_clothes = 2.5
 	}
 	
 	supply_consumption = 1
