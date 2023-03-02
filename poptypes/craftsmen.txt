@@ -1796,7 +1796,7 @@ issues =
 			factor = 0
 			OR = {
 				NOT = { consciousness = 6 }
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				luxury_needs =  1.0
 				NOT = { life_needs = 0.7 }
 			}
@@ -1868,7 +1868,7 @@ issues =
 				}
 				NOT = { consciousness = 6 }
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -1942,7 +1942,7 @@ issues =
 				}
 				NOT = { consciousness = 6 }
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -2016,7 +2016,7 @@ issues =
 				}
 				NOT = { consciousness = 6 }
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -2090,7 +2090,7 @@ issues =
 				}
 				NOT = { consciousness = 6 }
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -2162,7 +2162,7 @@ issues =
 				vote_franschise = universal_voting
 				NOT = { consciousness = 6 }
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -2236,7 +2236,7 @@ issues =
 					is_next_reform = proportional_representation
 				}
 				NOT = { consciousness = 6 }
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 1 }
 			}
 		}
@@ -2282,7 +2282,7 @@ issues =
 			OR = {
 				voting_system = proportional_representation
 				NOT = { consciousness = 6 }
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 1 }
 			}
 		}
@@ -2332,7 +2332,7 @@ issues =
 					is_next_reform = harassment
 				}
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -2403,7 +2403,7 @@ issues =
 					is_next_reform = gerrymandering
 				}
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -2474,7 +2474,7 @@ issues =
 					is_next_reform = non_secret_ballots
 				}
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -2543,7 +2543,7 @@ issues =
 				NOT = { consciousness = 6 }
 				political_parties = secret_ballots
 				luxury_needs =  1.0
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 0.7 }
 			}
 		}
@@ -2609,7 +2609,7 @@ issues =
 			factor = 0 
 			OR = {
 				public_meetings = yes_meeting
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { consciousness = 4 }
 			}
 		}
@@ -2685,7 +2685,7 @@ issues =
 				press_rights = free_press
 				NOT = { consciousness = 5 }
 				NOT = { literacy = 0.40 }
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 1 }
 			}
 		}
@@ -2749,7 +2749,7 @@ issues =
 				press_rights = free_press
 				NOT = { consciousness = 5 }
 				NOT = { literacy = 0.40 }
-				NOT = { liberal = 30 }
+				NOT = { liberal = 20 }
 				NOT = { life_needs = 1 }
 			}
 		}
@@ -2816,8 +2816,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -2916,8 +2916,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3016,8 +3016,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3116,8 +3116,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3217,8 +3217,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3289,8 +3289,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3361,8 +3361,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3434,8 +3434,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3509,8 +3509,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3602,8 +3602,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3695,8 +3695,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3788,8 +3788,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3877,8 +3877,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -3960,8 +3960,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4043,8 +4043,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4126,8 +4126,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4209,8 +4209,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4285,8 +4285,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4361,8 +4361,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4437,8 +4437,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4513,8 +4513,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4601,8 +4601,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4689,8 +4689,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4779,8 +4779,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4867,8 +4867,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4926,8 +4926,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
@@ -4985,8 +4985,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 30 }
-					NOT = { communist = 30 }
+					NOT = { socialist = 20 }
+					NOT = { communist = 20 }
 				}
 			}	
 		}
