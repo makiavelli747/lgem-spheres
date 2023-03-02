@@ -47,7 +47,7 @@ reactionary_rebels = {
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces
+	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -246,7 +246,7 @@ fascist_rebels = {
 	smart = yes					# Assaults forts, tactically withdraws from battle, etc.
 	unit_transfer = yes				# Units remain after enforcing demands.
 	
-	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -452,7 +452,7 @@ communist_rebels = {
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -664,7 +664,7 @@ anarcho_liberal_rebels = {
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -863,7 +863,7 @@ nationalist_rebels = {
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do remain after enforcing demands.
 	
-	occupation_mult = 10.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 9.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the faction's strength
 	will_rise = 
@@ -1080,7 +1080,7 @@ pan_nationalist_rebels = {
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
-	occupation_mult = 5.0			# The amount of strength this rebel gains from taking provinces
+	occupation_mult = 6.0			# The amount of strength this rebel gains from taking provinces
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -1315,7 +1315,7 @@ carlist_rebels = {
 	smart = yes
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -1710,7 +1710,7 @@ red_shirts = {
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
-	occupation_mult = 10.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 9.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -1953,7 +1953,7 @@ indian_sepoys = {
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
-	occupation_mult = 5.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 6.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -2170,7 +2170,7 @@ liberal_rebels = {
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
