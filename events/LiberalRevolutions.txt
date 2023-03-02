@@ -471,7 +471,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 100
+		months = 25
 		modifier = {
 			factor = 0.8
 			liberal = 5
@@ -966,7 +966,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 100
+		months = 40
 		modifier = {
 			factor = 0.9
 			liberal = 5
@@ -1184,7 +1184,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 100
+		months = 18
 		modifier = {
 			factor = 0.9
 			average_militancy = 5
@@ -1216,7 +1216,7 @@ province_event = {
 			consciousness = 1
 		}
 		random_pop = {
-			reduce_pop = 0.90
+			reduce_pop = 0.98
 		}
 	}
 	option = {
@@ -1593,7 +1593,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 100
+		months = 36
 
 		modifier = {
 			factor = 0.9
