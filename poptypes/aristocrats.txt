@@ -840,7 +840,7 @@ ideologies = {
 	
 	fascist = {
 
-		factor = 3
+		factor = 2
 		
 			modifier = {
 				factor = 2
@@ -876,7 +876,7 @@ ideologies = {
 	
 	reactionary = {
 
-		factor = 3
+		factor = 2
 
 		modifier = {
 			factor = 2
