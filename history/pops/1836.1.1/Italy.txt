@@ -52,7 +52,7 @@
 	craftsmen = {
 		culture = north_italian
 		religion = catholic
-		size = 6000
+		size = 10000
 	}
 
 	farmers = {
@@ -1187,6 +1187,11 @@
 		religion = catholic
 		size = 9500
 	}
+	craftsmen = {
+		culture = north_italian
+		religion = catholic
+		size = 5000
+	}
 
 	soldiers = {
 		culture = north_italian
@@ -1428,6 +1433,11 @@
 		religion = catholic
 		size = 6600
 	}
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
 
 	soldiers = {
 		culture = south_italian
@@ -1617,6 +1627,11 @@
 		religion = catholic
 		size = 8250
 	}
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 6000
+	}
 
 	bureaucrats = {
 		culture = south_italian
@@ -1792,6 +1807,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 475
+	}
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
 	}
 
 	officers = {
@@ -2006,6 +2026,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 5200
+	}
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
 	}
 
 	bureaucrats = {
