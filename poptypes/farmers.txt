@@ -402,162 +402,162 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = -2
+				factor = -10
 				state_scope = { bureaucrats = 0.012 }
 			}
 			modifier = {
-				factor = -2
+				factor = -10
 				state_scope = { bureaucrats = 0.014 }
 			}
 			modifier = {
-				factor = -2
+				factor = -10
 				state_scope = { bureaucrats = 0.016 }
 			}
 			modifier = {
-				factor = -2
+				factor = -10
 				state_scope = { bureaucrats = 0.018 }
 			}
 			modifier = {
-				factor = -2
+				factor = -10
 				state_scope = { bureaucrats = 0.020 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.022 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.024 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.026 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.028 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.03 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.032 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.034 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.036 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.038 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.04 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.042 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.044 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.046 }
 			}
 			modifier = {
-				factor = -4
+				factor = -10
 				state_scope = { bureaucrats = 0.048 }
 			}
 			modifier = {
 				factor = -100
-				state_scope = { bureaucrats = 0.05 }
+				state_scope = { bureaucrats = 0.1 }
 			}
 		}
 		
 		modifier = {
-			factor = 4
+			factor = 10
 			health_care = trinket_health_care
 		}
 		modifier = {
-			factor = 8
+			factor = 20
 			health_care = low_health_care
 		}
 		modifier = {
-			factor = 12
+			factor = 30
 			health_care = acceptable_health_care
 		}
 		modifier = {
-			factor = 16
+			factor = 40
 			health_care = good_health_care  
 		}
 		modifier = {
-			factor = 4
+			factor = 10
 			school_reforms = low_schools  
 		}		
 		modifier = {
-			factor = 8
+			factor = 20
 			school_reforms = acceptable_schools
 		}	
 		modifier = {
-			factor = 12
+			factor = 30
 			school_reforms = good_schools 
 		}	
 		modifier = {
-			factor = 4
+			factor = 10
 			safety_regulations = trinket_safety
 		}
 		modifier = {
-			factor = 8
+			factor = 20
 			safety_regulations = low_safety
 		}		
 		modifier = {
-			factor = 12
+			factor = 30
 			safety_regulations = acceptable_safety
 		}
 		modifier = {
-			factor = 16
+			factor = 40
 			safety_regulations = good_safety
 		}
 		
 		modifier = {
-			factor = 4
+			factor = 10
 			work_hours = fourteen_hours
 		}
 		modifier = {
-			factor = 8
+			factor = 20
 			work_hours = twelve_hours
 		}		
 		modifier = {
-			factor = 12
+			factor = 30
 			work_hours  = ten_hours
 		}
 		modifier = {
-			factor = 16
+			factor = 40
 			work_hours = eight_hours
 		}
 		modifier = {
-			factor = 4
+			factor = 10
 			wage_reform = trinket_wage
 		}
 		modifier = {
-			factor = 8
+			factor = 20
 			wage_reform = low_minimum_wage
 		}		
 		modifier = {
-			factor = 12
+			factor = 30
 			wage_reform  = acceptable_minimum_wage
 		}
 		modifier = {
-			factor = 16
+			factor = 40
 			wage_reform = good_minimum_wage
 		}
 		
@@ -892,45 +892,18 @@ promote_to =
 			}
 		}
 		group = {		
+			
 			modifier = {
 				factor = -2
-				clergymen = 0.004
-			}
-			modifier = {
-				factor = -2
-				clergymen = 0.008
-			}
-			modifier = {
-				factor = -2
-				clergymen = 0.012
+				clergymen = 0.04
 			}			
 			modifier = {
 				factor = -2
-				clergymen = 0.016
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.02
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.024
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.028
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.032
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.036
+				clergymen = 0.045
 			}			
 			modifier = {
 				factor = -100
-				clergymen = 0.04
+				clergymen = 0.05
 			}						
 		}
 		
