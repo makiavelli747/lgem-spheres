@@ -45,9 +45,9 @@ reactionary_rebels = {
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = no				# Units do not remain after enforcing demands.
+	unit_transfer = yes				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces
+	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -244,9 +244,9 @@ fascist_rebels = {
 	reinforcing = yes				# Receives reinforcements
 	general = yes					# Uses generals
 	smart = yes					# Assaults forts, tactically withdraws from battle, etc.
-	unit_transfer = no				# Units remain after enforcing demands.
+	unit_transfer = yes				# Units remain after enforcing demands.
 	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -450,9 +450,9 @@ communist_rebels = {
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = no				# Units do not remain after enforcing demands.
+	unit_transfer = yes				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -662,9 +662,9 @@ anarcho_liberal_rebels = {
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = no				# Units do not remain after enforcing demands.
+	unit_transfer = yes				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
@@ -2168,9 +2168,9 @@ liberal_rebels = {
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = no				# Units do not remain after enforcing demands.
+	unit_transfer = yes				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
