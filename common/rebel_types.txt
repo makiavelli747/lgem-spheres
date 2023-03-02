@@ -1710,7 +1710,7 @@ red_shirts = {
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
-	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 5.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
