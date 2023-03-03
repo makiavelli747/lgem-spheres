@@ -6,7 +6,7 @@ end_date = '1935.12.31',
 country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
 	MONTHS_UNTIL_BROKEN 		= 3,    -- OBSOLETE! (Months until rebel held capital results in broken country.)
-	REBEL_ACCEPTANCE_MONTHS = 60,
+	REBEL_ACCEPTANCE_MONTHS = 12,
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
 	GOLD_TO_CASH_RATE = 10, -- Amount of money generated per gold unit
@@ -687,7 +687,7 @@ pops = {
 	POPULATION_MOVEMENT_RADICAL_FACTOR = 300,
 	NATIONALIST_MOVEMENT_MIL_CAP = 3.0,
 	MOVEMENT_SUPPORT_UH_FACTOR = 3, --  3x means 30% country support equals full UH support
-	REBEL_OCCUPATION_STRENGTH_BONUS = 0.01, -- the amount of strength given to rebel movements when they occupy a province
+	REBEL_OCCUPATION_STRENGTH_BONUS = 0.02, -- the amount of strength given to rebel movements when they occupy a province
 	LARGE_POPULATION_LIMIT = 9000000,
 	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 250000,
 },
