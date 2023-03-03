@@ -8,6 +8,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 		literacy = 0.3
+		year = 1841
 		NOT = {
 			OR = {
 				has_country_flag = liberal_revolution_in_progress
@@ -149,7 +150,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.1
-			year = 1848
+			year = 1853
 		}
 	}
 	option = {
@@ -157,7 +158,7 @@ country_event = {
 		remove_country_modifier = global_liberal_agitation
 		add_country_modifier = {
 			name = springtime_of_nations
-			duration = 365
+			duration = 730
 		}
 		any_owned = {
 			limit = {
