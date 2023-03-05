@@ -66,7 +66,7 @@ schools ={
 	
 	army_tech_school = 
 	{
-		army_tech_research_bonus = 0.2
+		army_tech_research_bonus = 0.15
 		commerce_tech_research_bonus = 0
 		culture_tech_research_bonus = 0
 		industry_tech_research_bonus = 0
@@ -79,7 +79,7 @@ schools ={
 		commerce_tech_research_bonus = 0
 		culture_tech_research_bonus = 0
 		industry_tech_research_bonus = 0
-		navy_tech_research_bonus = 0.2
+		navy_tech_research_bonus = 0.15
 		
 	}
 	
@@ -95,7 +95,7 @@ schools ={
 	culture_tech_school = {
 		army_tech_research_bonus = 0
 		commerce_tech_research_bonus = 0
-		culture_tech_research_bonus = 0.2
+		culture_tech_research_bonus = 0.15
 		industry_tech_research_bonus = 0
 		navy_tech_research_bonus = 0
 		
@@ -103,7 +103,7 @@ schools ={
 	
 	commerce_tech_school = {
 		army_tech_research_bonus = 0
-		commerce_tech_research_bonus = 0.2
+		commerce_tech_research_bonus = 0.15
 		culture_tech_research_bonus = 0
 		industry_tech_research_bonus = 0
 		navy_tech_research_bonus = 0
@@ -111,10 +111,10 @@ schools ={
 	}
 	
 	prussian_tech_school = {
-		army_tech_research_bonus = 0.15
+		army_tech_research_bonus = 0.1
 		commerce_tech_research_bonus = 0
 		culture_tech_research_bonus = 0
-		industry_tech_research_bonus = 0.15
+		industry_tech_research_bonus = 0.1
 		navy_tech_research_bonus = 0
 	
 	}
