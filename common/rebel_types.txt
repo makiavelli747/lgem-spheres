@@ -894,7 +894,7 @@ nationalist_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 5
+		factor = 10
 		
 		modifier = {
 			factor = 0
@@ -1128,7 +1128,7 @@ pan_nationalist_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 5
+		factor = 10
 		
 		modifier = {
 			factor = 0
@@ -1347,7 +1347,7 @@ carlist_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 5
+		factor = 10
 		
 		modifier = {
 			factor = 0
@@ -1756,7 +1756,7 @@ red_shirts = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 5
+		factor = 10
 		
 		modifier = {
 			factor = 0
@@ -1991,7 +1991,7 @@ indian_sepoys = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 5
+		factor = 10
 		modifier = {
 			factor = 0
 			OR = {
