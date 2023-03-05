@@ -8,12 +8,12 @@ demote_migrant = yes
 rebel =
 {
 	cavalry = 0
-	artillery = 0.1
+	artillery = 0.5
 	cuirassier = 0
 	dragoon = 0
 	guard = 0.3
 	hussar = 0
-	infantry = 0.6
+	infantry = 0.2
 	irregular = 0
 }
 
@@ -843,7 +843,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_order
 		}
 
@@ -874,7 +874,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 		}
 	
@@ -908,7 +908,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 			
 		}
@@ -977,7 +977,7 @@ ideologies = {
 		factor = 2
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 		modifier = {
@@ -1007,7 +1007,7 @@ ideologies = {
 		factor = 2
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 

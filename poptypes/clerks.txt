@@ -5,7 +5,7 @@ research_optimum = 0.02
 rebel =
 {
 	infantry = 0.5
-	irregular = 0.5
+	artillery = 0.5
 }
 
 
@@ -955,7 +955,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_order
 		}
 
@@ -986,7 +986,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 		}
 	
@@ -1020,7 +1020,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 			
 		}
@@ -1089,7 +1089,7 @@ ideologies = {
 		factor = 2
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 		modifier = {
@@ -1119,7 +1119,7 @@ ideologies = {
 		factor = 2
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 

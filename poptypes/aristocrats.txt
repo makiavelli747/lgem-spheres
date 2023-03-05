@@ -6,10 +6,10 @@ state_capital_only = yes
 rebel =
 {
 	cavalry = 0.1
-	artillery = 0
+	artillery = 0.3
 	cuirassier = 0.1
 	dragoon = 0.1
-	guard = 0.6
+	guard = 0.3
 	hussar = 0.1
 	infantry = 0
 	irregular = 0
@@ -879,7 +879,7 @@ ideologies = {
 		factor = 2
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_order
 		}
 
@@ -920,7 +920,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_order
 		}
 
@@ -951,7 +951,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 		}
 	
@@ -985,7 +985,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 			
 		}
@@ -1054,7 +1054,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 		modifier = {
@@ -1084,7 +1084,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 

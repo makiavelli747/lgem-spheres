@@ -414,7 +414,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_order
 		}
 
@@ -445,7 +445,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 		}
 	
@@ -479,7 +479,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 			
 		}
@@ -548,7 +548,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 		modifier = {
@@ -578,7 +578,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 
