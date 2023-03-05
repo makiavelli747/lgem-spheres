@@ -4283,7 +4283,7 @@
 	craftsmen = {
 		culture = south_german
 		religion = catholic
-		size = 3650          
+		size = 5650          
 	}
 
 	officers = {
@@ -4496,7 +4496,7 @@
 	craftsmen = {
 		culture = south_german
 		religion = catholic
-		size = 3650          
+		size = 5650          
 	}
 
 	officers = {
