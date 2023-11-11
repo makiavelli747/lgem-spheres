@@ -721,7 +721,8 @@ naval_base = {
 	goods_cost =
 	{
 		cement = 2500
-		steamer_convoy = 250
+		steamer_convoy = 125
+		clipper_convoy = 250
 		canned_food = 100
 	}
 	time = 720
