@@ -20,6 +20,11 @@ aeroplane_factory = {
 	goods_cost =
 	{
 		cement = 5000
+		wine = 500
+		liquor = 1000
+		furniture = 800
+		regular_clothes = 1200
+		
 	}
 	time = 180
 	visibility = yes
@@ -38,6 +43,10 @@ barrel_factory = {
 	goods_cost =
 	{
 		cement = 5000
+		wine = 500
+		liquor = 1000
+		furniture = 800
+		regular_clothes = 1200
 	}
 
 	time = 180
@@ -57,6 +66,10 @@ automobile_factory = {
 	goods_cost =
 	{
 		cement = 5000
+		wine = 500
+		liquor = 1000
+		furniture = 800
+		regular_clothes = 1200
 	}
 	time = 180
 	visibility = yes
@@ -76,6 +89,10 @@ radio_factory = {
 	goods_cost =
 	{
 		cement = 5000
+		wine = 500
+		liquor = 1000
+		furniture = 800
+		regular_clothes = 1200
 	}
 	time = 90
 	visibility = yes
@@ -95,6 +112,10 @@ telephone_factory = {
 	goods_cost =
 	{
 		cement = 5000
+		wine = 500
+		liquor = 1000
+		furniture = 800
+		regular_clothes = 1200
 	}
 	time = 90
 	visibility = yes
@@ -116,6 +137,10 @@ electric_gear_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 90
 	visibility = yes
@@ -135,6 +160,10 @@ machine_parts_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -154,6 +183,10 @@ synthetic_oil_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -173,6 +206,10 @@ fuel_refinery = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 90
 	visibility = yes
@@ -196,6 +233,10 @@ steamer_shipyard = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -216,6 +257,10 @@ clipper_shipyard = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -236,6 +281,10 @@ luxury_clothes_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -254,6 +303,10 @@ luxury_furniture_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -274,6 +327,10 @@ steel_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 90
 	visibility = yes
@@ -292,6 +349,10 @@ artillery_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -309,6 +370,10 @@ small_arms_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -328,6 +393,10 @@ furniture_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -345,6 +414,10 @@ paper_mill = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -362,6 +435,10 @@ regular_clothes_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -379,6 +456,10 @@ explosives_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -399,6 +480,10 @@ ammunition_factory = {
 	goods_cost =
 	{
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -418,6 +503,10 @@ canned_food_factory = {
 	{
 
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -437,6 +526,10 @@ dye_factory = {
 	{
 
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 90
 	visibility = yes
@@ -456,6 +549,10 @@ liquor_distillery = {
 	{
 
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -475,6 +572,10 @@ winery = {
 	{
 
 		cement = 4000
+		wine = 400
+		liquor = 800
+		furniture = 600
+		regular_clothes = 1000
 	}
 	time = 180
 	visibility = yes
@@ -496,6 +597,10 @@ lumber_mill = {
 	{
 
 		cement = 3000
+		wine = 300
+		liquor = 600
+		furniture = 400
+		regular_clothes = 800
 	}
 	time = 90
 	visibility = yes
@@ -514,6 +619,10 @@ fabric_factory = {
 	{
 
 		cement = 3000
+		wine = 300
+		liquor = 600
+		furniture = 400
+		regular_clothes = 800
 	}
 	time = 90
 	visibility = yes
@@ -532,6 +641,10 @@ cement_factory = {
 	{
 
 		cement = 3000
+		wine = 300
+		liquor = 600
+		furniture = 400
+		regular_clothes = 800
 	}
 	time = 90
 	visibility = yes
@@ -550,6 +663,10 @@ glass_factory = {
 	{
 
 		cement = 3000
+		wine = 300
+		liquor = 600
+		furniture = 400
+		regular_clothes = 800
 	}
 	time = 90
 	visibility = yes
@@ -569,6 +686,10 @@ fertilizer_factory = {
 	{
 
 		cement = 3000
+		wine = 300
+		liquor = 600
+		furniture = 400
+		regular_clothes = 800
 	}
 	time = 90
 	visibility = yes
@@ -582,8 +703,10 @@ fort = {
 	type = fort
 	goods_cost =
 	{
-		cement = 1250
-
+		cement = 1000
+		small_arms = 100
+		artillery = 50
+		canned_food = 250
 	}
 	time = 720 
 	visibility = yes
@@ -597,8 +720,9 @@ naval_base = {
 	type = naval_base
 	goods_cost =
 	{
-		cement = 5000
-
+		cement = 2500
+		steamer_convoy = 250
+		canned_food = 100
 	}
 	time = 720
 	naval_capacity = 1
@@ -618,7 +742,11 @@ railroad = {
 	type = infrastructure
 	goods_cost =
 	{
-		cement = 1250
+		cement = 1500
+		wine = 150
+		liquor = 300
+		furniture = 200
+		regular_clothes = 400
 	}
 	time = 720
 	visibility = yes
