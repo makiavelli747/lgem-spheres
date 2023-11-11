@@ -6,8 +6,8 @@ equivalent = labourers
 
 
 everyday_needs = {
-	regular_clothes = 2
-	liquor = 3
+	regular_clothes = 3
+	liquor = 2
 	furniture = 1
 	tea = 2
 	fertilizer = 1
