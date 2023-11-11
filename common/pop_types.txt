@@ -849,7 +849,7 @@ colonialmigration_chance =
 	}
 
 	modifier = {
-		factor = -0.4
+		factor = -0.2
 		state_scope = {
 			has_factories = yes
 			}
@@ -857,19 +857,19 @@ colonialmigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.15
 		}	
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.2
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			unemployment = 0.25
 		}
 		
@@ -926,43 +926,86 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.04
+			factor = 0.02
+			consciousness = 0.5
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 1
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 2
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 3
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 4
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 5
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 6
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 7
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 8
+		}
+		modifier = {
+			factor = 0.02
+			consciousness = 9
+		}
+	}
+
+	group = {
+		modifier = {
+			factor = 0.02
 			militancy = 0.5
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 1
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 2
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 3
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 4
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 5
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 6
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 7
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 8
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.02
 			militancy = 9
 		}
 	}
@@ -1072,27 +1115,27 @@ emigration_chance =
 			unemployment = 0.25
 		}
 		modifier = {
-			factor = 1
+			factor = 0.4
 			unemployment = 0.95
 		}
 		
 	}
 	group = {
 		modifier = {
-			factor = -0.1
-			agree_with_ruling_party = 0.1
-		}
-		modifier = {
-			factor = -0.1
+			factor = -0.05
 			agree_with_ruling_party = 0.2
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.05
 			agree_with_ruling_party = 0.3
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.05
 			agree_with_ruling_party = 0.4
+		}
+		modifier = {
+			factor = -0.05
+			agree_with_ruling_party = 0.5
 		}
 	}
 

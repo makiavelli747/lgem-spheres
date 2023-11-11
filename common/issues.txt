@@ -4,23 +4,24 @@
 party_issues = {
 	trade_policy = {
 		protectionism = {
-			max_tariff = 0.2
-			min_tariff = 0.2
+			max_tariff = 0.5
+			min_tariff = 0.5
 		}
 		free_trade = {
-			max_tariff = 0.1
-			min_tariff = 0.1
+			max_tariff = 0.25
+			min_tariff = 0.25
+			farm_RGO_eff = 0.5
 		}
 	}
 	economic_policy = {
 		laissez_faire = {
-			min_social_spending = 0.5
-			max_social_spending = 0.5
-			min_tax = 0.5
-			max_tax = 0.5
-			factory_owner_cost = 0.3
-			factory_output = 0.3
-			
+			min_social_spending = 0.4
+			max_social_spending = 0.4
+			min_tax = 0.4
+			max_tax = 0.4
+			factory_owner_cost = 0.25
+			factory_output = 0.2
+			farm_RGO_eff = 0.5
 			rules = {
 				build_factory = no
 				expand_factory = no
@@ -42,12 +43,13 @@ party_issues = {
 			}
 		}
 		interventionism = {
-			min_social_spending = 0.65
-			max_social_spending = 0.65
-			max_tax = 0.65
-			min_tax = 0.65
-			factory_owner_cost = 0.6
+			min_social_spending = 0.6
+			max_social_spending = 0.6
+			max_tax = 0.6
+			min_tax = 0.6
+			factory_owner_cost = 0.5
 			factory_output = 0.1
+			farm_RGO_eff = 0.25
 			rules = {
 				build_factory = no
 				expand_factory = yes
@@ -71,11 +73,10 @@ party_issues = {
 			}
 		}
 		state_capitalism = {
-			min_social_spending = 0.80
+			min_social_spending = 0.8
 			max_social_spending = 0.8
-			max_tax = 0.80
+			max_tax = 0.8
 			min_tax = 0.8
-			factory_throughput = 0.1
 			factory_owner_cost = 0.9
 			rules = {
 				build_factory = yes
@@ -100,7 +101,8 @@ party_issues = {
 			max_tax = 1
 			min_social_spending = 1
 			max_social_spending = 1
-			factory_throughput = 0.2
+			factory_output = 0.3
+			farm_RGO_eff = 0.5
 			factory_owner_cost = -1	#negative costs, can't build.
 			rules = {
 				build_factory = yes
@@ -124,16 +126,16 @@ party_issues = {
 	
 	religious_policy = {
 		pro_atheism = {
-			global_pop_consciousness_modifier = 0.02
+			research_points_modifier = 0.5
 		}
 		secularized = {
-			global_pop_consciousness_modifier = 0.01
+			global_pop_consciousness_modifier = 0.03
 		}
 		pluralism = {
-			global_pop_consciousness_modifier = -0.01
+			global_pop_militancy_modifier = -0.03
 		}
 		moralism = {
-			global_pop_consciousness_modifier = -0.02
+			global_pop_consciousness_modifier = -0.03
 		}
 	}
 	citizenship_policy = {
@@ -231,8 +233,8 @@ political_reforms = {
 			global_immigrant_attract = 0.01
 		}
 		wealth_weighted_voting = {
-			rich_vote = 2
-			middle_vote = 1
+			rich_vote = 1
+			middle_vote = 0.1
 			poor_vote = 0
 			
 			global_immigrant_attract = 0.02
@@ -245,9 +247,9 @@ political_reforms = {
 			global_immigrant_attract = 0.03
 		}
 		universal_weighted_voting = {
-			rich_vote = 3
-			middle_vote = 2
-			poor_vote = 1
+			rich_vote = 1
+			middle_vote = 1
+			poor_vote = 0.1
 			
 			global_immigrant_attract = 0.04
 		}
@@ -319,7 +321,7 @@ political_reforms = {
 	press_rights = {
 		next_step_only = yes
 		state_press = {
-			literacy_con_impact = -0.25
+			literacy_con_impact = -0.5
 			suppression_points_modifier = 0.25
 		}
 		censored_press = {
@@ -327,7 +329,7 @@ political_reforms = {
 			global_immigrant_attract = 0.01
 		}
 		free_press = {
-			literacy_con_impact = 0.25
+			literacy_con_impact = 0.5
 			issue_change_speed = 0.5
 			global_immigrant_attract = 0.02
 			suppression_points_modifier = -0.25
