@@ -27,7 +27,7 @@ country = {
 	COLONIAL_RANK = 16, -- Minimum rank a nation must have to send colonists
 	COLONY_TO_STATE_PRESTIGE_GAIN = 10, -- Prestige gain when turning colony to state
 	COLONIAL_LIFERATING = 35,
-	BASE_GREATPOWER_DAILY_INFLUENCE = 0.05, -- Influence value which is distributed each day
+	BASE_GREATPOWER_DAILY_INFLUENCE = 0.1, -- Influence value which is distributed each day
 	AI_SUPPORT_REFORM = 0.05, -- At least this many % needs to support a reform for the AI to take it
 	BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
 	DIPLOMAT_TRAVEL_TIME = 14,
@@ -393,11 +393,11 @@ diplomacy = {
 	WAR_FAILED_GOAL_PRESTIGE_BASE = -10,
 	WAR_FAILED_GOAL_PRESTIGE = -0.1,
 	
-	DISCREDIT_DAYS = 720,
+	DISCREDIT_DAYS = 360,
 	DISCREDIT_INFLUENCE_COST_FACTOR = 2,	
 	DISCREDIT_INFLUENCE_GAIN_FACTOR = -0.75,
 	
-	BANEMBASSY_DAYS = 1500,
+	BANEMBASSY_DAYS = 720,
 	
 	DECLAREWAR_RELATION_ON_ACCEPT = -50,
 	DECLAREWAR_DIPLOMATIC_COST = 1,
