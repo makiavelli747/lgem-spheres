@@ -39,7 +39,13 @@ everyday_needs = {
 }
 
 life_needs = {
-	canned_food = 1.25
+	cattle = 4
+	wool =  2
+	fish =  3.5
+	fruit =  2
+	grain =  16
+	cotton = 1
+	timber = 1
 }
 
 luxury_needs = {
