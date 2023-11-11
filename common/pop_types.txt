@@ -302,20 +302,7 @@ demotion_chance =
 		}
 	}
 
-	group = {
-		modifier = {
-			factor = 0.01
-			not = { life_needs = 0.9 }
-		}
-		modifier = {
-			factor = 0.01
-			not = { life_needs = 0.8 }
-		}
-		modifier = {
-			factor = 0.01
-			not = { life_needs = 0.7 }
-		}
-	}
+
 	group = {
 
 		modifier = {
