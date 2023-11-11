@@ -23,8 +23,8 @@ engineer = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		explosives = 0.25
-		canned_food = 0.06
+		explosives = 0.5
+		canned_food = 0.12
 	}
 	
 
