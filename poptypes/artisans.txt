@@ -43,7 +43,7 @@ everyday_needs = {
 	cotton = 15
 	dye = 5
 	iron = 4
-	coal = 3
+	coal = 6
 	timber = 3
 	oil = 0.5
 	rubber = 0.5
@@ -58,6 +58,7 @@ life_needs = {
 	grain =  16
 	cotton = 1
 	timber = 1
+	coal = 1
 }
 
 
