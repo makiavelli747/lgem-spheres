@@ -170,15 +170,15 @@ group = {
 
 
 	modifier = {
-		factor = -0.01
+		factor = -0.05
 		not = { religion = this }
 	}
 	modifier = {
-		factor = -0.01
+		factor = -0.05
 		state_scope = { is_colonial = yes }
 	}
 	modifier = {
-		factor = -0.01
+		factor = -0.05
 		not = { culture = this }
 	}
 	
@@ -194,14 +194,14 @@ demotion_chance =
 	factor = 1
 	
 	modifier = {
-		factor = -0.01
+		factor = -0.05
 		not = {	country = { slavery = yes_slavery }	}
 		not = { religion = this }
 		strata = poor
 	}
 
 	modifier = {
-		factor = -0.01
+		factor = -0.05
 		not = {	country = { slavery = yes_slavery }	}
 		state_scope = { is_colonial = yes }
 		strata = poor
@@ -209,9 +209,16 @@ demotion_chance =
 
 
 	modifier = {
-		factor = -0.01
+		factor = -0.05
 		not = {	country = { slavery = yes_slavery }	}
 		not = { culture = this }
+		strata = poor
+	}
+	modifier = {
+		factor = 1
+		country = { slavery = yes_slavery }
+		not = { culture = this }
+		not = { literacy = 0.3 }
 		strata = poor
 	}
 	group = {
