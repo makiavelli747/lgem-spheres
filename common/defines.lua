@@ -696,7 +696,7 @@ ai =
 {
 	COLONY_WEIGHT = 10.0, -- ai weight for colonising
 	ADMINISTRATOR_WEIGHT = 50.0, -- ai weight for new bureaucrat
-	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
+	INDUSTRYWORKER_WEIGHT = 1.0, -- ai weight for new industry workers
 	EDUCATOR_WEIGHT = 50.0, -- ai weigth for new clergy
 	SOLDIER_WEIGHT = 10.0, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
