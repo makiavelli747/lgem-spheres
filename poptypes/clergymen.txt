@@ -646,7 +646,7 @@ promote_to =
 	farmers = { #and labourers
 		factor = 0.01
 		modifier = {
-			factor = 50
+			factor = 5
 			soldiers = 0.01
 		}
 
