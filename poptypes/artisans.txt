@@ -549,39 +549,39 @@ promote_to =
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.15
+				education_spending = 0.1
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.25
+				education_spending = 0.2
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.35
+				education_spending = 0.3
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.45
+				education_spending = 0.4
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.55
+				education_spending = 0.5
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.65
+				education_spending = 0.6
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.75
+				education_spending = 0.7
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.85
+				education_spending = 0.8
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.95
+				education_spending = 0.9
 			}
 		}
 		group = {		
