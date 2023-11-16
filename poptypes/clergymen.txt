@@ -650,7 +650,7 @@ promote_to =
 			soldiers = 0.01
 		}
 
-		}
+		
 	}
 #	labourers = 
 #	{
