@@ -261,7 +261,7 @@ promote_to =
 	
 	capitalists = 
 	{
-		factor = 0.1
+		factor = 0.01
 		modifier = {
 			factor = -100
 			country = {
