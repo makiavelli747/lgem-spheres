@@ -170,8 +170,8 @@ party_issues = {
 			reinforce_speed = 0.5
 		}
 		pro_military = {
-			min_military_spending = 0.74
-			max_military_spending = 0.74
+			min_military_spending = 0.8
+			max_military_spending = 0.8
 			war_exhaustion_effect = 0.8
 			cb_generation_speed_modifier = 0.1
 			mobilization_impact = 3
@@ -179,8 +179,8 @@ party_issues = {
 			reinforce_speed = 0.25
 		}
 		anti_military = {
-			min_military_spending = 0.49
-			max_military_spending = 0.49
+			min_military_spending = 0.6
+			max_military_spending = 0.6
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.1
 			mobilization_impact = 2
@@ -188,8 +188,8 @@ party_issues = {
 			reinforce_speed = -0.25
 		}
 		pacifism = {
-			min_military_spending = 0.24
-			max_military_spending = 0.24
+			min_military_spending = 0.4
+			max_military_spending = 0.4
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.3
 			mobilization_impact = 1
