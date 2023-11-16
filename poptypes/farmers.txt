@@ -265,6 +265,96 @@ promote_to =
 			
 			}
 	}
+
+clergymen =
+	{
+		factor = 0.01
+		group = {
+			modifier = {
+				factor = 5
+				education_spending = 0.05
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.15
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.25
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.35
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.45
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.55
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.65
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.75
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.85
+			}
+			modifier = {
+				factor = 5
+				education_spending = 0.95
+			}
+		}
+		group = {		
+			modifier = {
+				factor = -5
+				clergymen = 0.004
+			}
+			modifier = {
+				factor = -5
+				clergymen = 0.008
+			}
+			modifier = {
+				factor = -5
+				clergymen = 0.012
+			}			
+			modifier = {
+				factor = -5
+				clergymen = 0.016
+			}			
+			modifier = {
+				factor = -5
+				clergymen = 0.02
+			}			
+			modifier = {
+				factor = -5
+				clergymen = 0.024
+			}			
+			modifier = {
+				factor = -5
+				clergymen = 0.028
+			}			
+			modifier = {
+				factor = -5
+				clergymen = 0.032
+			}			
+			modifier = {
+				factor = -5
+				clergymen = 0.036
+			}			
+			modifier = {
+				factor = -100
+				clergymen = 0.04
+			}						
+		}
+		
+	}
 			artisans =
 	{
 		factor = 0.01
