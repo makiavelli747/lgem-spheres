@@ -416,19 +416,19 @@ promote_to =
 		group = {
 			modifier = {
 				factor = -10
+				state_scope = { bureaucrats = 0.004 }
+			}
+			modifier = {
+				factor = -10
+				state_scope = { bureaucrats = 0.008 }
+			}
+			modifier = {
+				factor = -10
 				state_scope = { bureaucrats = 0.012 }
 			}
 			modifier = {
 				factor = -10
-				state_scope = { bureaucrats = 0.014 }
-			}
-			modifier = {
-				factor = -10
 				state_scope = { bureaucrats = 0.016 }
-			}
-			modifier = {
-				factor = -10
-				state_scope = { bureaucrats = 0.018 }
 			}
 			modifier = {
 				factor = -10
