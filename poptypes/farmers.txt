@@ -571,6 +571,48 @@ clergymen =
 				aristocrats = 0.02
 			}
 		}
+		group = {		
+			modifier = {
+				factor = -5
+				aristocrats = 0.002
+			}
+			modifier = {
+				factor = -5
+				aristocrats = 0.004
+			}
+			modifier = {
+				factor = -5
+				aristocrats = 0.006
+			}			
+			modifier = {
+				factor = -5
+				aristocrats = 0.008
+			}			
+			modifier = {
+				factor = -5
+				aristocrats = 0.01
+			}			
+			modifier = {
+				factor = -5
+				aristocrats = 0.012
+			}			
+			modifier = {
+				factor = -5
+				aristocrats = 0.014
+			}			
+			modifier = {
+				factor = -5
+				aristocrats = 0.016
+			}			
+			modifier = {
+				factor = -5
+				aristocrats = 0.018
+			}			
+			modifier = {
+				factor = -100
+				aristocrats = 0.02
+			}						
+		}
 
 		
 			modifier = {
