@@ -94,6 +94,8 @@ land_province = {
 
 blockaded = 
 {
+	farm_rgo_eff = -0.9
+	mine_rgo_eff = -0.9
 }
 
 no_adjacent_controlled = {
@@ -104,8 +106,8 @@ core = {
 }
 
 has_siege = {
-	farm_rgo_eff = -0.5
-	mine_rgo_eff = -0.5
+	farm_rgo_eff = -0.9
+	mine_rgo_eff = -0.9
 }
 
 occupied = {
