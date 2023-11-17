@@ -4,6 +4,17 @@ strata = poor
 unemployment = yes
 equivalent = labourers
 
+rebel =
+{
+	cavalry = 0.1
+	artillery = 0.3
+	cuirassier = 0.1
+	dragoon = 0.1
+	guard = 0
+	hussar = 0.1
+	infantry = 0.3
+	irregular = 0
+}
 
 everyday_needs = {
 	regular_clothes = 3
