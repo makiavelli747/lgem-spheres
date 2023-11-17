@@ -277,10 +277,6 @@ promote_to =
 
 			modifier = {
 				factor = 5
-				literacy = 0.3
-			}
-			modifier = {
-				factor = 5
 				literacy = 0.4
 			}
 			modifier = {

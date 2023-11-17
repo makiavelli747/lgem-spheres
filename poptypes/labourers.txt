@@ -24,6 +24,7 @@ everyday_needs = {
 	explosives = 1
 	coal = 4
 	iron = 2
+	dye = 1
 	tobacco = 1
 }
 
@@ -40,6 +41,7 @@ life_needs = {
 
 
 luxury_needs = {	
+	silk = 1
 	regular_clothes = 4
 	liquor = 2
 	furniture = 2
