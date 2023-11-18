@@ -21,6 +21,7 @@ everyday_needs = {
 	regular_clothes = 8
 	liquor = 4
 	furniture = 3
+	paper = 2
 	tea = 4
 	coal = 4
 	iron = 2
