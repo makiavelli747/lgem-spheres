@@ -41,7 +41,7 @@ life_needs = {
 
 
 luxury_needs = {
-	silk = 2
+	silk = 1
 	regular_clothes = 4
 	liquor = 2
 	furniture = 2
