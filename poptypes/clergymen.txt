@@ -62,6 +62,9 @@ life_needs = {
 	fish =  3.5
 	fruit =  2
 	grain =  16
+	cotton = 1
+	timber = 1
+	coal = 1
 }
 
 
