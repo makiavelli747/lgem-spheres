@@ -24,6 +24,7 @@ aeroplane_factory = {
 		liquor = 1000
 		furniture = 800
 		regular_clothes = 1200
+		paper = 800
 		
 	}
 	time = 180
@@ -47,6 +48,7 @@ barrel_factory = {
 		liquor = 1000
 		furniture = 800
 		regular_clothes = 1200
+		paper = 800
 	}
 
 	time = 180
@@ -70,6 +72,7 @@ automobile_factory = {
 		liquor = 1000
 		furniture = 800
 		regular_clothes = 1200
+		paper = 800
 	}
 	time = 180
 	visibility = yes
@@ -93,6 +96,7 @@ radio_factory = {
 		liquor = 1000
 		furniture = 800
 		regular_clothes = 1200
+		paper = 800
 	}
 	time = 90
 	visibility = yes
@@ -116,6 +120,7 @@ telephone_factory = {
 		liquor = 1000
 		furniture = 800
 		regular_clothes = 1200
+		paper = 800
 	}
 	time = 90
 	visibility = yes
@@ -141,6 +146,7 @@ electric_gear_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 90
 	visibility = yes
@@ -164,6 +170,7 @@ machine_parts_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -187,6 +194,7 @@ synthetic_oil_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -210,6 +218,7 @@ fuel_refinery = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 90
 	visibility = yes
@@ -237,6 +246,7 @@ steamer_shipyard = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -261,6 +271,7 @@ clipper_shipyard = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -285,6 +296,7 @@ luxury_clothes_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -307,6 +319,7 @@ luxury_furniture_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -331,6 +344,7 @@ steel_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 90
 	visibility = yes
@@ -353,6 +367,7 @@ artillery_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -374,6 +389,7 @@ small_arms_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -397,6 +413,7 @@ furniture_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -418,6 +435,7 @@ paper_mill = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -439,6 +457,7 @@ regular_clothes_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -460,6 +479,7 @@ explosives_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -484,6 +504,7 @@ ammunition_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -507,6 +528,7 @@ canned_food_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -530,6 +552,7 @@ dye_factory = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 90
 	visibility = yes
@@ -553,6 +576,7 @@ liquor_distillery = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -576,6 +600,7 @@ winery = {
 		liquor = 800
 		furniture = 600
 		regular_clothes = 1000
+		paper = 600
 	}
 	time = 180
 	visibility = yes
@@ -601,6 +626,7 @@ lumber_mill = {
 		liquor = 600
 		furniture = 400
 		regular_clothes = 800
+		paper = 400
 	}
 	time = 90
 	visibility = yes
@@ -623,6 +649,7 @@ fabric_factory = {
 		liquor = 600
 		furniture = 400
 		regular_clothes = 800
+		paper = 400
 	}
 	time = 90
 	visibility = yes
@@ -645,6 +672,7 @@ cement_factory = {
 		liquor = 600
 		furniture = 400
 		regular_clothes = 800
+		paper = 400
 	}
 	time = 90
 	visibility = yes
@@ -667,6 +695,7 @@ glass_factory = {
 		liquor = 600
 		furniture = 400
 		regular_clothes = 800
+		paper = 400
 	}
 	time = 90
 	visibility = yes
@@ -690,6 +719,7 @@ fertilizer_factory = {
 		liquor = 600
 		furniture = 400
 		regular_clothes = 800
+		paper = 400
 	}
 	time = 90
 	visibility = yes
@@ -748,6 +778,7 @@ railroad = {
 		liquor = 300
 		furniture = 200
 		regular_clothes = 400
+		paper = 200
 	}
 	time = 720
 	visibility = yes
