@@ -381,34 +381,38 @@ ideologies = {
 	
 	reactionary = {
 
-		factor = 1
+		factor = 2
 
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
 
 		modifier = {
 			factor = 1.2
-			NOT = {	literacy = 0.25	}
+			NOT = {	literacy = 0.5	}
 			
 		}
 
+		modifier = {
+			factor = 1.2
+			NOT = {	literacy = 0.4	}
+			
+		}
+
+		modifier = {
+			factor = 1.2
+			NOT = {	literacy = 0.3	}
+			
+		}
 		modifier = {
 			factor = 1.2
 			NOT = {	literacy = 0.2	}
 			
 		}
-
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.15	}
-			
-		}
 		modifier = {
 			factor = 1.2
 			NOT = {	literacy = 0.1	}
-			
-		}
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.05	}
 			
 		}
 		
