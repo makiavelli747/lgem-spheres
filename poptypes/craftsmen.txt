@@ -18,9 +18,9 @@ rebel =
 }
 
 everyday_needs = {
-	regular_clothes = 32
-	liquor = 16
-	furniture = 12
+	regular_clothes = 16
+	liquor = 8
+	furniture = 6
 	tea = 8
 	coal = 8
 	iron = 4
