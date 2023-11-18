@@ -18,13 +18,14 @@ rebel =
 }
 
 everyday_needs = {
-	regular_clothes = 8
-	liquor = 4
-	furniture = 3
-	tea = 2
-	coal = 4
-	iron = 2
-	tobacco = 1
+	regular_clothes = 32
+	liquor = 16
+	furniture = 12
+	tea = 8
+	coal = 8
+	iron = 4
+	tobacco = 4
+	dye = 1
 }
 
 life_needs = {
@@ -40,18 +41,18 @@ life_needs = {
 
 
 luxury_needs = {	
-	regular_clothes = 4
-	liquor = 2
-	furniture = 2
-	tea = 2
-	wine = 2
-	paper = 4
-	tobacco = 2
-	coffee = 1
-	automobiles = 1
-	fuel = 1
-	telephones = 1
-	radio = 2
+	regular_clothes = 16
+	liquor = 8
+	furniture = 8
+	tea = 4
+	wine = 8
+	paper = 16
+	tobacco = 4
+	coffee = 2
+	automobiles = 2
+	fuel = 2
+	telephones = 2
+	radio = 4
 }
 
 

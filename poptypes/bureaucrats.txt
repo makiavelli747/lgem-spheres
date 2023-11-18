@@ -34,17 +34,17 @@ luxury_needs_income =
 
 
 luxury_needs = {
-	luxury_clothes = 0.6
-	luxury_furniture = 0.2
-	wine = 2
-	opium = 1
-	paper = 4
-	tobacco = 2
-	coffee = 1
-	telephones = 1
-	automobiles = 1
-	radio = 2
-	fuel = 1
+	luxury_clothes = 1.2
+	luxury_furniture = 0.4
+	wine = 4
+	opium = 2
+	paper = 8
+	tobacco = 4
+	coffee = 2
+	telephones = 2
+	automobiles = 2
+	radio = 4
+	fuel = 2
 }
 
 everyday_needs = {
@@ -53,9 +53,10 @@ everyday_needs = {
 	liquor = 2
 	wine = 1.5
 	paper = 4
-	tobacco = 3
-	coffee = 1
-	tea = 3
+	tobacco = 6
+	coffee = 2
+	tea = 6
+	dye = 1
 
 }
 life_needs = {
@@ -368,71 +369,7 @@ promote_to =
 	}
 	
 	
-	craftsmen = {
-		factor = 0.01
-			
-
-		group = {
-			modifier = {
-				factor = 5
-				literacy = 0.05
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.1
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.2
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.3
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.4
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.5
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.6
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.7
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.8
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.9
-			}
-		}
-
-
-		modifier = {
-			factor = -100
-			NOT = {
-				location = {
-					work_available = {
-						worker = craftsmen
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = -100
-				location = {
-					is_colonial = yes
-				}
-		}
-	}
+	
 	farmers = { #and labourers
 		factor = 0.01
 		modifier = {

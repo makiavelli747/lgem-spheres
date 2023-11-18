@@ -41,19 +41,19 @@ life_needs = {
 
 
 luxury_needs = {
-	silk = 1
-	regular_clothes = 2
-	liquor = 1
-	furniture = 1
-	tea = 1
-	wine = 1
-	paper = 2
-	tobacco = 1
-	coffee = 0.5
-	automobiles = 0.5
-	fuel = 0.5
-	telephones = 0.5
-	radio = 1
+	silk = 2
+	regular_clothes = 4
+	liquor = 2
+	furniture = 2
+	tea = 4
+	wine = 2
+	paper = 4
+	tobacco = 4
+	coffee = 2
+	automobiles = 1
+	fuel = 1
+	telephones = 1
+	radio = 2
 }
 
 country_migration_target =
@@ -573,96 +573,7 @@ clergymen =
 
 
 	
-	aristocrats = 
-	{
-		factor = 0.01
-		
-
-		group = {		
-			modifier = {
-				factor = -5
-				aristocrats = 0.002
-			}
-			modifier = {
-				factor = -5
-				aristocrats = 0.004
-			}
-			modifier = {
-				factor = -5
-				aristocrats = 0.006
-			}			
-			modifier = {
-				factor = -5
-				aristocrats = 0.008
-			}			
-			modifier = {
-				factor = -5
-				aristocrats = 0.01
-			}			
-			modifier = {
-				factor = -5
-				aristocrats = 0.012
-			}			
-			modifier = {
-				factor = -5
-				aristocrats = 0.014
-			}			
-			modifier = {
-				factor = -5
-				aristocrats = 0.016
-			}			
-			modifier = {
-				factor = -5
-				aristocrats = 0.018
-			}			
-			modifier = {
-				factor = -100
-				aristocrats = 0.02
-			}						
-		}
-
-		
-			modifier = {
-				factor = 5
-				not = { literacy = 1 }
-			}
-			modifier = {
-				factor = 5
-				not = { literacy = 0.9 }
-			}
-			modifier = {
-				factor = 5
-				not = {  literacy = 0.8 }
-			}
-			modifier = {
-				factor = 5
-				not = {  literacy = 0.7 } 
-			}
-			modifier = {
-				factor = 5
-				not = { literacy = 0.6 } 
-			}
-			modifier = {
-				factor = 5
-				not = { literacy = 0.5 } 
-			}
-			modifier = {
-				factor = 5
-				not = { literacy = 0.4 } 
-			}
-			modifier = {
-				factor = 5
-				not = { literacy = 0.3 } 
-			}
-			modifier = {
-				factor = 5
-				not = { literacy = 0.2 } 
-			}
-			modifier = {
-				factor = 5
-				not = { literacy = 0.1 } 
-			}
-	}
+	
 }
 
 

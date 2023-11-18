@@ -42,18 +42,18 @@ life_needs = {
 
 luxury_needs = {	
 	silk = 1
-	regular_clothes = 4
-	liquor = 2
-	furniture = 2
-	tea = 2
-	wine = 2
-	paper = 4
-	tobacco = 2
-	coffee = 1
-	automobiles = 1
-	fuel = 1
-	telephones = 1
-	radio = 2
+	regular_clothes = 8
+	liquor = 4
+	furniture = 4
+	tea = 4
+	wine = 4
+	paper = 8
+	tobacco = 4
+	coffee = 2
+	automobiles = 2
+	fuel = 2
+	telephones = 2
+	radio = 4
 }
 
 

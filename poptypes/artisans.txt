@@ -13,22 +13,22 @@ rebel =
 
 
 luxury_needs = {
-	luxury_clothes = 0.3
-	luxury_furniture = 0.2
-	clipper_convoy = 0.2
-	opium = 1
-	regular_clothes = 1.5
-	furniture = 1
-	liquor = 1
-	tea = 1.5
-	wine = 1.5
-	paper = 2
-	tobacco = 1
-	coffee = 0.5
-	telephones = 1
-	automobiles = 1
-	radio = 2
-	fuel = 1
+	luxury_clothes = 0.6
+	luxury_furniture = 0.4
+	clipper_convoy = 0.4
+	opium = 2
+	regular_clothes = 3
+	furniture = 2
+	liquor = 2
+	tea = 3
+	wine = 3
+	paper = 4
+	tobacco = 2
+	coffee = 1
+	telephones = 2
+	automobiles = 2
+	radio = 4
+	fuel = 2
 }
 
 everyday_needs = {
@@ -41,7 +41,7 @@ everyday_needs = {
 	sulphur = 1
 	silk = 1
 	cotton = 15
-	dye = 5
+	dye = 6
 	iron = 4
 	coal = 6
 	timber = 3
@@ -539,204 +539,7 @@ promote_to =
 			}
 		}
 	}
-	clergymen =
-	{
-		factor = 0.01
-		group = {
-			modifier = {
-				factor = 5
-				education_spending = 0.05
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.1
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.2
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.3
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.4
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.5
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.6
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.7
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.8
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.9
-			}
-		}
-		group = {		
-			modifier = {
-				factor = -5
-				clergymen = 0.004
-			}
-			modifier = {
-				factor = -5
-				clergymen = 0.008
-			}
-			modifier = {
-				factor = -5
-				clergymen = 0.012
-			}			
-			modifier = {
-				factor = -5
-				clergymen = 0.016
-			}			
-			modifier = {
-				factor = -5
-				clergymen = 0.02
-			}			
-			modifier = {
-				factor = -5
-				clergymen = 0.024
-			}			
-			modifier = {
-				factor = -5
-				clergymen = 0.028
-			}			
-			modifier = {
-				factor = -5
-				clergymen = 0.032
-			}			
-			modifier = {
-				factor = -5
-				clergymen = 0.036
-			}			
-			modifier = {
-				factor = -100
-				clergymen = 0.04
-			}						
-		}
-		
-	}
-	capitalists = 
-	{
-		factor = 0.01
-		modifier = {
-			factor = -100
-			country = {
-				economic_policy = planned_economy
-			}
-		}
-			modifier = {
-				factor = -100
-				capitalists = 0.01
-			}
-
-		group = {
-
-
-			modifier = {
-				factor = 5
-				literacy = 0.4
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.5
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.6
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.7
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.8
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.9
-			}
-		}
-	}
-	craftsmen = {
-		factor = 0.01
-			
-
-		group = {
-			modifier = {
-				factor = 5
-				literacy = 0.05
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.1
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.2
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.3
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.4
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.5
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.6
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.7
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.8
-			}
-			modifier = {
-				factor = 5
-				literacy = 0.9
-			}
-		}
-
-
-		modifier = {
-			factor = -100
-			NOT = {
-				location = {
-					work_available = {
-						worker = craftsmen
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = -100
-				location = {
-					is_colonial = yes
-				}
-		}
-	}
-
+	
 
 
 	farmers = { #and labourers
