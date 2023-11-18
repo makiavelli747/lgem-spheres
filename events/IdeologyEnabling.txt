@@ -92,7 +92,6 @@ country_event = {
 			planned_economy = 10
 			pro_atheism = 10
 			pro_military = 10
-			unemployment = 0.1
 			AND = {
 				NOT = {
 					poor_strata_life_needs = 0.9
