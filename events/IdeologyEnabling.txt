@@ -17,19 +17,8 @@ country_event = {
 		}
 		year = 1860
 		civilized = yes
-		literacy = 0.4
-		OR = {
-			unemployment = 0.1
-			NOT = {
-				poor_strata_life_needs = 0.8
-			}
-			NOT = {
-				poor_strata_everyday_needs = 0.5
-			}
-			NOT = {
-				middle_strata_everyday_needs = 0.5
-			}
-		}
+		literacy = 0.5
+
 	}
 	major = yes
 	fire_only_once = yes
@@ -87,18 +76,8 @@ country_event = {
 		}
 		year = 1870
 		civilized = yes
-		literacy = 0.5
-		OR = {
-			planned_economy = 10
-			pro_atheism = 10
-			pro_military = 10
-			AND = {
-				NOT = {
-					poor_strata_life_needs = 0.9
-					}
-				average_militancy = 3
-			}
-		}
+		literacy = 0.6
+
 	}
 	
 	major = yes
@@ -146,14 +125,8 @@ country_event = {
 		}
 		year = 1848
 		civilized = yes
-		literacy = 0.65
-		OR = {
-			laissez_faire = 10
-			pluralism = 10
-			anti_military = 10
-			political_reform_want = 0.15
-			unemployment = 0.1
-		}
+		literacy = 0.5
+
 	}
 	
 	major = yes
