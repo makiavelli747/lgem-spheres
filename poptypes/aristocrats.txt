@@ -44,15 +44,15 @@ life_needs = {
 
 
 luxury_needs = {
-	luxury_clothes = 8
-	wine = 20
-	luxury_furniture = 4
-	clipper_convoy = 4
-	opium = 10
-	telephones = 10
-	automobiles = 10
-	radio = 20
-	fuel = 20
+	luxury_clothes = 4
+	wine = 10
+	luxury_furniture = 2
+	clipper_convoy = 2
+	opium = 5
+	telephones = 5
+	automobiles = 5
+	radio = 10
+	fuel = 10
 	
 }
 
