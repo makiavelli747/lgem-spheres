@@ -1,7 +1,7 @@
 #general promote mtth, same for all pops
 promotion_chance = 
 {
-	factor = 4
+	factor = 2
 	group = {
 		modifier = {
 			factor = 0.01
@@ -69,7 +69,7 @@ promotion_chance =
 
 demotion_chance = 
 {
-	factor = 1
+	factor = 2
 
 		modifier = {
 			factor = 1
