@@ -666,7 +666,7 @@ ideologies = {
 	
 	fascist = {
 
-		factor = 2
+		factor = 1
 		
 		modifier = {
 			factor = 1.2
@@ -876,7 +876,7 @@ ideologies = {
 
 	}
 	liberal = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 2
@@ -906,7 +906,7 @@ ideologies = {
 
 	}
 	anarcho_liberal = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 2
