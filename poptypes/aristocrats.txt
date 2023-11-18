@@ -19,7 +19,7 @@ everyday_needs = {
 	luxury_clothes = 8	
 	luxury_furniture = 1
 	wine = 12.5
-	paper = 10
+	paper = 20
 	coffee = 10
 	opium = 10
 	tobacco = 20
@@ -44,6 +44,9 @@ life_needs = {
 
 
 luxury_needs = {
+	silk = 20
+	tea = 40
+	paper = 40
 	luxury_clothes = 8
 	wine = 20
 	luxury_furniture = 4
