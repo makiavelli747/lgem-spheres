@@ -8,7 +8,7 @@ literacy = 0.1
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 20 #was 40
+prestige = 50 #was 40
 
 # Political reforms
 slavery = no_slavery
