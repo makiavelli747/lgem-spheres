@@ -241,7 +241,7 @@ country_event = {
 		capital_scope = {
 			state_scope = {
 				bureaucrats = {
-					consciousness = 1
+					consciousness = 2
 					militancy = 1
 				}
 			}
@@ -256,7 +256,7 @@ country_event = {
 			}
 			any_owned = {
 				any_pop = {
-					militancy = 1
+					militancy = 2
 					consciousness = 1
 				}
 			}
@@ -366,7 +366,7 @@ country_event = {
 		capital_scope = {
 			state_scope = {
 				any_pop = {
-					consciousness = 1
+					consciousness = 2
 				}
 			}
 		}
@@ -431,7 +431,7 @@ country_event = {
 				is_colonial = yes
 			}
 			any_pop = {
-				consciousness = 1
+				consciousness = 2
 				literacy = 0.3
 			}
 		}
@@ -551,6 +551,7 @@ province_event = {
 					is_state_religion = no
 				}
 				militancy = 1
+				
 			}
 		}
 	}
@@ -614,7 +615,7 @@ province_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				militancy = 1
+				consciousness = 1
 			}
 		}
 	}
@@ -1678,14 +1679,14 @@ country_event = {
 		prestige = -5
 		bureaucrats = {
 			militancy = 1
-			
+			consciousness = 1
 		}
 	}
 	
 	option = {
 		name = "EVTOPTB14760"
 		capitalists = {
-			
+			militancy = 2
 			consciousness = 2
 		}
 	}
