@@ -17,12 +17,12 @@ state_building = {
 
 1861.1.1 = {
 	state_building = {
-		level = 2
+		level = 4
 		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 4
 		building = steamer_shipyard
 		upgrade = yes
 	}
