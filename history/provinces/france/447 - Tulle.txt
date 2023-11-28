@@ -8,8 +8,4 @@ state_building = {
 	building = winery
 	upgrade = yes
 }
-state_building = {
-	level = 1
-	building = liquor_distillery 
-	upgrade = yes
-}
+

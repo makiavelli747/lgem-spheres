@@ -4,7 +4,7 @@ add_core = FRA
 trade_goods = cattle
 life_rating = 31
 state_building = {
-	level = 2
+	level = 1
 	building = regular_clothes_factory 
 	upgrade = yes
 }
