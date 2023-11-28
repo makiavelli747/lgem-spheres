@@ -3,11 +3,7 @@ controller = FRA
 add_core = FRA
 trade_goods = cattle
 life_rating = 31
-state_building = {
-	level = 1
-	building = regular_clothes_factory 
-	upgrade = yes
-}
+
 
 
 1861.1.1 = { 

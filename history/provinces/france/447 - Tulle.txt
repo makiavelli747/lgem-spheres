@@ -3,9 +3,5 @@ controller = FRA
 add_core = FRA
 trade_goods = fruit
 life_rating = 32
-state_building = {
-	level = 1
-	building = winery
-	upgrade = yes
-}
+
 

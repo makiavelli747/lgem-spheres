@@ -10,14 +10,7 @@ life_rating = 31
 
 naval_base = 2
 
-state_building = {
 
-	level = 1
-
-	building = steamer_shipyard 
-	upgrade = yes
-
-}
 
 
 
