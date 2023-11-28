@@ -32,13 +32,13 @@ diplomatic_focus =
 		own_provinces = no
 
 		flashpoint_tension = 0.15
-
 		limit = {
 			is_core = THIS
 			THIS = {
 				is_greater_power = no
 			}
 		}
+		
 	}
 }
 
