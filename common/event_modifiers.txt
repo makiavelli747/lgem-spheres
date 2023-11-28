@@ -70,21 +70,21 @@ national_tragedy = {
 
 ##### CIVILIZATION AND GUNBOATS #####
 western_influences = {
-	global_pop_militancy_modifier = 0.1
+	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = 0.05
 	research_points_modifier = 0.2
 	icon = 10
 }
 
 uncivilized_isolationism = {
-	global_pop_militancy_modifier = -0.1
+	global_pop_militancy_modifier = -0.05
 	global_pop_consciousness_modifier = -0.05
 	research_points_modifier = -0.2
 	icon = 10
 }
 
 western_presence = {
-	pop_militancy_modifier = 0.1
+	pop_militancy_modifier = 0.02
 	research_points_modifier = 0.01
 	icon = 9
 }
@@ -136,7 +136,7 @@ colonial_dry_spell = {
 colonial_exploitation = {
 	farm_RGO_eff = 0.10
 	mine_RGO_eff = 0.10
-	pop_militancy_modifier = 0.1
+	pop_militancy_modifier = 0.05
 	icon = 18
 }
 
@@ -219,7 +219,7 @@ strike_solution = {
 }
 
 province_strike = {
-	pop_militancy_modifier = 0.2
+	pop_militancy_modifier = 0.1
 	icon = 4
 }
 
@@ -279,7 +279,7 @@ beer_hall_putsch = {
 local_opium_habit = {
 	mine_rgo_eff = -0.2
 	farm_rgo_eff = -0.2
-	pop_consciousness_modifier = -0.01
+	pop_consciousness_modifier = -0.02
 	icon = 20
 }
 
@@ -290,12 +290,12 @@ sayings_of_the_dutch = {
 
 european_military_mission = {
 	research_points_modifier = 0.02
-	pop_militancy_modifier = 0.1
+	pop_militancy_modifier = 0.05
 	icon = 17
 }
 
 extraterritoriality_granted = {
-	pop_militancy_modifier = 0.15
+	pop_militancy_modifier = 0.05
 	icon = 10
 }
 
