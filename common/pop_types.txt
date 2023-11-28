@@ -112,6 +112,29 @@ demotion_chance =
 	}
 	group = {
 		modifier = {
+			factor = 0.2
+			unemployment = 0.1
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.3
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.4
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.5
+		}
+		
+	}
+	group = {
+		modifier = {
 			factor = 0.01
 			literacy = 0.05
 		}
@@ -303,6 +326,29 @@ migration_chance =
 			has_factories = yes
 			}
 	}
+	group = {
+		modifier = {
+			factor = 0.2
+			unemployment = 0.1
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.3
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.4
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.5
+		}
+		
+	}
 
 }
 
@@ -463,10 +509,7 @@ colonialmigration_chance =
 emigration_chance = 
 {
 	factor = 0.5
-		modifier = {
-			factor = 1
-			unemployment = 0.95
-		}
+
 
 		group = {
 		modifier = {
@@ -595,7 +638,29 @@ emigration_chance =
 			luxury_needs = 0.9
 		}
 	}
-
+	group = {
+		modifier = {
+			factor = 0.2
+			unemployment = 0.1
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.3
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.4
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.5
+		}
+		
+	}
 	group = {
 		modifier = {
 			factor = -0.01
