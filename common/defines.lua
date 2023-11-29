@@ -31,7 +31,7 @@ country = {
 	AI_SUPPORT_REFORM = 0.05, -- At least this many % needs to support a reform for the AI to take it
 	BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
 	DIPLOMAT_TRAVEL_TIME = 14,
-	PROVINCE_OVERSEAS_PENALTY = 0.02, -- Each province req. this many goods flagged as overseas penalty 
+	PROVINCE_OVERSEAS_PENALTY = 0.01, -- Each province req. this many goods flagged as overseas penalty 
 	NONCORE_TAX_PENALTY = -0.1, -- -5% for each non-core in state
 	BASE_TARIFF_EFFICIENCY = 0.2, -- baseline tariff efficiency
 	COLONY_FORMED_PRESTIGE = 1, -- prestige from founding a colony.
@@ -647,7 +647,7 @@ pops = {
 	MIL_WAR_EXHAUSTION = 0.005,
 	MIL_NON_ACCEPTED = 0.02,
 		
-	CON_LITERACY = 0.2,
+	CON_LITERACY = 0.1,
 	CON_LUXURY_GOODS = 0.1,
 	CON_POOR_CLERGY = -2,
 	CON_MIDRICH_CLERGY = -1,

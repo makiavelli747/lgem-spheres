@@ -325,7 +325,7 @@ political_reforms = {
 	press_rights = {
 		next_step_only = yes
 		state_press = {
-			literacy_con_impact = -0.5
+			literacy_con_impact = -0.25
 			suppression_points_modifier = 0.25
 		}
 		censored_press = {
@@ -333,7 +333,7 @@ political_reforms = {
 			global_immigrant_attract = 0.01
 		}
 		free_press = {
-			literacy_con_impact = 0.5
+			literacy_con_impact = 0.25
 			issue_change_speed = 0.5
 			global_immigrant_attract = 0.02
 			suppression_points_modifier = -0.25
