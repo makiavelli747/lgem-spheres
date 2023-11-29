@@ -466,6 +466,14 @@ clergymen =
 		group = {
 			modifier = {
 				factor = -5
+				soldiers = 0.001
+			}
+			modifier = {
+				factor = -5
+				soldiers = 0.003
+			}
+			modifier = {
+				factor = -5
 				soldiers = 0.005
 			}
 			modifier = {
@@ -493,16 +501,8 @@ clergymen =
 				soldiers = 0.035
 			}
 			modifier = {
-				factor = -5
-				soldiers = 0.04
-			}
-			modifier = {
-				factor = -5
-				soldiers = 0.045
-			}
-			modifier = {
 				factor = -50
-				soldiers = 0.05
+				soldiers = 0.04
 			}
 		}
 	}
