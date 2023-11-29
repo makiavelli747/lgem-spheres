@@ -34,7 +34,7 @@ dreadnought = {
 	limit_per_port = -1
 	supply_consumption_score = 30
 	
-	supply_consumption = 5
+	supply_consumption = 4
 	supply_cost = {
 		steamer_convoy = 0.4
 		artillery = 0.15
