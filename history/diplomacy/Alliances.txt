@@ -29,7 +29,7 @@ alliance=
 	}
 alliance=
 	{
-		first="PRU"
+		first="FRA"
 		second="SAR"
 		end_date="1936.1.1"
 		start_date="1836.1.1"
