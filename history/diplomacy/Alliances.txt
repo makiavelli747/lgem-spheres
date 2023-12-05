@@ -1,0 +1,36 @@
+alliance=
+	{
+		first="BOL"
+		second="PEU"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+	
+alliance=
+	{
+		first="CHI"
+		second="KOR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="RUS"
+		second="SPA"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="ENG"
+		second="TUR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="FRA"
+		second="SAR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
