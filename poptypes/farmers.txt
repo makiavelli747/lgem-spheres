@@ -2761,14 +2761,14 @@ issues =
 			factor = 0 
 			OR = {
 				luxury_needs = 1.0
-				
+				NOT = { literacy = 0.60 }
 				NOT = {
 					is_next_reform = trinket_wage
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -2861,14 +2861,14 @@ issues =
 			factor = 0 
 			OR = {
 				luxury_needs = 1.0 
-				
+				NOT = { literacy = 0.60 }
 				NOT = {
 					is_next_reform = low_minimum_wage
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -2961,14 +2961,14 @@ issues =
 			factor = 0 
 			OR = {
 				luxury_needs = 1.0 
-				
+				NOT = { literacy = 0.60 }
 				NOT = {
 					is_next_reform = acceptable_minimum_wage
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3061,14 +3061,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { luxury_needs = 1.0 }
-				
+				NOT = { literacy = 0.60 }
 				NOT = {
 					is_next_reform = good_minimum_wage
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3162,14 +3162,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { life_needs = 1.0 }
-				
+				NOT = { literacy = 0.40 }
 				NOT = {
 					is_next_reform = trinket_safety
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3234,14 +3234,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { life_needs = 1.0 }
-				
+				NOT = { literacy = 0.40 }
 				NOT = {
 					is_next_reform = low_safety
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3306,14 +3306,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { life_needs = 1.0 }
-				
+				NOT = { literacy = 0.40 }
 				NOT = {
 					is_next_reform = acceptable_safety
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3379,14 +3379,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { life_needs = 1.0 }
-				
+				NOT = { literacy = 0.40 }
 				NOT = {
 					is_next_reform = good_safety 
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3454,14 +3454,14 @@ issues =
 				state_scope = {
 					NOT = { unemployment = 0.01 }
 				}
-				
+				NOT = { literacy = 0.50 }
 				NOT = {
 					is_next_reform = trinket_subsidies
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3547,14 +3547,14 @@ issues =
 				state_scope = {
 					NOT = { unemployment = 0.01 }
 				}
-				
+				NOT = { literacy = 0.50 }
 				NOT = {
 					is_next_reform = low_subsidies
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3640,14 +3640,14 @@ issues =
 				state_scope = {
 					NOT = { unemployment = 0.01 }
 				}
-				
+				NOT = { literacy = 0.50 }
 				NOT = {
 					is_next_reform = acceptable_subsidies
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3733,14 +3733,14 @@ issues =
 				state_scope = {
 					NOT = { unemployment = 0.01 }
 				}
-				
+				NOT = { literacy = 0.50 }
 				NOT = {
 					is_next_reform = good_subsidies
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3826,10 +3826,12 @@ issues =
 				NOT = {
 					is_next_reform = trinket_pensions
 				}
+				NOT = { literacy = 0.70 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
+					
 				}
 			}	
 		}
@@ -3909,10 +3911,12 @@ issues =
 				NOT = {
 					is_next_reform = low_pensions
 				}
+				NOT = { literacy = 0.70 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
+					
 				}
 			}	
 		}
@@ -3992,10 +3996,11 @@ issues =
 				NOT = {
 					is_next_reform = acceptable_pensions
 				}
+				NOT = { literacy = 0.70 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4075,10 +4080,11 @@ issues =
 				NOT = {
 					is_next_reform = good_pensions
 				}
+				NOT = { literacy = 0.70 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4158,10 +4164,11 @@ issues =
 				NOT = {
 					is_next_reform = trinket_health_care
 				}
+				NOT = { literacy = 0.20 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4234,10 +4241,11 @@ issues =
 				NOT = {
 					is_next_reform = low_health_care
 				}
+				NOT = { literacy = 0.20 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4310,10 +4318,11 @@ issues =
 				NOT = {
 					is_next_reform = acceptable_health_care
 				}
+				NOT = { literacy = 0.20 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4386,10 +4395,11 @@ issues =
 				NOT = {
 					is_next_reform = good_health_care
 				}
+				NOT = { literacy = 0.20 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4458,14 +4468,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { life_needs = 1 }
-				
+				NOT = { literacy = 0.30 }
 				NOT = {
 					is_next_reform = fourteen_hours
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4546,14 +4556,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { life_needs = 1 }
-				
+				NOT = { literacy = 0.30 }
 				NOT = {
 					is_next_reform = twelve_hours
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4634,14 +4644,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { life_needs = 1 }
-				
+				NOT = { literacy = 0.30 }
 				NOT = {
 					is_next_reform = ten_hours
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4724,14 +4734,14 @@ issues =
 			factor = 0 
 			OR = {
 				NOT = { life_needs = 1 }
-				
+				NOT = { literacy = 0.30 }
 				NOT = {
 					is_next_reform = eight_hours
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4812,14 +4822,14 @@ issues =
 		modifier = {
 			factor = 0 
 			OR = {
-				
+				NOT = { literacy = 0.10 }
 				NOT = {
 					is_next_reform = low_schools
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4871,14 +4881,14 @@ issues =
 		modifier = {
 			factor = 0 
 			OR = {
-				
+				NOT = { literacy = 0.10 }
 				NOT = {
 					is_next_reform = acceptable_schools
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4930,14 +4940,14 @@ issues =
 		modifier = {
 			factor = 0 
 			OR = {
-				
+				NOT = { literacy = 0.10 }
 				NOT = {
 					is_next_reform = good_schools
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}

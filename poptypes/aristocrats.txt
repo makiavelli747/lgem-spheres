@@ -453,7 +453,7 @@ ideologies = {
 	}
 
 	socialist = {
-		factor = 1
+		factor = 0
 
 		modifier = {
 			factor = 2
@@ -487,7 +487,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1
+		factor = 0
 
 		modifier = {
 			factor = 2
