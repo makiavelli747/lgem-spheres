@@ -390,24 +390,24 @@ ideologies = {
 
 		modifier = {
 			factor = 1.2
+			NOT = {	literacy = 0.9	}
+			
+		}
+
+		modifier = {
+			factor = 1.2
+			NOT = {	literacy = 0.7	}
+			
+		}
+
+		modifier = {
+			factor = 1.2
 			NOT = {	literacy = 0.5	}
 			
 		}
-
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.4	}
-			
-		}
-
 		modifier = {
 			factor = 1.2
 			NOT = {	literacy = 0.3	}
-			
-		}
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.2	}
 			
 		}
 		modifier = {
