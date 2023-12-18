@@ -2760,80 +2760,24 @@ issues =
 			}
 		}
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.25 }
+			factor = 1.2
+			not = { everyday_needs = 0.1 }
+		}
+		modifier = {
+			factor = 1.2
+			not = { everyday_needs = 0.3 }
 		}	
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.50 }
+			factor = 1.2
+			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			not = { everyday_needs = 0.7 }
 		}
 		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.50 }
-		}
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 1 }
-		}
-		modifier = {
-			factor = 0.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 0.25 
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 0.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {	
-			factor = 1.25		
-			state_scope = {
-				not = { poor_strata_everyday_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25		
-			state_scope = {
-				not = { poor_strata_everyday_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_everyday_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_everyday_needs = 0.25 }
-			}
+			factor = 1.2
+			not = { everyday_needs = 0.9 }
 		}		
 	}
 	low_minimum_wage = { 
@@ -2859,81 +2803,25 @@ issues =
 				civilized = no
 			}
 		}
+				modifier = {
+			factor = 1.2
+			not = { everyday_needs = 0.1 }
+		}
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.25 }
+			factor = 1.2
+			not = { everyday_needs = 0.3 }
 		}	
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.50 }
+			factor = 1.2
+			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			not = { everyday_needs = 0.7 }
 		}
 		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.50 }
-		}
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 1 }
-		}
-		modifier = {
-			factor = 0.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 0.25 
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 0.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {	
-			factor = 1.25		
-			state_scope = {
-				not = { poor_strata_everyday_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25		
-			state_scope = {
-				not = { poor_strata_everyday_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_everyday_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_everyday_needs = 0.25 }
-			}
+			factor = 1.2
+			not = { everyday_needs = 0.9 }
 		}		
 	}
 	acceptable_minimum_wage = { 
@@ -2959,81 +2847,25 @@ issues =
 				civilized = no
 			}
 		}
+				modifier = {
+			factor = 1.2
+			not = { everyday_needs = 0.1 }
+		}
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.25 }
+			factor = 1.2
+			not = { everyday_needs = 0.3 }
 		}	
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.50 }
+			factor = 1.2
+			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			not = { everyday_needs = 0.7 }
 		}
 		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.50 }
-		}
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 1 }
-		}
-		modifier = {
-			factor = 0.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 0.25 
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 0.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_everyday_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25		
-			state_scope = {
-				not = { poor_strata_everyday_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_everyday_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_everyday_needs = 0.25 }
-			}
+			factor = 1.2
+			not = { everyday_needs = 0.9 }
 		}		
 	}
 	good_minimum_wage = { 
@@ -3059,82 +2891,26 @@ issues =
 				civilized = no
 			}
 		}
+				modifier = {
+			factor = 1.2
+			not = { everyday_needs = 0.1 }
+		}
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.25 }
+			factor = 1.2
+			not = { everyday_needs = 0.3 }
 		}	
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.50 }
+			factor = 1.2
+			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 1.25
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			not = { everyday_needs = 0.7 }
 		}
 		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.25 }
+			factor = 1.2
+			not = { everyday_needs = 0.9 }
 		}	
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.50 }
-		}
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 1.25
-			not = { everyday_needs = 1 }
-		}
-		modifier = {
-			factor = 0.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 0.25 
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 0.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {	
-			factor = 1.25		
-			state_scope = {
-				not = { poor_strata_everyday_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_everyday_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_everyday_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_everyday_needs = 0.25 }
-			}
-		}		
 	}
 	
 	trinket_safety = { 
@@ -3160,54 +2936,27 @@ issues =
 				civilized = no
 			}
 		}
+		
 		modifier = {
-			factor = 0.25
-			NOT = { literacy = 0.20 }
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
+			factor = 1.2
+			everyday_needs = 0.1
 		}	
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			everyday_needs = 0.3
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
+			factor = 1.2
+			everyday_needs = 0.5
 		}
 		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
+			factor = 1.2
+			everyday_needs = 0.7
 		}
 		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
-		}
+			factor = 1.2
+			everyday_needs = 0.9
+		
 	}
 	low_safety = { 
 		factor = 1
@@ -3232,53 +2981,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 0.25
-			NOT = { literacy = 0.20 }
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
+				modifier = {
+			factor = 1.2
+			everyday_needs = 0.1
 		}	
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			everyday_needs = 0.3
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
+			factor = 1.2
+			everyday_needs = 0.5
 		}
 		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
+			factor = 1.2
+			everyday_needs = 0.7
 		}
 		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			everyday_needs = 0.9
 		}
 	}
 	acceptable_safety = { 
@@ -3304,53 +3025,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 0.25
-			NOT = { literacy = 0.20 }
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
+				modifier = {
+			factor = 1.2
+			everyday_needs = 0.1
 		}	
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			everyday_needs = 0.3
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
+			factor = 1.2
+			everyday_needs = 0.5
 		}
 		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
+			factor = 1.2
+			everyday_needs = 0.7
 		}
 		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			everyday_needs = 0.9
 		}
 
 	}
@@ -3377,53 +3070,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 0.25
-			NOT = { literacy = 0.20 }
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
+				modifier = {
+			factor = 1.2
+			everyday_needs = 0.1
 		}	
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			everyday_needs = 0.3
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
+			factor = 1.2
+			everyday_needs = 0.5
 		}
 		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
+			factor = 1.2
+			everyday_needs = 0.7
 		}
 		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			everyday_needs = 0.9
 		}
 	}
 	trinket_subsidies = { 
@@ -3446,30 +3111,7 @@ issues =
 				}
 			}	
 		}
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_life_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_life_needs = 0.25 }
-			}
-		}		
+	
 		modifier = {
 			factor = 0.25
 			country = {
@@ -3477,47 +3119,36 @@ issues =
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				unemployment = 0.1 
+				unemployment = 0.05
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
+			state_scope = {
+				unemployment = 0.1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			state_scope = {
+				unemployment = 0.15
+			}
+		}
+		modifier = {
+			factor = 1.2
 			state_scope = {
 				unemployment = 0.2 
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				unemployment = 0.3 
+				unemployment = 0.25
 			}
 		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				unemployment = 0.4 
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				unemployment = 0.5
-			}
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}	
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
+		
 	}
 	low_subsidies = { 
 		factor = 1
@@ -3539,77 +3170,35 @@ issues =
 				}
 			}	
 		}
-		modifier = {	
-			factor = 1.25	
+				modifier = {
+			factor = 1.2
 			state_scope = {
-				not = { poor_strata_life_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 0.75 }
+				unemployment = 0.05
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				not = { poor_strata_life_needs = 0.5 }
+				unemployment = 0.1
 			}
 		}
 		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_life_needs = 0.25 }
-			}
-		}		
-		modifier = {
-			factor = 0.25
-			country = {
-				civilized = no
-			}
-		}
-		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				unemployment = 0.1 
+				unemployment = 0.15
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
 				unemployment = 0.2 
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				unemployment = 0.3 
+				unemployment = 0.25
 			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				unemployment = 0.4 
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				unemployment = 0.5
-			}
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}	
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
 		}
 	}
 	acceptable_subsidies = { 
@@ -3632,77 +3221,35 @@ issues =
 				}
 			}	
 		}
-		modifier = {	
-			factor = 1.25
+				modifier = {
+			factor = 1.2
 			state_scope = {
-				not = { poor_strata_life_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 0.75 }
+				unemployment = 0.05
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				not = { poor_strata_life_needs = 0.5 }
+				unemployment = 0.1
 			}
 		}
 		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_life_needs = 0.25 }
-			}
-		}		
-		modifier = {
-			factor = 0.25
-			country = {
-				civilized = no
-			}
-		}
-		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				unemployment = 0.1 
+				unemployment = 0.15
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
 				unemployment = 0.2 
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				unemployment = 0.3 
+				unemployment = 0.25
 			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				unemployment = 0.4 
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				unemployment = 0.5
-			}
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}	
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
 		}
 	}
 	good_subsidies = { 
@@ -3725,77 +3272,35 @@ issues =
 				}
 			}	
 		}
-		modifier = {	
-			factor = 1.25
+				modifier = {
+			factor = 1.2
 			state_scope = {
-				not = { poor_strata_life_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_life_needs = 0.75 }
+				unemployment = 0.05
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				not = { poor_strata_life_needs = 0.5 }
+				unemployment = 0.1
 			}
 		}
 		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_life_needs = 0.25 }
-			}
-		}		
-		modifier = {
-			factor = 0.25
-			country = {
-				civilized = no
-			}
-		}
-		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				unemployment = 0.1 
+				unemployment = 0.15
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
 				unemployment = 0.2 
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.2
 			state_scope = {
-				unemployment = 0.3 
+				unemployment = 0.25
 			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				unemployment = 0.4 
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				unemployment = 0.5
-			}
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}	
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
 		}
 	}
 	trinket_pensions = { 
@@ -3823,65 +3328,26 @@ issues =
 			}
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 7
+			factor = 1.2
+			literacy = 0.7
 		}	
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			literacy = 0.75
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
+			factor = 1.2
+			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.50 }
+			factor = 1.2
+			literacy = 0.85
 		}
 		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			literacy = 0.9
 		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
-		}
+		
 	}
 	low_pensions = { 
 		factor = 1
@@ -3901,71 +3367,25 @@ issues =
 				}
 			}	
 		}
-		modifier = {
-			factor = 0.25
-			country = {
-				civilized = no
-			}
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
+				modifier = {
+			factor = 1.2
+			literacy = 0.7
 		}	
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			literacy = 0.75
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
+			factor = 1.2
+			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.50 }
+			factor = 1.2
+			literacy = 0.85
 		}
 		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			literacy = 0.9
 		}
 	}
 	acceptable_pensions = { 
@@ -3985,71 +3405,25 @@ issues =
 				}
 			}	
 		}
-		modifier = {
-			factor = 0.25
-			country = {
-				civilized = no
-			}
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
+				modifier = {
+			factor = 1.2
+			literacy = 0.7
 		}	
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			literacy = 0.75
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
+			factor = 1.2
+			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.50 }
+			factor = 1.2
+			literacy = 0.85
 		}
 		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			literacy = 0.9
 		}
 	}
 	good_pensions = { 
@@ -4069,71 +3443,25 @@ issues =
 				}
 			}	
 		}
-		modifier = {
-			factor = 0.25
-			country = {
-				civilized = no
-			}
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
+				modifier = {
+			factor = 1.2
+			literacy = 0.7
 		}	
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			literacy = 0.75
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
+			factor = 1.2
+			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.50 }
+			factor = 1.2
+			literacy = 0.85
 		}
 		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			literacy = 0.9
 		}
 	}
 	trinket_health_care = { 
@@ -4160,57 +3488,26 @@ issues =
 			}
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.25 }
+			factor = 1.2
+			not = { luxury_needs = 0.5 }
 		}	
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.5 }
+			factor = 1.2
+			not = { luxury_needs = 0.4 }
+		}	
+		modifier = {
+			factor = 1.2
+			not = { luxury_needs = 0.3 }
 		}
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			not = { luxury_needs = 0.2 }
 		}
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 1 }
+			factor = 1.2
+			not = { luxury_needs = 0.1 }
 		}
-		modifier = {	
-			factor = 1.25		
-			state_scope = {
-				not = { poor_strata_life_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_life_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_life_needs = 0.25 }
-			}
-		}
+		
 	}
 	low_health_care = { 
 		factor = 1
@@ -4236,57 +3533,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.25 }
+				modifier = {
+			factor = 1.2
+			not = { luxury_needs = 0.5 }
 		}	
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.5 }
+			factor = 1.2
+			not = { luxury_needs = 0.4 }
+		}	
+		modifier = {
+			factor = 1.2
+			not = { luxury_needs = 0.3 }
 		}
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			not = { luxury_needs = 0.2 }
 		}
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 1 }
-		}
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_life_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_life_needs = 0.25 }
-			}
+			factor = 1.2
+			not = { luxury_needs = 0.1 }
 		}
 	}
 	acceptable_health_care = { 
@@ -4313,57 +3578,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.25 }
+				modifier = {
+			factor = 1.2
+			not = { luxury_needs = 0.5 }
 		}	
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.5 }
+			factor = 1.2
+			not = { luxury_needs = 0.4 }
+		}	
+		modifier = {
+			factor = 1.2
+			not = { luxury_needs = 0.3 }
 		}
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			not = { luxury_needs = 0.2 }
 		}
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 1 }
-		}
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_life_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_life_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_life_needs = 0.25 }
-			}
+			factor = 1.2
+			not = { luxury_needs = 0.1 }
 		}
 	}
 	good_health_care = { 
@@ -4390,57 +3623,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.25 }
+				modifier = {
+			factor = 1.2
+			not = { luxury_needs = 0.5 }
 		}	
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.5 }
+			factor = 1.2
+			not = { luxury_needs = 0.4 }
+		}	
+		modifier = {
+			factor = 1.2
+			not = { luxury_needs = 0.3 }
 		}
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 0.75 }
+			factor = 1.2
+			not = { luxury_needs = 0.2 }
 		}
 		modifier = {
-			factor = 1.255
-			not = { life_needs = 1 }
-		}
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 1 }
-			}
-		}		
-		modifier = {	
-			factor = 1.25	
-			state_scope = {
-				not = { poor_strata_life_needs = 0.75 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				not = { poor_strata_life_needs = 0.5 }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = { 
-				not = { poor_strata_life_needs = 0.25 }
-			}
+			factor = 1.2
+			not = { luxury_needs = 0.1 }
 		}
 	}
 	fourteen_hours = { 
@@ -4466,70 +3667,28 @@ issues =
 				civilized = no
 			}
 		}
+
 		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
+			factor = 1.2
+			luxury_needs = 0.1
 		}	
 		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
+			factor = 1.2
+			luxury_needs = 0.2
 		}
 		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
+			factor = 1.2
+			luxury_needs = 0.3
 		}
 		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			luxury_needs = 0.4
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 8
+			factor = 1.2
+			luxury_needs = 0.5
 		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.75
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.50
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.25
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.75
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.50
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.25
-			}
-		}
+		
 	}
 	twelve_hours = { 
 		factor = 1
@@ -4554,69 +3713,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
+				modifier = {
+			factor = 1.2
+			luxury_needs = 0.1
 		}	
 		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
+			factor = 1.2
+			luxury_needs = 0.2
 		}
 		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
+			factor = 1.2
+			luxury_needs = 0.3
 		}
 		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			luxury_needs = 0.4
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.75
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.50
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.25
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.75
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.50
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.25
-			}
+			factor = 1.2
+			luxury_needs = 0.5
 		}
 	}
 	ten_hours = { 
@@ -4642,70 +3757,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
+				modifier = {
+			factor = 1.2
+			luxury_needs = 0.1
 		}	
 		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
+			factor = 1.2
+			luxury_needs = 0.2
 		}
 		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
+			factor = 1.2
+			luxury_needs = 0.3
 		}
 		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			luxury_needs = 0.4
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.75
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.50
-
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.25
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.75
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.50
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.25
-			}
+			factor = 1.2
+			luxury_needs = 0.5
 		}
 
 	}
@@ -4732,69 +3802,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
+				modifier = {
+			factor = 1.2
+			luxury_needs = 0.1
 		}	
 		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
+			factor = 1.2
+			luxury_needs = 0.2
 		}
 		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
+			factor = 1.2
+			luxury_needs = 0.3
 		}
 		modifier = {
-			factor = 1.25
-			luxury_needs = 1
+			factor = 1.2
+			luxury_needs = 0.4
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.75
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.50
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				poor_strata_everyday_needs = 0.25
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.75
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.50
-			}
-		}
-		modifier = {
-			factor = 1.25
-			state_scope = {
-				middle_strata_everyday_needs = 0.25
-			}
+			factor = 1.2
+			luxury_needs = 0.5
 		}
 	}
 	
@@ -4820,41 +3846,26 @@ issues =
 				civilized = no
 			}
 		}
+
 		modifier = {
-			factor = 1.25
-			consciousness = 5
+			factor = 1.2
+			NOT = { literacy = 0.9 }
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 6
+			factor = 1.2
+			NOT = { literacy = 0.7 }
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}  
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { literacy = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { literacy = 0.75 }
-		}
-		modifier = {
-			factor = 1.25
+			factor = 1.2
 			NOT = { literacy = 0.5 }
 		}
 		modifier = {
-			factor = 1.25
-			NOT = { literacy = 0.25 }
+			factor = 1.2
+			NOT = { literacy = 0.3 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { literacy = 0.1 }
 		}
 	}
 	acceptable_schools = {
@@ -4879,41 +3890,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 1.25
-			consciousness = 5
+				modifier = {
+			factor = 1.2
+			NOT = { literacy = 0.9 }
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 6
+			factor = 1.2
+			NOT = { literacy = 0.7 }
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}  
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { literacy = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { literacy = 0.75 }
-		}
-		modifier = {
-			factor = 1.25
+			factor = 1.2
 			NOT = { literacy = 0.5 }
 		}
 		modifier = {
-			factor = 1.25
-			NOT = { literacy = 0.25 }
+			factor = 1.2
+			NOT = { literacy = 0.3 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { literacy = 0.1 }
 		}
 	}
 	good_schools = {
@@ -4938,41 +3933,25 @@ issues =
 				civilized = no
 			}
 		}
-		modifier = {
-			factor = 1.25
-			consciousness = 5
+				modifier = {
+			factor = 1.2
+			NOT = { literacy = 0.9 }
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 6
+			factor = 1.2
+			NOT = { literacy = 0.7 }
 		}
 		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}  
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { literacy = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { literacy = 0.75 }
-		}
-		modifier = {
-			factor = 1.25
+			factor = 1.2
 			NOT = { literacy = 0.5 }
 		}
 		modifier = {
-			factor = 1.25
-			NOT = { literacy = 0.25 }
+			factor = 1.2
+			NOT = { literacy = 0.3 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { literacy = 0.1 }
 		}
 	}
 }
