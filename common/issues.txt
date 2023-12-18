@@ -513,18 +513,22 @@ social_reforms = {
 		trinket_pensions = {
 			pension_level	= 0.25
 			global_immigrant_attract = 0.01
+			
 		}
 		low_pensions = {
 			pension_level	= 0.5
 			global_immigrant_attract = 0.02
+			
 		}
 		acceptable_pensions = {
 			pension_level	= 0.75
 			global_immigrant_attract = 0.03
+			
 		}
 		good_pensions = {
 			pension_level	= 1
 			global_immigrant_attract = 0.04
+			
 		}
 	}	
 	health_care = {
@@ -565,12 +569,12 @@ social_reforms = {
 			administrative_multiplier = 1
 		}
 		acceptable_schools = {
-			education_efficiency_modifier = 0.15
+			education_efficiency_modifier = 0.2
 			global_immigrant_attract = 0.03
 			administrative_multiplier = 2
 		}
 		good_schools = {
-			education_efficiency_modifier = 0.2
+			education_efficiency_modifier = 0.3
 			global_immigrant_attract = 0.04
 			administrative_multiplier = 3
 		}
