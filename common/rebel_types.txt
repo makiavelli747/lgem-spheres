@@ -78,9 +78,9 @@ reactionary_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.02
+		factor = 2
 		modifier = {
-			factor = 0.01
+			factor = 0
 			NOT = {
 				OR = {
 					pop_majority_ideology = reactionary
@@ -101,7 +101,7 @@ reactionary_rebels = {
 			pop_majority_ideology = reactionary
 		}
 		modifier = {
-			factor = 1.0115
+			factor = 2
 			NOT = { political_reform_want = 0.05 
 					social_reform_want = 0.05 
 			}
@@ -894,7 +894,7 @@ nationalist_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 20
+		factor = 10
 		
 		modifier = {
 			factor = 0
@@ -904,70 +904,9 @@ nationalist_rebels = {
 			factor = 0
 			is_primary_culture = yes
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				location = {
-					any_core = {
-						is_cultural_union = no
-						is_primary_culture = THIS
-						exists = no
-			 		}
-			 	}
-		 	}
-		}
-		modifier = {
-			factor = 3
-				location = {
-					any_core = {
-						is_primary_culture = THIS
-						exists = no
-			 		}
-		 	}
-		}
-		modifier = {
-			factor = 0
-				is_cultural_union = THIS
-		}
-		modifier = {
-			factor = 1.01
-			pop_majority_ideology = communist
-		}
-		modifier = {
-			factor = 1.01
-			pop_majority_ideology = socialist
-		}
-		modifier = {
-			factor = 1.03
-			pop_majority_ideology = anarcho_liberal
-		}
-		modifier = {
-			factor = 1.05
-			pop_majority_ideology = liberal
-		}
-		modifier = {
-			factor = 1.07
-			pop_majority_ideology = conservative
-		}
-		modifier = {
-			factor = 1.09
-			pop_majority_ideology = reactionary
-		}
-		modifier = {
-			factor = 1.11
-			pop_majority_ideology = fascist
-		}
+
 		
 
-		modifier = {
-			factor = 2
-			NOT = { is_culture_group = THIS }
-		}
-		
-		modifier = {
-			factor = 0.5
-			is_accepted_culture = yes
-		}
 		modifier = {
 			factor = 2
 			is_accepted_culture = no
@@ -1173,28 +1112,7 @@ pan_nationalist_rebels = {
 			}
 		}
 		
-		modifier = {
-			factor = 1.1
-			pop_majority_ideology = liberal
-		}
-		
-		modifier = {
-			factor = 1.1
-			pop_majority_ideology = anarcho_liberal
-		}
 
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.05
-		}
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.1
-		}
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.15
-		}
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -1939,10 +1857,7 @@ indian_sepoys = {
 	{
 		factor = 4
 		
-		modifier = {
-			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
-			factor = 0
-		}	
+	
 		
 		modifier = {
 			war = yes
@@ -2003,57 +1918,6 @@ indian_sepoys = {
 			is_culture_group = south_asian
 		}
 		
-		modifier = {
-			factor = 0
-			country = {
-				AND = {
-					is_greater_power = no
-					part_of_sphere = no
-				}
-			}
-		}
-		
-		modifier = {
-			factor = 2
-			country = {
-				is_culture_group = south_asian				
-			}
-		}
-		
-		modifier = {
-			factor = 1.05
-			year = 1850
-			NOT = { year = 1865 }
-
-		}	
-				
-		modifier = {
-			factor = 1.2
-			pop_majority_ideology = liberal
-		}
-		
-		modifier = {
-			factor = 1.1
-			pop_majority_ideology = conservative
-		}
-		
-		modifier = {
-			factor = 1.1
-			pop_majority_ideology = anarcho_liberal
-		}
-
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.05
-		}
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.1
-		}
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.15
-		}
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -2168,13 +2032,13 @@ liberal_rebels = {
 			factor = 0.8
 		}
 		modifier = {
-			factor = 0.4
+			factor = 0.9
 			country = {
 				has_country_modifier = springtime_of_nations
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 0.9
 			country = {
 				has_country_modifier = global_liberal_agitation
 			}
@@ -2197,7 +2061,7 @@ liberal_rebels = {
 			NOT = { literacy = 0.40 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0
 			country = {
 				OR = { 
 						vote_franschise = universal_weighted_voting
@@ -2206,7 +2070,7 @@ liberal_rebels = {
 			}
 		}
 		modifier = {
-			factor = 0.01
+			factor = 0
 			NOT = {
 				OR = {
 					
