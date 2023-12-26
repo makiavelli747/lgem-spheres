@@ -140,11 +140,11 @@ reactionary_rebels = {
 			is_accepted_culture = yes
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			country = { government = absolute_monarchy}
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			country = { government = presidential_dictatorship }
 		}
 		modifier = {
