@@ -28,7 +28,7 @@ country = {
 	COLONY_TO_STATE_PRESTIGE_GAIN = 10, -- Prestige gain when turning colony to state
 	COLONIAL_LIFERATING = 35,
 	BASE_GREATPOWER_DAILY_INFLUENCE = 0.05, -- Influence value which is distributed each day
-	AI_SUPPORT_REFORM = 0.05, -- At least this many % needs to support a reform for the AI to take it
+	AI_SUPPORT_REFORM = 0.1, -- At least this many % needs to support a reform for the AI to take it
 	BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
 	DIPLOMAT_TRAVEL_TIME = 14,
 	PROVINCE_OVERSEAS_PENALTY = 0.01, -- Each province req. this many goods flagged as overseas penalty 
@@ -113,7 +113,7 @@ economy = {
 	CIV_BASE_SHARE_FACTOR = 1,
 	UNCIV_BASE_SHARE_FACTOR = 1,
 	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.99, -- % of how much we pay to the pops and capitalists, from the leftovers.
-	MAX_FACTORY_MONEY_SAVE = 500,	-- how much money is stored maximum in a factory.
+	MAX_FACTORY_MONEY_SAVE = 200,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 10000,
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.8, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
@@ -620,7 +620,7 @@ diplomacy = {
 pops = {
 	BASE_CLERGY_FOR_LITERACY = 0.005, 
 	MAX_CLERGY_FOR_LITERACY = 0.04, 
-	LITERACY_CHANGE_SPEED = 0.05,
+	LITERACY_CHANGE_SPEED = 0.1,
 
 
 	ASSIMILATION_SCALE = 0.004,
@@ -653,7 +653,7 @@ pops = {
 	CON_MIDRICH_CLERGY = -1,
 	CON_REFORM_IMPACT = -50,
 	CON_COLONIAL_FACTOR = 1,
-	RULING_PARTY_HAPPY_CHANGE = -1,
+	RULING_PARTY_HAPPY_CHANGE = -5,
 	RULING_PARTY_ANGRY_CHANGE = 2,
 
 	PDEF_BASE_CON = 20.0,			-- so half'ed effect.

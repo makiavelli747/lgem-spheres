@@ -86,14 +86,14 @@ demotion_chance =
 		factor = -0.05
 		not = {	country = { slavery = yes_slavery }	}
 		not = { religion = this }
-		strata = poor
+		
 	}
 
 	modifier = {
 		factor = -0.05
 		not = {	country = { slavery = yes_slavery }	}
 		state_scope = { is_colonial = yes }
-		strata = poor
+		
 	}
 
 
@@ -101,10 +101,10 @@ demotion_chance =
 		factor = -0.05
 		not = {	country = { slavery = yes_slavery }	}
 		not = { culture = this }
-		strata = poor
+		
 	}
 	modifier = {
-		factor = 1
+		factor = 0.1
 		country = { slavery = yes_slavery }
 		not = { culture = this }
 		not = { literacy = 0.3 }

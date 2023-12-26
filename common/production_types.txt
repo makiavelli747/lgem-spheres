@@ -661,11 +661,11 @@ fabric_factory = {
 cement_factory = {       
 	template = cement_template
 	input_goods = {           
-		coal = 12		#50		total input+maint = 37
+		coal = 2		#50		total input+maint = 37
 		
 	} 
 	output_goods = cement 
-	value = 4			#48
+	value = 2			#48
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
@@ -1370,10 +1370,10 @@ artisan_fabric = {
 
 artisan_cement = {       
 	input_goods = {           
-		coal = 5		#80		total input+maint = 37
+		coal = 2		#80		total input+maint = 37
 	} 
 	output_goods = cement 
-	value = 2.5			#48
+	value = 2			#48
 	
 	owner = {
 		poptype = artisan 

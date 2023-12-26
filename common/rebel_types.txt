@@ -44,7 +44,7 @@ reactionary_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
-	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces
@@ -156,10 +156,7 @@ reactionary_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -243,7 +240,7 @@ fascist_rebels = {
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Receives reinforcements
 	general = yes					# Uses generals
-	smart = yes					# Assaults forts, tactically withdraws from battle, etc.
+	smart = no					# Assaults forts, tactically withdraws from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -363,10 +360,7 @@ fascist_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -449,7 +443,7 @@ communist_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
-	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
+	smart = no						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -574,10 +568,7 @@ communist_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -662,7 +653,7 @@ anarcho_liberal_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
-	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
+	smart = no						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -777,10 +768,7 @@ anarcho_liberal_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -861,7 +849,7 @@ nationalist_rebels = {
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
-	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do remain after enforcing demands.
 	
 	occupation_mult = 9.0			# The amount of strength this rebel gains from taking provinces	
@@ -984,10 +972,7 @@ nationalist_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -1026,12 +1011,9 @@ nationalist_rebels = {
 	# Country scope
 	demands_enforced_trigger = {
 		independence = {
-			all_core = {
-				OR = {
-					controlled_by_rebels = yes
-					NOT = { owned_by = THIS }
-				}
-				province_control_days = 30
+			any_owned_province = {
+			controlled_by = REB
+			province_control_days = 180
 			}
 		}
 	}
@@ -1078,7 +1060,7 @@ pan_nationalist_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
-	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
 	occupation_mult = 6.0			# The amount of strength this rebel gains from taking provinces
@@ -1206,10 +1188,7 @@ pan_nationalist_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -1313,7 +1292,7 @@ carlist_rebels = {
 	resilient = yes					
 	reinforcing = yes				
 	general = yes					
-	smart = yes
+	smart = no
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -1396,10 +1375,7 @@ carlist_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -1485,7 +1461,7 @@ boxer_rebels = {
 	resilient = yes					
 	reinforcing = yes				
 	general = yes					
-	smart = yes
+	smart = no
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
@@ -1593,10 +1569,7 @@ boxer_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 20
 			OR = {
@@ -1708,7 +1681,7 @@ red_shirts = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
-	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
 	occupation_mult = 9.0			# The amount of strength this rebel gains from taking provinces	
@@ -1847,10 +1820,7 @@ red_shirts = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -1947,7 +1917,7 @@ indian_sepoys = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
-	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
 	occupation_mult = 6.0			# The amount of strength this rebel gains from taking provinces	
@@ -2077,10 +2047,7 @@ indian_sepoys = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -2113,14 +2080,9 @@ indian_sepoys = {
 
 	# Country scope
 	demands_enforced_trigger = {
-		HND = {
-			all_core = {
-				OR = {
-					controlled_by = REB
-					NOT = { owned_by = THIS }
-				}
-				province_control_days = 60
-			}
+		any_owned_province = {
+			controlled_by = REB
+			province_control_days = 180
 		}
 	}
 	
@@ -2164,7 +2126,7 @@ liberal_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
-	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
+	smart = no						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -2284,10 +2246,7 @@ liberal_rebels = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
+
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
