@@ -2955,8 +2955,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -2999,8 +2999,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3043,8 +3043,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3087,8 +3087,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3132,8 +3132,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3177,8 +3177,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3221,8 +3221,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3266,8 +3266,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3313,8 +3313,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3372,8 +3372,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3423,8 +3423,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3474,8 +3474,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3522,8 +3522,8 @@ issues =
 				NOT = { literacy = 0.70 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 					
 				}
 			}	
@@ -3568,8 +3568,8 @@ issues =
 				NOT = { literacy = 0.70 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 					
 				}
 			}	
@@ -3607,8 +3607,8 @@ issues =
 				NOT = { literacy = 0.70 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3645,8 +3645,8 @@ issues =
 				NOT = { literacy = 0.70 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3683,8 +3683,8 @@ issues =
 				NOT = { literacy = 0.20 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3729,8 +3729,8 @@ issues =
 				NOT = { literacy = 0.20 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3774,8 +3774,8 @@ issues =
 				NOT = { literacy = 0.20 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3819,8 +3819,8 @@ issues =
 				NOT = { literacy = 0.20 }
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3863,8 +3863,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3909,8 +3909,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3953,8 +3953,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -3998,8 +3998,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4042,8 +4042,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4086,8 +4086,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
@@ -4129,8 +4129,8 @@ issues =
 				}
 				NOT = { is_ideology_enabled = socialist }
 				AND = {
-					NOT = { socialist = 20 }
-					NOT = { communist = 20 }
+					NOT = { socialist = 10 }
+					NOT = { communist = 10 }
 				}
 			}	
 		}
