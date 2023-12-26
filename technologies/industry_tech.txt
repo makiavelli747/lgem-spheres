@@ -59,6 +59,7 @@ practical_steam_engine = {
 
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.15
+	factory_cost = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -111,6 +112,7 @@ high_n_low_pressure_steam_engines = {
 
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.15
+	factory_cost = 0.2
 	ai_chance = {
 		factor = 1.5
 		modifier = {
@@ -163,6 +165,7 @@ steam_turbine = {
 
 	mine_rgo_eff = 0.15
 	farm_rgo_eff = 0.15
+	factory_cost = 0.3
 	ai_chance = {
 		factor = 1.5
 		modifier = {
@@ -215,6 +218,7 @@ combustion_engine = {
 
 	mine_rgo_eff = 0.15
 	farm_rgo_eff = 0.15
+	factory_cost = 0.4
 	ai_chance = {
 		factor = 1.5
 		modifier = {
@@ -268,6 +272,7 @@ electrical_power_generation = {
 	mine_rgo_eff = 0.15
 	farm_rgo_eff = 0.15
 	factory_throughput = 0.1
+	factory_cost = 0.5
 	ai_chance = {
 		factor = 1.5
 		modifier = {
@@ -361,7 +366,7 @@ mechanical_production = {
 	cost = 7200
 
 	factory_throughput = 0.05 
-	factory_cost = 0.25
+	factory_cost = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -419,7 +424,7 @@ interchangeable_parts = {
 	cost = 10800
 
 	factory_throughput = 0.05
-	factory_cost = 0.5
+	factory_cost = 0.2
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -461,7 +466,7 @@ semi_automatization = {
 	year = 1850
 	cost = 14400
 	factory_throughput = 0.1
-	factory_cost = 1 
+	factory_cost = 0.3
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -503,7 +508,7 @@ assembly_line = {
 	year = 1870
 	cost = 18000
 	factory_throughput = 0.1
-	factory_cost = 2
+	factory_cost = 0.4
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -540,7 +545,7 @@ shift_work = {
 	
 	rgo_output = 0.05
 	factory_throughput = 0.1 
-	factory_cost = 4
+	factory_cost = 0.5
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -662,6 +667,7 @@ clean_coal = {
 	rgo_size = {
 		iron = 0.2
 	}
+	factory_cost = 0.1
 	
 	ai_chance = {
 		factor = 1.1
@@ -734,6 +740,7 @@ cheap_iron = {
 	rgo_size = {
 		iron = 0.2
 	}
+	factory_cost = 0.2
 	
 	ai_chance = {
 		factor = 1.1
@@ -803,6 +810,7 @@ cheap_steel = {
 	rgo_size = {
 		precious_metal = 0.2
 	}
+	factory_cost = 0.3
 	
 	ai_chance = {
 		factor = 1.1
@@ -873,6 +881,7 @@ advanced_metallurgy = {
 	rgo_size = {
 		sulphur = 0.2
 	}
+	factory_cost = 0.4
 	
 	ai_chance = {
 		factor = 1.1
@@ -940,6 +949,7 @@ electric_furnace = {
 	rgo_goods_output = {
 		iron = 1
 	}
+	factory_cost = 0.5
 	
 	ai_chance = {
 		factor = 1.1
@@ -1034,6 +1044,7 @@ early_railroad = {
 	cost = 7200
 
 	max_railroad = 1
+	factory_cost = 0.1
 	
 	ai_chance = {
 		factor = 2
@@ -1066,6 +1077,7 @@ iron_railroad = {
 	cost = 10800
 
 	max_railroad = 1 
+	factory_cost = 0.2
 	
 	ai_chance = {
 		factor = 2
@@ -1098,6 +1110,7 @@ steel_railroad = {
 	cost = 14400
 
 	max_railroad = 1 
+	factory_cost = 0.3
 	
 	ai_chance = {
 		factor = 2
@@ -1130,6 +1143,7 @@ integral_rail_system = {
 	cost = 18000
 
 	max_railroad = 1
+	factory_cost = 0.4
 	
 	ai_chance = {
 		factor = 2
@@ -1162,6 +1176,7 @@ limited_access_roads = {
 	cost = 21600
 
 	max_railroad = 1
+	factory_cost = 0.5
 	
 	ai_chance = {
 		factor = 2
@@ -1222,6 +1237,7 @@ medicine = {
 	cost = 7200
 
 	supply_limit = 0.25
+	factory_cost = 0.1
 	
 	ai_chance = {
 		factor = 1.5
@@ -1253,6 +1269,7 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
+	factory_cost = 0.2
 	
 	ai_chance = {
 		factor = 1.1
@@ -1296,6 +1313,7 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
+	factory_cost = 0.3
 	
 	ai_chance = {
 		factor = 1.1
@@ -1339,6 +1357,7 @@ electricity = {
 	cost = 18000
 	
 	supply_limit = 0.50
+	factory_cost = 0.4
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1382,6 +1401,7 @@ synthetic_polymers = {
 	cost = 21600
 
 	supply_limit = 0.50
+	factory_cost = 0.5
 	ai_chance = {
 		factor = 1.1
 		modifier = {
