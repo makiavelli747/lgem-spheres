@@ -361,7 +361,7 @@ mechanical_production = {
 	cost = 7200
 
 	factory_throughput = 0.05 
-	factory_cost = 1
+	factory_cost = 0.25
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -419,7 +419,7 @@ interchangeable_parts = {
 	cost = 10800
 
 	factory_throughput = 0.05
-	factory_cost = 1
+	factory_cost = 0.5
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -503,7 +503,7 @@ assembly_line = {
 	year = 1870
 	cost = 18000
 	factory_throughput = 0.1
-	factory_cost = 1
+	factory_cost = 2
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -540,6 +540,7 @@ shift_work = {
 	
 	rgo_output = 0.05
 	factory_throughput = 0.1 
+	factory_cost = 4
 	ai_chance = {
 		factor = 1.05
 		modifier = {
