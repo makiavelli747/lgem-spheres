@@ -361,7 +361,7 @@ mechanical_production = {
 	cost = 7200
 
 	factory_throughput = 0.05 
-	
+	factory_cost = 1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -419,7 +419,7 @@ interchangeable_parts = {
 	cost = 10800
 
 	factory_throughput = 0.05
-	
+	factory_cost = 1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -461,7 +461,7 @@ semi_automatization = {
 	year = 1850
 	cost = 14400
 	factory_throughput = 0.1
-	factory_cost = -0.1 
+	factory_cost = 1 
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -503,7 +503,7 @@ assembly_line = {
 	year = 1870
 	cost = 18000
 	factory_throughput = 0.1
-	factory_cost = -0.1 
+	factory_cost = 1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1065,6 +1065,7 @@ iron_railroad = {
 	cost = 10800
 
 	max_railroad = 1 
+	
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1096,6 +1097,7 @@ steel_railroad = {
 	cost = 14400
 
 	max_railroad = 1 
+	
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1127,6 +1129,7 @@ integral_rail_system = {
 	cost = 18000
 
 	max_railroad = 1
+	
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1158,6 +1161,7 @@ limited_access_roads = {
 	cost = 21600
 
 	max_railroad = 1
+	
 	ai_chance = {
 		factor = 2
 		modifier = {

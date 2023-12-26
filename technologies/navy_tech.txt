@@ -82,6 +82,7 @@ battleship_column_doctrine = {
 	cost = 7200
 	unciv_military = yes
 	max_naval_base = 1
+	
 	#colonial_points = 200 #no free lunch!
 
 
@@ -159,6 +160,7 @@ raider_group_doctrine = {
 	cost = 10800
 	unciv_military = yes
 	max_naval_base = 1
+	
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -233,6 +235,7 @@ blue_and_brown_water_schools = {
 	cost = 14400
 	unciv_military = yes
 	max_naval_base = 1
+	
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -308,7 +311,7 @@ high_sea_battle_fleet = {
 	cost = 18000
 	unciv_military = yes
 	max_naval_base = 1
-
+	
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -383,6 +386,7 @@ modern_naval_doctrine = {
 	cost = 21600
 	unciv_military = yes
 	max_naval_base = 1
+	
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
