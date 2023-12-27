@@ -82,75 +82,21 @@ reactionary_rebels = {
 		modifier = {
 			factor = 0
 			NOT = {
-				OR = {
-					pop_majority_ideology = reactionary
-					pop_majority_ideology = conservative
-					
-				}
+				pop_majority_ideology = reactionary
 			}
 		}
+		
 		modifier = {
-			factor = 0
-			OR = {
-				 social_movement = yes
-				 political_movement = yes
-				}
-		}		
-		modifier = {
-			factor = 2.0115
+			factor = 2
 			pop_majority_ideology = reactionary
-		}
-		modifier = {
-			factor = 2
-			NOT = { political_reform_want = 0.05 
-					social_reform_want = 0.05 
-			}
-		}
-		modifier = {
-			factor = 0
-			country = { civilized = no }
-		}
-		modifier = {
-			factor = 0.5
-			literacy = 0.4
-		}
-		modifier = {
-			factor = 0.2
-			literacy = 0.6
-		}
-		modifier = {
-			factor = 2
-			AND = {
-				pop_majority_ideology = conservative
-				NOT = {
-					country = {
-						has_country_modifier = global_liberal_agitation
-						has_country_modifier = springtime_of_nations	
-					}
-				}
-			}
 		}
 		modifier = {
 			factor = 0
 			is_primary_culture = no
 			is_accepted_culture = no
 		}
-		modifier = {
-			factor = 0.8
-			is_accepted_culture = yes
-		}
-		modifier = {
-			factor = 0.1
-			country = { government = absolute_monarchy}
-		}
-		modifier = {
-			factor = 0.1
-			country = { government = presidential_dictatorship }
-		}
-		modifier = {
-			factor = 1.015
-			country = { plurality = 10 }
-		}
+
+
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -293,70 +239,31 @@ fascist_rebels = {
 				is_ideology_enabled = fascist
 			}
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				 social_movement = yes
-				 political_movement = yes
-				}
-			NOT = {		
-				OR = {
-					pop_majority_ideology = fascist
-					pop_majority_ideology = conservative
-					militancy = 5
-				}
-			}	
-		}
+
 		modifier = {
 			factor = 0
 			country = { civilized = no }
 		}
-		modifier = {
-			factor = 0.01
-			NOT = {
-				OR = {
-					pop_majority_ideology = fascist
-					pop_majority_ideology = conservative
-				}
-			}
-		}
+
 		modifier = {
 			factor = 2
-			pop_majority_ideology = fascist
+			pop_majority_ideology = conservative
 		}
 		modifier = {
 			factor = 0
 			is_primary_culture = no
-			is_accepted_culture = no
-		}
-		modifier = {
-			factor = 2
-			is_primary_culture = yes
 			
 		}
 		modifier = {
-			factor = 1.15
-			NOT = { political_reform_want = 0.05 
-					social_reform_want = 0.05 
-			}
+			factor = 0
+			nationalvalue = nv_liberty	
+		}
+		modifier = {
+			factor = 0
+			nationalvalue = nv_equality
+			
 		}
 
-		modifier = {
-			factor = 1.015
-			country = { plurality = 10 }
-		}
-		modifier = {
-			factor = 2
-			country = {
-				has_unclaimed_cores = yes
-			}
-		}
-		modifier = {
-			factor = 1.015
-			location = {
-				minorities = yes
-			}
-		}
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -513,63 +420,26 @@ communist_rebels = {
 			factor = 0
 			government = proletarian_dictatorship
 		}
+
 		modifier = {
-			factor = 1.015
-			NOT = { political_reform_want = 0.05 }
-		}
-		modifier = {
-			factor = 1.15
-			social_reform_want = 0.15 
-			NOT = { political_reform_want = 0.15 
-			}
+			factor = 2
+			social_reform_want = 0.1
 		}
 		modifier = {
 			factor = 0
 			is_primary_culture = no
-			is_accepted_culture = no
 		}
 		modifier = {
 			factor = 0
-			NOT = {
-				OR = {
-					pop_majority_ideology = communist
-					pop_majority_ideology = socialist
-					pop_majority_ideology = conservative
-				}
-			}
+			is_ideology_enabled = fascist
+			nationalvalue = nv_order
 		}
 		modifier = {
-			factor = 2
-			pop_majority_ideology = communist
+			factor = 0
+			nationalvalue = nv_liberty
+			
 		}
-		modifier = {
-			factor = 2
-			pop_majority_ideology = socialist
-		}
-		modifier = {
-			factor = 1.015
-			country = { plurality = 10 }
-		}
-		modifier = {
-			factor = 2
-			country = {
-				any_neighbor_country = {
-					government = proletarian_dictatorship
-				}
-			}
-		}
-		modifier = {
-			factor = 1.05
-			country = {
-				average_militancy = 6
-			}
-		}
-		modifier = {
-			factor = 1.05
-			country = {
-				average_consciousness = 6
-			}
-		}
+
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -714,22 +584,6 @@ anarcho_liberal_rebels = {
 
 		modifier = {
 			factor = 0
-			NOT = {
-				OR = {
-					pop_majority_ideology = anarcho_liberal
-					pop_majority_ideology = liberal
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-				OR = {
-					political_movement = yes
-					social_movement = yes
-				}	
-		}
-		modifier = {
-			factor = 0
 			country = { civilized = no }
 		}
 		modifier = {
@@ -740,41 +594,26 @@ anarcho_liberal_rebels = {
 		}
 		modifier = {
 			factor = 0
-			is_primary_culture = no
-			is_accepted_culture = no
+			is_ideology_enabled = communist
+			nationalvalue = nv_equality
+			
 		}
-		
 		modifier = {
-			factor = 2
-			pop_majority_ideology = anarcho_liberal
+			factor = 0
+			is_ideology_enabled = fascist
+			nationalvalue = nv_order
 		}
-		
+		modifier = {
+			factor = 0
+			is_primary_culture = no
+		}
 		modifier = {
 			factor = 2
 			pop_majority_ideology = liberal
 		}
 
-		modifier = {
-			factor = 1.15
-			political_reform_want = 0.15
-			NOT = { social_reform_want = 0.05 
-			}
-		}
 		
-		modifier = {
-			factor = 0.1
-			NOT = { is_culture_group = THIS }
-		}
-		
-		modifier = {
-			factor = 0.1
-			is_accepted_culture = no
-			is_primary_culture = no
-		}
-		modifier = {
-			factor = 0
-			country = { government = bourgeois_dictatorship }
-		}
+
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -911,12 +750,7 @@ nationalist_rebels = {
 			factor = 2
 			is_accepted_culture = no
 		}
-		modifier = {
-			factor = 2
-			location = {
-				is_colonial = yes
-			}
-		}
+
 	
 	}
  
@@ -1425,7 +1259,7 @@ boxer_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 5
+		factor = 10
 		
 		modifier = {
 			factor = 0
@@ -1446,7 +1280,7 @@ boxer_rebels = {
 			}
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.5
 			country = { is_independant = yes}
 		}
 		
@@ -2052,70 +1886,29 @@ liberal_rebels = {
 			factor = 0
 			country = { civilized = no }
 		}
-		modifier = {
-			factor = 0
-				social_movement = yes
-		}
-		modifier = {
-			factor = 0 # -100?
-			NOT = { literacy = 0.40 }
-		}
+
 		modifier = {
 			factor = 0
 			country = {
-				OR = { 
-						vote_franschise = universal_weighted_voting
-						vote_franschise = universal_voting
-					}
+				political_parties = secret_ballots
+				vote_franschise = universal_voting
+				voting_system = proportional_representation
 			}
 		}
 		modifier = {
 			factor = 0
+			is_ideology_enabled = anarcho_liberal
 			NOT = {
-				OR = {
-					
-					pop_majority_ideology = liberal
-					pop_majority_ideology = conservative
-				}
-			}
-		}
-		modifier = {
-			factor = 3
-			country = {
-				OR = {
-					has_country_modifier = global_liberal_agitation
-					has_country_modifier = springtime_of_nations
-				}
+				government = bourgeois_dictatorship 
+				government = proletarian_dictatorship 
+				government = presidential_dictatorship 
+				government = fascist_dictatorship 
 			}
 		}
 		
 		modifier = {
 			factor = 2
-			pop_majority_ideology = liberal
-		}
-		
-		modifier = {
-			factor = 2
-			AND = {
-				pop_majority_ideology = conservative
-				country = {
-					OR = {
-						has_country_modifier = global_liberal_agitation
-						has_country_modifier = springtime_of_nations
-					}
-				}
-			}
-		}
-		
-		modifier = {
-			factor = 1.05
-			pop_majority_ideology = anarcho_liberal
-		}
-		
-		modifier = {
-			factor = 1.15
 			political_reform_want = 0.05
-			NOT = { political_reform_want = 0.15 }
 		}
 	}
  
