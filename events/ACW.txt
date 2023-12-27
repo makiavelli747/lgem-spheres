@@ -24,7 +24,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 2
 		modifier = {
 			factor = 20
 			NOT = {
@@ -158,7 +158,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 2
 		modifier = {
 			factor = 20
 			NOT = {
@@ -210,7 +210,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 10
+		months = 20
 		modifier = {
 			factor = 20
 			NOT = {
@@ -264,7 +264,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 10
+		months = 20
 		modifier = {
 			factor = 20
 			NOT = {
@@ -323,7 +323,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 10
 		modifier = {
 			factor = 0.5
 			yes_slavery = 15
