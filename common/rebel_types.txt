@@ -579,7 +579,12 @@ anarcho_liberal_rebels = {
 
 		modifier = {
 			factor = 0
-			government = bourgeois_dictatorship
+			OR = {
+				government = bourgeois_dictatorship
+				government = presidential_dictatorship
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+			}
 		}
 
 		modifier = {
