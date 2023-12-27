@@ -1012,7 +1012,7 @@ country_event = {
 	fire_only_once = no
  
 	mean_time_to_happen =  {
-		months = 60
+		months = 600
 
 		modifier = {
 			factor = 0.9 #increase likelihood to happen
