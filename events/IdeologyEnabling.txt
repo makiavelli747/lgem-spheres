@@ -160,7 +160,7 @@ country_event = {
 			is_ideology_enabled = fascist 
 		}
 		
-		year = 1900 
+		year = 1905
 		literacy = 0.5
 		civilized = yes
 		OR = {
