@@ -612,7 +612,10 @@ anarcho_liberal_rebels = {
 			factor = 0
 			is_primary_culture = no
 		}
-
+		modifier = {
+			factor = 2
+			pop_majority_ideology = anarcho_liberal
+		}
 		
 
 	}
