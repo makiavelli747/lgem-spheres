@@ -148,8 +148,8 @@ machine_parts_factory = {
 	goods_cost =
 	{
 		cement = 1000
-		steel = 4000
-		coal = 4000
+		steel = 6000
+		coal = 2000
 	}
 	time = 180
 	visibility = yes
@@ -213,8 +213,8 @@ steamer_shipyard = {
 	goods_cost =
 	{
 		cement = 1000
-		steel = 4000
-		coal = 4000
+		steel = 6000
+		coal = 2000
 	}
 	time = 180
 	visibility = yes
