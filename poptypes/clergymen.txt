@@ -64,7 +64,6 @@ life_needs = {
 	grain =  16
 	cotton = 1
 	timber = 1
-	coal = 1
 }
 
 
