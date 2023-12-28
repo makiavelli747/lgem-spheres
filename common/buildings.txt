@@ -671,8 +671,8 @@ railroad = {
 	type = infrastructure
 	goods_cost =
 	{
-		cement = 1250
-		iron = 5000
+		cement = 625
+		iron = 7500
 	}
 	time = 720
 	visibility = yes
