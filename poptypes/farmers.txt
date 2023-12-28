@@ -18,11 +18,12 @@ rebel =
 
 everyday_needs = {
 	regular_clothes = 3
-	liquor = 2
+	liquor = 2.5
 	furniture = 1
 	tea = 2
+	glass = 1
 	fertilizer = 1
-	coal = 2
+	coal = 1
 	iron = 1
 	dye = 1
 	tobacco = 1
@@ -36,7 +37,6 @@ life_needs = {
 	grain =  16
 	cotton = 1
 	timber = 1
-	coal = 1
 }
 
 
