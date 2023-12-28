@@ -337,7 +337,7 @@ small_arms_factory = {
 	goods_cost =
 	{
 		cement = 2000
-		steel = 4000
+		iron = 4000
 		ammunition = 1000
 	}
 	time = 180

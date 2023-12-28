@@ -432,7 +432,7 @@ small_arms_factory = {
 	template = factory_template
 	input_goods = {        
 		ammunition = 2		#40
-		steel = 2		#10		total input+maint = 60
+		iron = 2		#10		total input+maint = 60
 		
 	}
 	output_goods = small_arms 
@@ -1168,7 +1168,7 @@ artisan_clipper = {
 artisan_small_arms = {       
 	input_goods = {        
 		ammunition = 1		#30
-		steel = 1		#50		total input+maint = 60
+		iron = 1		#50		total input+maint = 60
 	}
 	output_goods = small_arms 
 	value = 1			#74
