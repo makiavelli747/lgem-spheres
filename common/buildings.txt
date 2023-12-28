@@ -648,10 +648,10 @@ naval_base = {
 	type = naval_base
 	goods_cost =
 	{
-		cement = 5000
-		steamer_convoy = 400
-		clipper_convoy = 800
-		canned_food = 1000
+		cement = 10000
+		steamer_convoy = 800
+		clipper_convoy = 1600
+		canned_food = 2000
 	}
 	time = 720
 	naval_capacity = 1
