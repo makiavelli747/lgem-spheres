@@ -19,7 +19,7 @@ aeroplane_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1250
+		cement = 2500
 		electric_gear = 1250
 		lumber = 5000
 		
@@ -40,9 +40,9 @@ barrel_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1250
+		cement = 2500
 		electric_gear = 1250
-		automobiles =  250
+		automobiles = 250
 	}
 
 	time = 180
@@ -61,7 +61,7 @@ automobile_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1250
+		cement = 2500
 		electric_gear = 1250
 		steel = 5000
 	}
@@ -82,7 +82,7 @@ radio_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1250
+		cement = 2500
 		electric_gear = 1250
 		glass = 5000
 	}
@@ -103,7 +103,7 @@ telephone_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1250
+		cement = 2500
 		electric_gear = 1250
 		glass = 5000
 	}
@@ -126,7 +126,7 @@ electric_gear_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		electric_gear = 1000
 		rubber = 1000
 	}
@@ -147,7 +147,7 @@ machine_parts_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		steel = 6000
 		coal = 2000
 	}
@@ -168,7 +168,7 @@ synthetic_oil_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		coal = 8000
 	}
 	time = 180
@@ -188,7 +188,7 @@ fuel_refinery = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		oil = 2000
 	}
 	time = 90
@@ -212,7 +212,7 @@ steamer_shipyard = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		steel = 6000
 		coal = 2000
 	}
@@ -234,7 +234,7 @@ clipper_shipyard = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		lumber = 4000
 		fabric = 4000
 	}
@@ -256,7 +256,7 @@ luxury_clothes_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		regular_clothes = 2000
 		silk = 1000
 	}
@@ -276,7 +276,7 @@ luxury_furniture_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		furniture = 2000
 		tropical_wood = 1000
 	}
@@ -298,7 +298,7 @@ steel_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		iron = 8000
 	}
 	time = 90
@@ -317,7 +317,7 @@ artillery_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		steel = 4000
 		explosives = 2000
 	}
@@ -336,7 +336,7 @@ small_arms_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		steel = 4000
 		ammunition = 1000
 	}
@@ -357,7 +357,7 @@ furniture_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		lumber = 8000
 	}
 	time = 180
@@ -375,7 +375,7 @@ paper_mill = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		lumber = 8000
 	}
 	time = 180
@@ -393,7 +393,7 @@ regular_clothes_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		fabric = 8000
 	}
 	time = 180
@@ -411,7 +411,7 @@ explosives_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 1000
+		cement = 2000
 		fertilizer = 8000
 	}
 	time = 180
@@ -432,7 +432,7 @@ ammunition_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 800
+		cement = 1500
 		iron = 4000
 		sulphur = 2000
 	}
@@ -453,7 +453,7 @@ canned_food_factory = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		cattle = 8000
 		fish = 8000
 	}
@@ -474,7 +474,7 @@ dye_factory = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		coal = 6000
 	}
 	time = 90
@@ -494,7 +494,7 @@ liquor_distillery = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		glass = 1000
 		grain = 12500
 	}
@@ -515,7 +515,7 @@ winery = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		glass = 1000
 		fruit = 5000
 	}
@@ -538,7 +538,7 @@ lumber_mill = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		timber = 6000
 	}
 	time = 90
@@ -557,7 +557,7 @@ fabric_factory = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		cotton = 8000
 		dye = 1600
 	}
@@ -577,7 +577,7 @@ cement_factory = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		coal = 6000
 	}
 	time = 90
@@ -596,7 +596,7 @@ glass_factory = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		coal = 6000
 	}
 	time = 90
@@ -616,7 +616,7 @@ fertilizer_factory = {
 	goods_cost =
 	{
 
-		cement = 800
+		cement = 1500
 		sulphur = 6000
 	}
 	time = 90
