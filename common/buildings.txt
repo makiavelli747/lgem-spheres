@@ -631,10 +631,10 @@ fort = {
 	type = fort
 	goods_cost =
 	{
-		cement = 500
-		small_arms = 100
-		artillery = 50
-		canned_food = 250
+		cement = 1000
+		small_arms = 200
+		artillery = 100
+		canned_food = 500
 	}
 	time = 720 
 	visibility = yes
@@ -648,10 +648,10 @@ naval_base = {
 	type = naval_base
 	goods_cost =
 	{
-		cement = 2500
-		steamer_convoy = 200
-		clipper_convoy = 400
-		canned_food = 500
+		cement = 5000
+		steamer_convoy = 400
+		clipper_convoy = 800
+		canned_food = 1000
 	}
 	time = 720
 	naval_capacity = 1
@@ -671,8 +671,8 @@ railroad = {
 	type = infrastructure
 	goods_cost =
 	{
-		coal = 5000
-		iron = 5000
+		coal = 10000
+		iron = 10000
 	}
 	time = 720
 	visibility = yes
