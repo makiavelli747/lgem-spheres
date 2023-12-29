@@ -283,43 +283,43 @@ clergymen =
 		group = {
 			modifier = {
 				factor = 5
+				education_spending = 0.01
+			}
+			modifier = {
+				factor = 5
 				education_spending = 0.05
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.1
+				education_spending = 0.15
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.2
+				education_spending = 0.25
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.3
+				education_spending = 0.35
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.4
+				education_spending = 0.45
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.5
+				education_spending = 0.55
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.6
+				education_spending = 0.65
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.7
+				education_spending = 0.75
 			}
 			modifier = {
 				factor = 5
-				education_spending = 0.8
-			}
-			modifier = {
-				factor = 5
-				education_spending = 0.9
+				education_spending = 0.85
 			}
 		}
 		group = {		
