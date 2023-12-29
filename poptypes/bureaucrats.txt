@@ -468,6 +468,10 @@ ideologies = {
 			factor = 2
 			nationalvalue = nv_order
 		}
+		modifier = {
+			factor = 2
+			nationalvalue = nv_liberty
+		}
 
 		modifier = {
 			factor = 1.2
@@ -688,7 +692,7 @@ ideologies = {
 		factor = 1
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_liberty
 		}
 		modifier = {
