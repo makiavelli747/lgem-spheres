@@ -801,9 +801,12 @@ nationalist_rebels = {
 	# Country scope
 	demands_enforced_trigger = {
 		independence = {
-			any_owned_province = {
-			controlled_by = REB
-			province_control_days = 180
+			any_core = {
+				OR = {
+					controlled_by_rebels = yes
+					NOT = { owned_by = THIS }
+				}
+				province_control_days = 90
 			}
 		}
 	}
@@ -1795,9 +1798,14 @@ indian_sepoys = {
 
 	# Country scope
 	demands_enforced_trigger = {
-		any_owned_province = {
-			controlled_by = REB
-			province_control_days = 180
+		independence = {
+			any_core = {
+				OR = {
+					controlled_by_rebels = yes
+					NOT = { owned_by = THIS }
+				}
+				province_control_days = 180
+			}
 		}
 	}
 	
