@@ -1533,7 +1533,7 @@ country_event = {
 	trigger = {
 		is_ideology_enabled = fascist
 		civilized = yes
-		fascist = 30
+		fascist = 25
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -1543,7 +1543,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 15
+		months = 1
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1599,6 +1599,16 @@ country_event = {
 			nationalvalue = nv_order
 		}
 	}
+	option = {
+		name = "EVTOPTB17630"
+		government = fascist_dictatorship
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+	}
 	
 	option = {
 		name = "EVTOPTA17630"
@@ -1614,16 +1624,6 @@ country_event = {
 		}
 	}
 	
-	option = {
-		name = "EVTOPTB17630"
-		government = fascist_dictatorship
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
-		political_reform = state_controlled
-		political_reform = underground_parties
-	}
 }
 
 #Free Corps
