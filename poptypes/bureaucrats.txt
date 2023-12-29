@@ -740,7 +740,10 @@ ideologies = {
 	}
 	anarcho_liberal = {
 		factor = 1
-
+		modifier = {
+			factor = 2
+			nationalvalue = nv_liberty
+		}
 
 
 		modifier = {
