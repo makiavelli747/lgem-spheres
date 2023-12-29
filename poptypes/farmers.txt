@@ -589,7 +589,7 @@ ideologies = {
 		}
 
 		modifier = {
-			factor = 4
+			factor = 5
 			nationalvalue = nv_order
 		}
 
