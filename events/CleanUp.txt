@@ -264,7 +264,7 @@ country_event = {
 		government = democracy
 		civilized = yes
 		ruling_party_ideology = anarcho_liberal
-		anarcho_liberal = 20
+		anarcho_liberal = 25
 	}
 	
 	mean_time_to_happen = {
@@ -287,7 +287,7 @@ country_event = {
 	trigger = {
 		government = democracy
 		ruling_party_ideology = communist
-		communist = 20
+		communist = 25
 		civilized = yes
 	}
 	
@@ -313,7 +313,7 @@ country_event = {
 	trigger = {
 		government = democracy
 		ruling_party_ideology = fascist
-		fascist = 20
+		fascist = 25
 		civilized = yes
 	}
 	
