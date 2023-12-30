@@ -18,7 +18,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
@@ -44,7 +44,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
@@ -76,7 +76,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
@@ -108,7 +108,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
@@ -264,11 +264,11 @@ country_event = {
 		government = democracy
 		civilized = yes
 		ruling_party_ideology = anarcho_liberal
-		anarcho_liberal = 40
+		anarcho_liberal = 20
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
@@ -287,12 +287,12 @@ country_event = {
 	trigger = {
 		government = democracy
 		ruling_party_ideology = communist
-		communist = 40
+		communist = 20
 		civilized = yes
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
@@ -313,12 +313,12 @@ country_event = {
 	trigger = {
 		government = democracy
 		ruling_party_ideology = fascist
-		fascist = 40
+		fascist = 20
 		civilized = yes
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
