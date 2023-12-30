@@ -356,7 +356,9 @@ muzzle_loaded_rifles = {
 	activate_unit = engineer
 	
 	combat_width = -2
-	supply_consumption = 0.1
+	army_base = {
+		supply_consumption = 0.1
+	}
 
 	ai_chance = {
 		factor = 1.1
@@ -405,7 +407,9 @@ breech_loaded_rifles = {
 	unciv_military = yes
 
 	combat_width = -2
-	supply_consumption = 0.25
+	army_base = {
+		supply_consumption = 0.25
+	}
 	
 	ai_chance = {
 		factor = 1.1
@@ -452,7 +456,9 @@ machine_guns = {
 	unciv_military = yes
 	
 	combat_width = -5
-	supply_consumption = 0.5
+	army_base = {
+		supply_consumption = 0.5
+	}
 	#colonial_life_rating = -10 
 	ai_chance = {
 		factor = 6
@@ -500,7 +506,9 @@ bolt_action_rifles = {
 	unit = 1
 	
 	combat_width = -5
-	supply_consumption = 1
+	army_base = {
+		supply_consumption = 1
+	}
 	
 	ai_chance = {
 		factor = 1.1
@@ -543,7 +551,9 @@ modern_divisional_structure = {
 
 	unit = 2
 	combat_width = -5
-	supply_consumption = 2
+	army_base = {
+		supply_consumption = 2
+	}
 	
 		ai_chance = {
 		factor = 1.1
