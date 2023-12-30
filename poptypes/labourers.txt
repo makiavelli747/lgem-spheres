@@ -583,7 +583,7 @@ ideologies = {
 	
 	fascist = {
 
-		factor = 1
+		factor = 2
 
 
 		modifier = {
@@ -592,8 +592,56 @@ ideologies = {
 		}
 
 		modifier = {
-			factor = 3
+			factor = 1.2
+			literacy = 0.05	
 			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.1	
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.2
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.3
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.4
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.5
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.6
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.7
+			nationalvalue = nv_order
+			
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.8	
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 1.2
+			literacy = 0.9
+			nationalvalue = nv_order
+			
 		}
 
 	}
