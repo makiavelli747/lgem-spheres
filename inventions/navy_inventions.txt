@@ -10,7 +10,7 @@ torpedo_attacks = {
 		}
 	}
 	effect = {
-		cruiser = { torpedo_attack = 40 }
+		cruiser = { torpedo_attack = 8 }
 	}
 }
 
@@ -103,7 +103,7 @@ big_ship_competitor = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		}
 		steam_transport = {
 			gun_power = -1
@@ -191,7 +191,7 @@ offensive_attitude = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		}
 		clipper_transport = {
 			gun_power = -1
@@ -217,13 +217,13 @@ defensive_attitude = {
 	}
 	effect = {
 		cruiser = {
-			hull = 25
+			hull = 5
 		}
 		battleship = {
-			hull = 25
+			hull = 5
 		}
 		dreadnought = {
-			hull = 25
+			hull = 5
 		}
 	
 	}
@@ -244,7 +244,7 @@ decisive_firepower_doctrine = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		}
 		clipper_transport = {
 			gun_power = -1
@@ -269,7 +269,7 @@ naval_firepower_doctrine = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		}
 		clipper_transport = {
 			gun_power = -1
@@ -482,8 +482,8 @@ torpedo_boats = {
 	}
 	effect = {
 		commerce_raider = {
-			hull = 12
-			torpedo_attack = 6
+			hull = 4
+			torpedo_attack = 2
 		}
 	}
 }
@@ -548,8 +548,8 @@ pre_dreadnought = {
 	}
 	effect = {
 		ironclad = {
-			hull = 3
-			gun_power = 3
+			hull = 1
+			gun_power = 1
 			maximum_speed = 1
 		}
 		activate_unit = battleship 
@@ -649,8 +649,8 @@ advanced_cruisers = {
 	}
 	effect = {
 		cruiser = {
-			hull = 5
-			gun_power = 5
+			hull = 1
+			gun_power = 1
 		} 
 	}
 }
@@ -708,12 +708,12 @@ advanced_battleships = {
 	}
 	effect = {
 		battleship = {
-			hull = 5
-			gun_power = 5
+			hull = 1
+			gun_power = 1
 		}
 		dreadnought = {
-			hull = 5
-			gun_power = 5
+			hull = 1
+			gun_power = 1
 		} 
 	}
 }
@@ -815,7 +815,7 @@ optical_rangefinders = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		}
 		clipper_transport = {
 			gun_power = -1
@@ -840,7 +840,7 @@ gyrostabilized_fire_control = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		} 
 		clipper_transport = {
 			gun_power = -1
@@ -894,7 +894,7 @@ armour_piercing_projectiles = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		} 
 		clipper_transport = {
 			gun_power = -1
@@ -919,7 +919,7 @@ armour_piercing_exploding_projectiles = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		} 
 		clipper_transport = {
 			gun_power = -1
@@ -945,7 +945,7 @@ armoured_turrets = {
 	}
 	effect = {
 		navy_base = {
-			hull = 3
+			hull = 1
 		} 
 	}
 }
@@ -965,7 +965,7 @@ bomb_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		}
 		clipper_transport = {
 			gun_power = -1
@@ -990,7 +990,7 @@ rifled_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		}
 		clipper_transport = {
 			gun_power = -1
@@ -1015,7 +1015,7 @@ quick_firing_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 3
+			gun_power = 1
 		}
 		clipper_transport = {
 			gun_power = -1
@@ -1040,10 +1040,10 @@ armoured_citadels = {
 	}
 	effect = {
 		battleship = {
-			hull = 10
+			hull = 2
 		}
 		dreadnought = {
-			hull = 10
+			hull = 2
 		}
 	
 	}
@@ -1063,10 +1063,10 @@ heavy_caliber_guns = {
 	}
 	effect = {
 		battleship = {
-			gun_power = 10
+			gun_power = 2
 		}
 		dreadnought = {
-			gun_power = 10
+			gun_power = 2
 		}
 	}
 }
@@ -1105,10 +1105,10 @@ gun_hydraulics = {
 	}
 	effect = {
 		battleship = {
-			gun_power = 10
+			gun_power = 2
 		}
 		dreadnought = {
-			gun_power = 10
+			gun_power = 2
 		}
 	}
 }
@@ -1131,7 +1131,7 @@ heavy_armour_plates = {
 	}
 	effect = {
 		dreadnought = {
-			hull = 10
+			hull = 2
 		} 
 	}
 }
@@ -1150,7 +1150,7 @@ large_hull_form = {
 	}
 	effect = {
 		navy_base = {
-			hull = 3
+			hull = 1
 		} 
 	}
 }
@@ -1189,11 +1189,11 @@ advanced_fire_control = {
 	}
 	effect = {
 		dreadnought = {
-			gun_power = 10
+			gun_power = 2
 		}
 		cruiser = {
-			gun_power = 10
-			torpedo_attack = 20
+			gun_power = 2
+			torpedo_attack = 4
 		}
 	}
 }
@@ -1216,7 +1216,7 @@ advanced_fire_control = {
 	}
 	effect = {
 		dreadnought = {
-			gun_power = 10
+			gun_power = 2
 		}
 	}
 }
