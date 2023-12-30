@@ -292,7 +292,7 @@ ideologies = {
 		}
 
 		modifier = {
-			factor = 4
+			factor = 3
 			nationalvalue = nv_order
 		}
 
@@ -317,14 +317,7 @@ ideologies = {
 			factor = 2
 			nationalvalue = nv_order
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_liberty
-		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
+
 
 		modifier = {
 			factor = 1.1
@@ -425,10 +418,6 @@ ideologies = {
 	communist = {
 		factor = 1
 
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
 		modifier = {
 			factor = 2
 			ruling_party_ideology = communist
@@ -548,44 +537,44 @@ ideologies = {
 			nationalvalue = nv_liberty
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 0.5
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 1
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 2
 		}
 
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 3
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 4
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 5
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.1
 			consciousness = 9
 		}
 
@@ -593,7 +582,7 @@ ideologies = {
 	anarcho_liberal = {
 		factor = 1
 		modifier = {
-			factor = 3
+			factor = 2
 			ruling_party_ideology = anarcho_liberal
 		}
 		modifier = {
