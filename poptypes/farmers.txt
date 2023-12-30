@@ -844,44 +844,44 @@ ideologies = {
 			nationalvalue = nv_liberty
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 0.5
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 1
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 2
 		}
 
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 3
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 4
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 5
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			consciousness = 9
 		}
 
