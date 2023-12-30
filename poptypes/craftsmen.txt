@@ -670,12 +670,12 @@ ideologies = {
 
 
 		modifier = {
-			factor = 3
+			factor = 2
 			ruling_party_ideology = fascist
 		}
 
 		modifier = {
-			factor = 3
+			factor = 4
 			nationalvalue = nv_order
 		}
 
