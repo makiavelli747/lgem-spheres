@@ -598,8 +598,8 @@ naval_base = {
 	type = naval_base
 	goods_cost =
 	{
-		clipper_convoy = 10000
-		steamer_convoy = 5000
+		clipper_convoy = 5000
+		steamer_convoy = 2500
 	}
 	time = 720
 	naval_capacity = 1
@@ -619,7 +619,7 @@ railroad = {
 	type = infrastructure
 	goods_cost =
 	{
-		cement = 5000
+		cement = 2500
 	}
 	time = 720
 	visibility = yes
