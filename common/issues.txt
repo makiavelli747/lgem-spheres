@@ -130,7 +130,7 @@ party_issues = {
 	
 	religious_policy = {
 		pro_atheism = {
-			research_points_modifier = 1
+			research_points_modifier = 0.5
 		}
 		secularized = {
 			global_pop_consciousness_modifier = 0.03
