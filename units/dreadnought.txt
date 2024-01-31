@@ -30,7 +30,7 @@ dreadnought = {
 		telephones = 2.5
 		fuel = 250
 	}
-	min_port_level = 5
+	min_port_level = 1
 	limit_per_port = -1
 	supply_consumption_score = 60
 	
@@ -44,8 +44,8 @@ dreadnought = {
 	}
 	
 	#Naval Abilties
-	hull = 400
-	gun_power = 300
+	hull = 80
+	gun_power = 60
 	fire_range = 0.8
 	evasion = 0
 }

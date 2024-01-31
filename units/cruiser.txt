@@ -11,11 +11,11 @@ cruiser = {
 	colonial_points = 16
 	
 	#Core Abilities
-	priority = 12
+	priority = 40
 	max_strength = 100
 	default_organisation = 30
 	maximum_speed = 12
-	weighted_value = 8.0
+	weighted_value = 40.0
 	floating_flag = yes
 	can_build_overseas = yes
 
@@ -28,7 +28,7 @@ cruiser = {
 		canned_food = 10
 		fuel = 60
 	}
-	min_port_level = 4
+	min_port_level = 1
 	limit_per_port = -1
 	supply_consumption_score = 20
 	
@@ -41,8 +41,8 @@ cruiser = {
 	}
 	
 	#Naval Abilties
-	hull = 250
-	gun_power = 150
+	hull = 50
+	gun_power = 30
 	fire_range = 0.65
 	evasion = 0.30
 	torpedo_attack = 2

@@ -12,11 +12,11 @@ steam_transport = {
 	floating_flag = yes
 
 	#Core Abilities
-	priority = 10
+	priority = 50
 	max_strength = 100
 	default_organisation = 30
 	maximum_speed = 8
-	weighted_value = 4.0
+	weighted_value = 50.0
 	can_build_overseas = yes
 
 	#Building Costs

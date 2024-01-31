@@ -13,7 +13,7 @@ battleship = {
 	colonial_points = 15
 	
 	#Core Abilities
-	priority = 40
+	priority = 50
 	max_strength = 100
 	default_organisation = 30
 	maximum_speed = 9
@@ -29,7 +29,7 @@ battleship = {
 		canned_food = 50
 		coal = 250
 	}
-	min_port_level = 4
+	min_port_level = 1
 	limit_per_port = -1 #-1 is unlimited, but it is possible to limit number of ships per port level.
 	supply_consumption_score = 50
 	
@@ -42,8 +42,8 @@ battleship = {
 	}
 	
 	#Naval Abilties
-	hull = 350
-	gun_power = 250
+	hull = 70
+	gun_power = 50
 	fire_range = 0.75
 	evasion = 0
 }
