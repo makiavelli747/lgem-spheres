@@ -1293,8 +1293,8 @@ artisan_canned_food = {
 
 artisan_liquor = {       
 	input_goods = {        
-		grain = 7.5		#60
-		glass = 2		#20	total input+maint = 26.6
+		grain = 12.5		#60
+					#20	total input+maint = 26.6
 	}
 	output_goods = liquor 
 	value = 5			#32
@@ -1311,8 +1311,8 @@ artisan_liquor = {
 
 artisan_winery = {       
 	input_goods = {  	
-		fruit = 3		#60
-		glass = 2		#20	total input+maint = 27.5
+		fruit = 5		#60
+				#20	total input+maint = 27.5
 	}
 	output_goods = wine 
 	value = 2.5			#34
