@@ -85,6 +85,16 @@ reactionary_rebels = {
 				pop_majority_ideology = reactionary
 			}
 		}
+		modifier = {
+			factor = 0
+			is_ideology_enabled = anarcho_liberal
+			NOT = {
+				government = bourgeois_dictatorship 
+				government = proletarian_dictatorship 
+				government = presidential_dictatorship 
+				government = fascist_dictatorship 
+			}
+		}
 		
 		modifier = {
 			factor = 2
