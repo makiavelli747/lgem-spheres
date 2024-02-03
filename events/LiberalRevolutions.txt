@@ -8,7 +8,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 		literacy = 0.3
-		year = 1841
+		year = 1845
 		NOT = {
 			OR = {
 				has_country_flag = liberal_revolution_in_progress
@@ -25,7 +25,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 48
+		months = 1
 		modifier = {
 			factor = 0.1
 			has_global_flag = liberal_revolution_somewhere
