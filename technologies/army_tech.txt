@@ -53,7 +53,7 @@ strategic_mobility = {
 	unciv_military = yes
 	
 	army_base = {
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 	max_fort = 1
 	dig_in_cap = 1
@@ -109,7 +109,7 @@ point_defense_system = {
 		support = 0.25
 	} 
 	army_base = {
-		supply_consumption = 0.25
+		supply_consumption = 0.5
 	} 
 	max_fort = 1
 	dig_in_cap = 1
@@ -164,7 +164,7 @@ deep_defense_system = {
 		support = 0.25
 	} 
 	army_base = {
-		supply_consumption = 0.5
+		supply_consumption = 1
 	} 
 	max_fort = 1
 	dig_in_cap = 1
@@ -217,7 +217,7 @@ infiltration = {
 	unciv_military = yes
 		
 	army_base = {
-		supply_consumption = 1
+		supply_consumption = 2
 	} 
 	
 	max_fort = 1
@@ -264,7 +264,7 @@ modern_army_doctrine = {
 	unciv_military = yes
 	
 	army_base = {
-		supply_consumption = 2
+		supply_consumption = 4
 	} 
 	
 	max_fort = 1
@@ -357,7 +357,7 @@ muzzle_loaded_rifles = {
 	
 	combat_width = -2
 	army_base = {
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 
 	ai_chance = {
@@ -408,7 +408,7 @@ breech_loaded_rifles = {
 
 	combat_width = -2
 	army_base = {
-		supply_consumption = 0.25
+		supply_consumption = 0.5
 	}
 	
 	ai_chance = {
@@ -457,7 +457,7 @@ machine_guns = {
 	
 	combat_width = -5
 	army_base = {
-		supply_consumption = 0.5
+		supply_consumption = 1
 	}
 	#colonial_life_rating = -10 
 	ai_chance = {
@@ -507,7 +507,7 @@ bolt_action_rifles = {
 	
 	combat_width = -5
 	army_base = {
-		supply_consumption = 1
+		supply_consumption = 2
 	}
 	
 	ai_chance = {
@@ -552,7 +552,7 @@ modern_divisional_structure = {
 	unit = 2
 	combat_width = -5
 	army_base = {
-		supply_consumption = 2
+		supply_consumption = 4
 	}
 	
 		ai_chance = {
@@ -639,7 +639,7 @@ iron_muzzle_loaded_artillery = {
 	artillery = {
 		attack = 0.25
 		support = 0.5
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 	
 	ai_chance = {
@@ -683,7 +683,7 @@ iron_breech_loaded_artillery = {
 	artillery = {
 		attack = 0.25
 		support = 0.5
-		supply_consumption = 0.25
+		supply_consumption = 0.5
 	}
 	ai_chance = {
 		factor = 1.05
@@ -726,7 +726,7 @@ steel_breech_loaded_artillery = {
 	artillery = {
 		attack = 0.5
 		support = 0.5
-		supply_consumption = 0.5
+		supply_consumption = 1
 	}
 	
 	ai_chance = {
@@ -771,7 +771,7 @@ indirect_artillery_fire = {
 		attack = 0.5
 		defence = 2
 		support = 1
-		supply_consumption = 1
+		supply_consumption = 2
 	}
 	
 	ai_chance = {
@@ -816,7 +816,7 @@ heavy_armament_dunno = {
 		attack = 0.5
 		defence = 2
 		support = 1
-		supply_consumption = 2
+		supply_consumption = 4
 	}
 	
 	ai_chance = {
@@ -907,7 +907,7 @@ military_plans = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 	
 	ai_chance = {
@@ -951,7 +951,7 @@ military_statistics = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 0.25
+		supply_consumption = 0.5
 	}
 	
 	ai_chance = {
@@ -995,7 +995,7 @@ military_logistics = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 0.5
+		supply_consumption = 1
 	}
 	mobilisation_size = 0.05
 	
@@ -1040,7 +1040,7 @@ military_directionism = {
 	
 	army_base = {
 		default_organisation = 10
-		supply_consumption = 1
+		supply_consumption = 2
 	}
 	ai_chance = {
 		factor = 1.5
@@ -1085,7 +1085,7 @@ aeronautics = {
 	cost = 21600
 	army_base = {
 		default_organisation = 10
-		supply_consumption = 2
+		supply_consumption = 4
 	}
 	
 	unciv_military = yes
@@ -1170,7 +1170,7 @@ army_professionalism = {
 	military_tactics = 0.25
 	
 	army_base = {
-		supply_consumption = 0.1
+		supply_consumption = 0.25
 	}
 	ai_chance = {
 		factor = 1.1
@@ -1224,7 +1224,7 @@ army_decision_making = {
 	military_tactics = 0.25
 
 	army_base = {
-	supply_consumption = 0.25
+	supply_consumption = 0.5
 	}
 	
 	ai_chance = {
@@ -1279,7 +1279,7 @@ army_risk_management = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 0.5
+		supply_consumption = 1
 	}
 	
 	ai_chance = {
@@ -1335,7 +1335,7 @@ army_nco_training = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 1
+		supply_consumption = 2
 	}
 	
 	ai_chance = {
@@ -1390,7 +1390,7 @@ great_war_experience = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 2
+		supply_consumption = 4
 	}
 	
 	ai_chance = {
