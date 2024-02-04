@@ -22,7 +22,7 @@ life_needs_income = {
 }
 
 everyday_needs_income = {
-	type = reforms
+	type = military
 	weight = 1
 }
 
