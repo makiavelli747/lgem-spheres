@@ -13,31 +13,7 @@ alliance=
 		end_date="1936.1.1"
 		start_date="1836.1.1"
 	}
-alliance=
-	{
-		first="NET"
-		second="SPA"
-		end_date="1936.1.1"
-		start_date="1836.1.1"
-	}
-alliance=
-	{
-		first="RUS"
-		second="SPA"
-		end_date="1936.1.1"
-		start_date="1836.1.1"
-	}
-alliance=
-	{
-		first="ENG"
-		second="TUR"
-		end_date="1936.1.1"
-		start_date="1836.1.1"
-	}
-alliance=
-	{
-		first="ENG"
-		second="FRA"
-		end_date="1936.1.1"
-		start_date="1836.1.1"
-	}
+
+
+
+
