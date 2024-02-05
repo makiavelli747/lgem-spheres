@@ -32,9 +32,9 @@ monitor = {
 	
 	supply_consumption = 2
 	supply_cost = {
-		steamer_convoy = 0.16
-		artillery = 0.05
-		canned_food = 0.4
+		steamer_convoy = 0.08
+		artillery = 0.025
+		canned_food = 0.2
 	}
 	
 	#Naval Abilties
