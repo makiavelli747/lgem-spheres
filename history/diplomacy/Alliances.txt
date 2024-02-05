@@ -13,6 +13,13 @@ alliance=
 		end_date="1936.1.1"
 		start_date="1836.1.1"
 	}
+alliance=
+	{
+		first="FRA"
+		second="BEL"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
 
 
 
