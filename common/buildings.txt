@@ -583,8 +583,9 @@ fort = {
 	type = fort
 	goods_cost =
 	{
-		small_arms = 1000
-		artillery = 500
+		small_arms = 800
+		artillery = 400
+		canned_food = 1000
 	}
 	time = 720 
 	visibility = yes
@@ -598,8 +599,9 @@ naval_base = {
 	type = naval_base
 	goods_cost =
 	{
-		clipper_convoy = 5000
-		steamer_convoy = 2500
+		clipper_convoy = 4000
+		steamer_convoy = 2000
+		canned_food = 5000
 	}
 	time = 720
 	naval_capacity = 1
