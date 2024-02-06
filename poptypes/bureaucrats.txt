@@ -408,7 +408,7 @@ ideologies = {
 
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_order
 		}
 
@@ -588,7 +588,7 @@ ideologies = {
 
 		modifier = {
 			factor = 2
-			ruling_party_ideology = communist
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 1.1
