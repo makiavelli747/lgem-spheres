@@ -588,7 +588,7 @@ ideologies = {
 
 		modifier = {
 			factor = 2
-			ruling_party_ideology = fascist
+			nationalvalue = nv_order
 		}
 
 		modifier = {
