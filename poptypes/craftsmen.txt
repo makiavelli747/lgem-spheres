@@ -797,7 +797,7 @@ ideologies = {
 		factor = 2
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 		}
 	
@@ -850,7 +850,7 @@ ideologies = {
 		factor = 2
 
 		modifier = {
-			factor = 2
+			factor = 3
 			nationalvalue = nv_equality
 		}
 		modifier = {
