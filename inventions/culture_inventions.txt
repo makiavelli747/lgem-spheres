@@ -878,6 +878,10 @@ constitutionalism = {
 	effect = {
 		plurality = 0.05
 		suppression_points_modifier = -0.05
+		rebel_org_gain = {
+			faction = red_shirts
+			value = 10
+		}
 	}
 }
 atheism = {
@@ -1367,8 +1371,9 @@ separatism = {
 		seperatism = 0.5
 		rebel_org_gain = {
 			faction = nationalist_rebels 
-			value = 0.33
+			value = 33
 		}
+
 	}
 }
 
@@ -1408,7 +1413,7 @@ dogma_of_mass_action = {
 	effect = {
 		rebel_org_gain = {
 			faction = communist_rebels
-			value = 0.25
+			value = 25
 		}
 	}
 }
@@ -1466,7 +1471,7 @@ secret_police = {
 	effect = {
 		rebel_org_gain = {
 			faction = all
-			value = -0.25
+			value = -25
 		}
 		
 		suppression_points_modifier = 0.25
@@ -1537,7 +1542,7 @@ nostalgic_romanticism = {
 		war_exhaustion = -0.05
 		rebel_org_gain = {
 			faction = reactionary_rebels
-			value = 0.50
+			value = 50
 		}
 	}
 }
@@ -1577,7 +1582,7 @@ vangaurd_party = {
 	effect = {
 		rebel_org_gain = {
 			faction = communist_rebels
-			value = 0.75
+			value = 75
 		}
 	}
 }
@@ -1603,7 +1608,7 @@ the_doctrine_of_fascism = {
 	effect = {
 		rebel_org_gain = {
 			faction = fascist_rebels
-			value = 0.75
+			value = 75
 		}
 	}
 }
@@ -1624,7 +1629,7 @@ paramilitary_groups = {
 	effect = {
 		rebel_org_gain = {
 			faction = fascist_rebels
-			value = 0.25
+			value = 25
 		} 
 	}
 }
@@ -1648,7 +1653,7 @@ the_police_state = {
 	effect = {
 		rebel_org_gain = {
 			faction = all
-			value = -0.25
+			value = -25
 		}
 		
 		suppression_points_modifier = 0.25
