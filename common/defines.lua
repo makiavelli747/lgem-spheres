@@ -667,7 +667,7 @@ pops = {
 	MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
 	MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
 	REDUCTION_AFTER_RISEING = 0.0, -- After a pop spawns a rebellion, its militancy will be reduced this much
-	REDUCTION_AFTER_DEFEAT = 10, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+	REDUCTION_AFTER_DEFEAT = 1, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
 																-- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
@@ -687,7 +687,7 @@ pops = {
 	POPULATION_MOVEMENT_RADICAL_FACTOR = 300,
 	NATIONALIST_MOVEMENT_MIL_CAP = 3.0,
 	MOVEMENT_SUPPORT_UH_FACTOR = 3, --  3x means 30% country support equals full UH support
-	REBEL_OCCUPATION_STRENGTH_BONUS = 0.02, -- the amount of strength given to rebel movements when they occupy a province
+	REBEL_OCCUPATION_STRENGTH_BONUS = 0.01, -- the amount of strength given to rebel movements when they occupy a province
 	LARGE_POPULATION_LIMIT = 9000000,
 	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 250000,
 },

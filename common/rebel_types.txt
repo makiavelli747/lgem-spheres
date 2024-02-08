@@ -44,7 +44,7 @@ reactionary_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
-	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces
@@ -196,7 +196,7 @@ fascist_rebels = {
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Receives reinforcements
 	general = yes					# Uses generals
-	smart = no					# Assaults forts, tactically withdraws from battle, etc.
+	smart = yes					# Assaults forts, tactically withdraws from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -362,7 +362,7 @@ communist_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
-	smart = no						# Does not assault forts, tactically withdraw from battle, etc.
+	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -384,10 +384,7 @@ communist_rebels = {
 			}
 		}
 		
-		modifier = {
-			factor = 0
-				 political_movement = yes
-		}
+
 		
 		modifier = {
 			war_exhaustion = 4
@@ -540,7 +537,7 @@ anarcho_liberal_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
-	smart = no						# Does not assault forts, tactically withdraw from battle, etc.
+	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -715,7 +712,7 @@ nationalist_rebels = {
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
-	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do remain after enforcing demands.
 	
 	occupation_mult = 9.0			# The amount of strength this rebel gains from taking provinces	
@@ -863,7 +860,7 @@ pan_nationalist_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
-	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
 	occupation_mult = 6.0			# The amount of strength this rebel gains from taking provinces
@@ -1074,7 +1071,7 @@ carlist_rebels = {
 	resilient = yes					
 	reinforcing = yes				
 	general = yes					
-	smart = no
+	smart = yes
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
@@ -1243,7 +1240,7 @@ boxer_rebels = {
 	resilient = yes					
 	reinforcing = yes				
 	general = yes					
-	smart = no
+	smart = yes
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
@@ -1463,7 +1460,7 @@ red_shirts = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
-	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
 	occupation_mult = 9.0			# The amount of strength this rebel gains from taking provinces	
@@ -1699,7 +1696,7 @@ indian_sepoys = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
-	smart = no					# Does not assault forts, tactically withdraw from battle, etc.
+	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
 	occupation_mult = 6.0			# The amount of strength this rebel gains from taking provinces	
@@ -1859,7 +1856,7 @@ liberal_rebels = {
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does not use generals
-	smart = no						# Does not assault forts, tactically withdraw from battle, etc.
+	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
 	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
