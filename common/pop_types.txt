@@ -78,7 +78,7 @@ demotion_chance =
 		}
 		modifier = {
 			factor = 1
-			not = { life_needs = 0.5 }
+			not = { life_needs = 0.25 }
 			strata = rich
 		}
 	
