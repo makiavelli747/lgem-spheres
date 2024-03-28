@@ -248,10 +248,6 @@ promote_to =
 	{
 		factor = 0.01
 
-			modifier = {
-				factor = -100
-				capitalists = 0.02
-			}
 
 		group = {
 
