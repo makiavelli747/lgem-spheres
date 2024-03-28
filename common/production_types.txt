@@ -663,7 +663,7 @@ cement_factory = {
 		
 	} 
 	output_goods = cement 
-	value = 2			#48
+	value = 0.2			#48
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
@@ -1369,7 +1369,7 @@ artisan_cement = {
 		coal = 2		#80		total input+maint = 37
 	} 
 	output_goods = cement 
-	value = 2			#48
+	value = 0.2			#48
 	
 	owner = {
 		poptype = artisan 

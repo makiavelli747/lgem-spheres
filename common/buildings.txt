@@ -19,7 +19,7 @@ aeroplane_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 6000
+		cement = 600
 		
 	}
 	time = 180
@@ -38,7 +38,7 @@ barrel_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 6000
+		cement = 600
 	}
 
 	time = 180
@@ -57,7 +57,7 @@ automobile_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 6000
+		cement = 600
 	}
 	time = 180
 	visibility = yes
@@ -76,7 +76,7 @@ radio_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 6000
+		cement = 600
 	}
 	time = 90
 	visibility = yes
@@ -95,7 +95,7 @@ telephone_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 6000
+		cement = 600
 	}
 	time = 90
 	visibility = yes
@@ -116,7 +116,7 @@ electric_gear_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 90
 	visibility = yes
@@ -135,7 +135,7 @@ machine_parts_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -154,7 +154,7 @@ synthetic_oil_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -173,7 +173,7 @@ fuel_refinery = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 90
 	visibility = yes
@@ -196,7 +196,7 @@ steamer_shipyard = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -216,7 +216,7 @@ clipper_shipyard = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -236,7 +236,7 @@ luxury_clothes_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -254,7 +254,7 @@ luxury_furniture_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -274,7 +274,7 @@ steel_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 90
 	visibility = yes
@@ -292,7 +292,7 @@ artillery_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -309,7 +309,7 @@ small_arms_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -328,7 +328,7 @@ furniture_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -345,7 +345,7 @@ paper_mill = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -362,7 +362,7 @@ regular_clothes_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -379,7 +379,7 @@ explosives_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 5000
+		cement = 500
 	}
 	time = 180
 	visibility = yes
@@ -399,7 +399,7 @@ ammunition_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		cement = 4000
+		cement = 400
 	}
 	time = 180
 	visibility = yes
@@ -418,7 +418,7 @@ canned_food_factory = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 180
 	visibility = yes
@@ -437,7 +437,7 @@ dye_factory = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 90
 	visibility = yes
@@ -456,7 +456,7 @@ liquor_distillery = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 180
 	visibility = yes
@@ -475,7 +475,7 @@ winery = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 180
 	visibility = yes
@@ -496,7 +496,7 @@ lumber_mill = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 90
 	visibility = yes
@@ -514,7 +514,7 @@ fabric_factory = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 90
 	visibility = yes
@@ -532,7 +532,7 @@ cement_factory = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 90
 	visibility = yes
@@ -550,7 +550,7 @@ glass_factory = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 90
 	visibility = yes
@@ -569,7 +569,7 @@ fertilizer_factory = {
 	goods_cost =
 	{
 
-		cement = 4000
+		cement = 400
 	}
 	time = 90
 	visibility = yes
@@ -621,7 +621,7 @@ railroad = {
 	type = infrastructure
 	goods_cost =
 	{
-		cement = 2500
+		cement = 250
 	}
 	time = 720
 	visibility = yes

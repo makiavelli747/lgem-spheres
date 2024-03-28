@@ -92,7 +92,7 @@ industrial_goods = {
 		available_from_start = no
 	}
 	cement = { 
-		cost = 2
+		cost = 20
 		color = { 185 187 164 }
 	}
 	machine_parts = { 
