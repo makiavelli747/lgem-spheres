@@ -115,42 +115,52 @@ demotion_chance =
 		modifier = {
 			factor = 0.01
 			literacy = 0.05
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.1 
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.2
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.3
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.4
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.5
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.6
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.7
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.8
+			strata = poor
 		}
 		modifier = {
 			factor = 0.01
 			literacy = 0.9
+			strata = poor
 		}
 	}
 
