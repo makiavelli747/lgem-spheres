@@ -179,6 +179,10 @@ migration_chance =
 		factor = -2.0
 		state_scope = { is_colonial = yes }
 	}
+	modifier = {
+		factor = -2.0
+		strata = rich
+	}
 
 
 	group = {
@@ -326,6 +330,10 @@ colonialmigration_chance =
 	modifier = {
 		factor = -0.5
 		is_primary_culture = no
+	}
+	modifier = {
+		factor = -2.0
+		strata = rich
 	}
 
 	modifier = {
@@ -476,6 +484,10 @@ emigration_chance =
 {
 	factor = 2
 
+	modifier = {
+		factor = -2.0
+		strata = rich
+	}
 
 		group = {
 		modifier = {
