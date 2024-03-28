@@ -33,8 +33,8 @@ SWI = {
 	influence_value = 25
 }
 SAR = {
-	value = 125		#relation
-	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	value = 25		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 GRE = {
