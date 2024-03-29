@@ -1942,6 +1942,8 @@ issues =
 			OR = {
 				NOT = { consciousness = 7 }
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				luxury_needs =  1.0
 				
 			}
@@ -2014,6 +2016,8 @@ issues =
 				NOT = { consciousness = 7 }
 				luxury_needs =  1.0
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2088,6 +2092,8 @@ issues =
 				NOT = { consciousness = 7 }
 				luxury_needs =  1.0
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2162,6 +2168,8 @@ issues =
 				NOT = { consciousness = 7 }
 				luxury_needs =  1.0
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2382,6 +2390,8 @@ issues =
 				}
 				NOT = { consciousness = 7 }
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2428,6 +2438,8 @@ issues =
 				voting_system = proportional_representation
 				NOT = { consciousness = 7 }
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2478,6 +2490,8 @@ issues =
 				}
 				luxury_needs =  1.0
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2549,6 +2563,8 @@ issues =
 				}
 				luxury_needs =  1.0
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2620,6 +2636,8 @@ issues =
 				}
 				luxury_needs =  1.0
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2689,6 +2707,8 @@ issues =
 				political_parties = secret_ballots
 				luxury_needs =  1.0
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2755,6 +2775,8 @@ issues =
 			OR = {
 				public_meetings = yes_meeting
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				NOT = { consciousness = 6 }
 			}
 		}
@@ -2831,6 +2853,8 @@ issues =
 				NOT = { consciousness = 7 }
 				NOT = { literacy = 0.40 }
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
@@ -2895,6 +2919,8 @@ issues =
 				NOT = { consciousness = 7 }
 				NOT = { literacy = 0.40 }
 				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
 				
 			}
 		}
