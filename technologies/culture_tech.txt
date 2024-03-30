@@ -551,7 +551,7 @@ state_n_government = {
 }
 nationalism_n_imperialism = {
 	area = political_thought
-	year = 1860
+	year = 1865
 	cost = 14400
 
 	max_national_focus = 1
