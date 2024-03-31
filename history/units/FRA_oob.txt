@@ -45,10 +45,10 @@ GRE = {
 	influence_value = 10
 }
 ENG = {
-	value = 120
+	value = 0
 }
 RUS = {
-	value = -75
+	value = 150
 }
 AUS = {
 	value = 0

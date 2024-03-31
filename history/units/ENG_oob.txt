@@ -54,9 +54,7 @@ NET = {
 TUR = {
 	value = 25
 }
-FRA = {
-	value = 120
-}
+
 
 
 DEN = {

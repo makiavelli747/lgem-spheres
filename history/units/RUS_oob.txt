@@ -45,7 +45,7 @@ ENG = {
 }
 
 FRA = {
-	value = -75
+	value = 150
 }
 
 TUR = {
