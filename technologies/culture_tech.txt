@@ -24,7 +24,7 @@ classicism_n_early_romanticism = {
 
 romanticism = {
 	area = aesthetics
-	year = 1836
+	year = 1840
 	cost = 7200
 	
 	prestige = 0.05
@@ -59,7 +59,7 @@ romanticism = {
 
 realism = {
 	area = aesthetics
-	year = 1836
+	year = 1860
 	cost = 10800
 
 	prestige = 0.05
@@ -86,7 +86,7 @@ realism = {
 }
 impressionism = {
 	area = aesthetics
-	year = 1850
+	year = 1880
 	cost = 14400
 
 	prestige = 0.05
@@ -113,7 +113,7 @@ impressionism = {
 }
 expressionism = {
 	area = aesthetics
-	year = 1870
+	year = 1900
 	cost = 18000
 
 	prestige = 0.05
@@ -140,7 +140,7 @@ expressionism = {
 }
 mass_culture_n_the_avant_garde = {
 	area = aesthetics
-	year = 1900
+	year = 1920
 	cost = 21600
 
 	prestige = 0.05
@@ -267,7 +267,7 @@ empiricism = {
 }
 analytic_philosophy = {
 	area = philosophy
-	year = 1870
+	year = 1880
 	cost = 14400
 
 	increase_research = 1.0
@@ -289,7 +289,7 @@ analytic_philosophy = {
 }
 phenomenology_n_hermeneutic = {
 	area = philosophy
-	year = 1880
+	year = 1900
 	cost = 18000
 
 	increase_research = 1.0
@@ -311,7 +311,7 @@ phenomenology_n_hermeneutic = {
 }
 anti__rationalism = {
 	area = philosophy
-	year = 1900
+	year = 1920
 	cost = 21600
 
 	increase_research = 1.0
@@ -379,7 +379,7 @@ positivism = {
 }
 functionalism = {
 	area = social_thought
-	year = 1836
+	year = 1850
 	cost = 10800
 
 	colonial_migration = 0.05
@@ -399,7 +399,7 @@ functionalism = {
 }
 biologism = {
 	area = social_thought
-	year = 1850
+	year = 1870
 	cost = 14400
 
 	colonial_migration = 0.05
@@ -419,7 +419,7 @@ biologism = {
 }
 social_science = {
 	area = social_thought
-	year = 1870
+	year = 1890
 	cost = 18000
 
 	colonial_migration = 0.05
@@ -439,7 +439,7 @@ social_science = {
 }
 social_alienation = {
 	area = social_thought
-	year = 1900
+	year = 1910
 	cost = 21600
 	
 	colonial_migration = 0.05
@@ -519,7 +519,7 @@ ideological_thought = {
 }
 state_n_government = {
 	area = political_thought
-	year = 1840
+	year = 1850
 	cost = 10800
 
 	max_national_focus = 1 
@@ -592,7 +592,7 @@ nationalism_n_imperialism = {
 }
 revolution_n_counterrevolution = {
 	area = political_thought
-	year = 1880
+	year = 1890
 	cost = 18000
 
 	max_national_focus = 1
@@ -616,7 +616,7 @@ revolution_n_counterrevolution = {
 }
 mass_politics = {
 	area = political_thought
-	year = 1900
+	year = 1910
 	cost = 21600
 
 	max_national_focus = 1 
@@ -699,7 +699,7 @@ associationism = {
 }
 phenomenalism = {
 	area = psychology
-	year = 1836
+	year = 1850
 	cost = 10800
 
 	regular_experience_level = 5
@@ -727,7 +727,7 @@ phenomenalism = {
 }
 experimental_psychology = {
 	area = psychology
-	year = 1850
+	year = 1870
 	cost = 14400
 
 	regular_experience_level = 5
@@ -755,7 +755,7 @@ experimental_psychology = {
 }
 psychoanalysis = {
 	area = psychology
-	year = 1870
+	year = 1890
 	cost = 18000
 
 	regular_experience_level = 5
@@ -784,7 +784,7 @@ psychoanalysis = {
 }
 behaviorism = {
 	area = psychology
-	year = 1900
+	year = 1910
 	cost = 21600
 
 	regular_experience_level = 5
