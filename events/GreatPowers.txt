@@ -696,7 +696,7 @@ country_event = {
 		}
 			relation = {
 				who = RUS
-				value = -400
+				value = -250
 			}
 
 		casus_belli = {
