@@ -45,7 +45,7 @@ ENG = {
 }
 
 FRA = {
-	value = -75
+	value = 100
 }
 
 TUR = {
@@ -777,7 +777,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Chtchastlivyï"
+		name= "Chtchastlivy "
 		type = frigate
 	}
 
