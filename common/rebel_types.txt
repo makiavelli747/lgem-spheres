@@ -611,10 +611,6 @@ anarcho_liberal_rebels = {
 				is_ideology_enabled = fascist
 				is_ideology_enabled = communist
 			}
-			OR = {
-				nationalvalue = nv_order
-				nationalvalue = nv_equality
-			}
 		}
 		modifier = {
 			factor = 0
