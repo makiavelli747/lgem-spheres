@@ -556,7 +556,7 @@ diplomacy = {
 	RELATION_INFLUENCE_MODIFIER = 1000, -- divisor for relation
 	ON_CB_DETECTED_RELATION_CHANGE = -50, -- relations decreased when CB detected.
 	
-	GW_INTERVENE_MIN_RELATIONS = 100, -- minimum relations required to intervene in great war
+	GW_INTERVENE_MIN_RELATIONS = 50, -- minimum relations required to intervene in great war
 	GW_INTERVENE_MAX_EXHAUSTION = 1, -- max war exhaustion required to intervene in great war
 	GW_JUSTIFY_CB_BADBOY_IMPACT = 0.33, -- % deduction of infamy cost for justify CB in great war
 	GW_CB_CONSTRUCTION_SPEED = 0.25, -- faster CB construction against enemies while at great war
