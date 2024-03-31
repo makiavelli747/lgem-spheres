@@ -21,11 +21,11 @@ political_decisions = {
 		
 		allow = {
 			prestige = 30
-			steel_breech_loaded_artillery = 1
+			year = 1870
 			NOT = {
 				relation = {
 					who = FRA
-					value = 0
+					value = 100
 				}
 			}
 		}
@@ -40,12 +40,7 @@ political_decisions = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					war_exhaustion = 1
-				}
-			}
+
 		}
 	}
 	
