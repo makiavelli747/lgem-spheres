@@ -595,11 +595,11 @@ market_regulations = {
 	ai_chance = {
 		factor = 1.05
 		modifier = {
-			factor = 2
+			factor = 1.2
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			industrial_score = 200
 		}
 		modifier = {
@@ -618,11 +618,11 @@ economic_responsibility = {
 	ai_chance = {
 		factor = 1.05
 		modifier = {
-			factor = 2
+			factor = 1.2
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			industrial_score = 600
 		}
 		modifier = {
@@ -641,11 +641,11 @@ government_interventionism = {
 	ai_chance = {
 		factor = 1.01
 		modifier = {
-			factor = 2
+			factor = 1.2
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			industrial_score = 2000
 		}
 		modifier = {
