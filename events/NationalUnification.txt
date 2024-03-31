@@ -164,7 +164,7 @@ country_event = {
 		}
 			relation = {
 				who = FRA
-				value = -200
+				value = -100
 			}
 		prestige = 10
 		ai_chance = {
