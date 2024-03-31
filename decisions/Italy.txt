@@ -226,7 +226,7 @@ political_decisions = {
 			set_country_flag = italia_ulterior
 			relation = {
 				who = FRA
-				value = -200
+				value = -100
 			}
 			729 = {
 				add_core = ITA
