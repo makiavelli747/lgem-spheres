@@ -15,7 +15,7 @@ country_event = {
 		NOT = {
 			is_ideology_enabled = socialist 
 		}
-		year = 1865
+		year = 1870
 		civilized = yes
 		literacy = 0.5
 
@@ -74,7 +74,7 @@ country_event = {
 		NOT = {
 			is_ideology_enabled = communist 
 		}
-		year = 1875
+		year = 1880
 		civilized = yes
 		literacy = 0.6
 
