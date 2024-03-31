@@ -203,10 +203,7 @@ political_decisions = {
 			capital = 749
 			prestige = 5
 			badboy = -2
-			relation = {
-				who = FRA
-				value = -200
-			}
+
 		}
 	}
 	
@@ -227,6 +224,10 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = italia_ulterior
+			relation = {
+				who = FRA
+				value = -200
+			}
 			729 = {
 				add_core = ITA
 			}
