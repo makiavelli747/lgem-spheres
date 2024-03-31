@@ -162,6 +162,10 @@ country_event = {
 			}
 			country_event = { id=11101 days=0 }
 		}
+			relation = {
+				who = FRA
+				value = -200
+			}
 		prestige = 10
 		ai_chance = {
 			factor = 95
