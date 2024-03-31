@@ -694,6 +694,10 @@ country_event = {
 			who = FROM
 			value = -50
 		}
+			relation = {
+				who = RUS
+				value = -400
+			}
 		casus_belli = {
 			target = FROM
 			type = cut_down_to_size
